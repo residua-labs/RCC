@@ -1,0 +1,35 @@
+name: build
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: lake build
+        run: lake build
+      - name: Axiom summary
+        run: lake env lean --run scripts/PrintAxioms.lean | tee axioms.txt
+      - name: No sorry
+        run: |
+          # sorry/admit in any proof would make sorryAx appear in the axiom summary
+          if grep -q 'sorryAx' axioms.txt; then echo "sorryAx found"; exit 1; fi
+          grep -q '^non-standard axiom uses: 0$' axioms.txt
+          # source check, ignoring line comments and /- ... -/ block comments
+          for f in $(find RCC RCCTests -name '*.lean'); do
+            # the vendored SlotSemanticsCore uses native_decide only in `example` checks;
+            # the axiom summary above proves no theorem depends on Lean.ofReduceBool
+            pat='\bsorry\b|(^\s*|\bby\s+|[;<]\s*)admit\b(?!\s*:)|^\s*axiom\b|\bnative_decide\b|implemented_by'
+            [ "$f" = RCC/Support/SlotSemanticsCore.lean ] && pat='\bsorry\b|(^\s*|\bby\s+|[;<]\s*)admit\b(?!\s*:)|^\s*axiom\b|implemented_by'
+            perl -0777 -pe 's{/-.*?-/}{}gs; s{--[^\n]*}{}g' "$f" \
+              | grep -nP "$pat" \
+              && { echo "forbidden construct in $f"; exit 1; }
+          done
+          echo ok
