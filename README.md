@@ -1,5 +1,7 @@
 # RCC — Relative Closure Calculus (Lean 4 formalization)
 
+> **Release status (2026-10-23):** this repository is part of the dependency closure of the first Residua release (**bootstrap 1.0 + R-CIC**) and will be released together with it. Until that release, treat it as a pre-release mirror. See [residua-labs/Residua](https://github.com/residua-labs/Residua) for release status.
+
 Machine-checked Lean 4 modules for the **Relative Closure Calculus (RCC)**,
 extracted from the Residua project.
 
