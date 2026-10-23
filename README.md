@@ -1,6 +1,34 @@
-# RCC — Relative Closure Calculus (Lean 4 formalization)
+# RCC — Relative Closure Calculus
 
-> **Release status (2026-10-23):** this repository is part of the dependency closure of the first Residua release (**bootstrap 1.0 + R-CIC**) and will be released together with it. Until that release, treat it as a pre-release mirror. See [residua-labs/Residua](https://github.com/residua-labs/Residua) for release status.
+**English** · [中文](README.zh-CN.md)
+
+**"Done" should be computed, not claimed.** RCC decides, for one frozen epoch, whether a body of work is *closed relative to* an admitted intent and context. When it is not, RCC says exactly which kind of not-closed it is.
+
+## Why
+
+Projects routinely declare things finished: "the proof is complete", "CI is green", "all targets discharged". Each of those is an assertion, made by whoever did the work, against whatever context they had in mind. When most work comes from automated agents, assertions like these cannot be read and checked one by one. Closure has to be **computed** from the evidence against a fixed intent, and an unfinished state has to be **named** rather than rounded up.
+
+RCC's normalizer returns exactly one of:
+- `Closed`: closed relative to the admitted intent and context;
+- `Await`: waiting on named, still-open obligations;
+- `Reepoch`: the context changed, so the question must be re-asked in a new epoch;
+- `Halt`: a contradiction that no amount of further work repairs.
+
+RCC is an instance of [MST-NF](https://github.com/residua-labs/MST-NF): every claim ends admitted as `Closed` or refused with a typed non-closure.
+
+## How Residua uses it
+
+- **Publication claims:** every property sentence in the [MST-NF](https://github.com/residua-labs/MST-NF) README resolves through a claims registry that RCC checks; the published verdict is `Closed`.
+- **Risk frontiers:** the open obligations of the R-CIC kernel ([Residua](https://github.com/residua-labs/Residua)) are tracked as an RCC frontier, where a remaining obligation shows up as `Await`, not as prose.
+- **Institutional cuts:** [IEC](https://github.com/residua-labs/IEC) obtains its closure verdicts and snapshots from RCC.
+
+## Status, stated exactly
+
+- This repository is the complete RCC Lean development, apart from three excluded modules listed below. It contains 236 library modules and 184 test modules, and every theorem's axioms are audited.
+- **RCC itself is not claimed closed.** Its own obligation catalogue (108 entries), run through RCC, gives `Await`, with 8 named gaps; `closure_claim = 0`. RCC is used to compute the closure of other work while its own closure is still being completed, and that is reported the same way it reports everyone else's.
+- RCC is part of the dependency closure of Residua's releases, which start at **0.1** (bootstrap version + R-CIC current state + dependency closure). See [residua-labs/Residua](https://github.com/residua-labs/Residua).
+
+## Contents
 
 Machine-checked Lean 4 modules for the **Relative Closure Calculus (RCC)**,
 extracted from the Residua project.
