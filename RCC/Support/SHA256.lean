@@ -194,6 +194,22 @@ def sha256Hex (input : String) : String :=
       , (w >>> (8 : UInt32)).toUInt8, w.toUInt8 ])
   String.join (bytesBE.map hexByte)
 
+/-- SHA-256 over exact bytes (no UTF-8 re-encoding), as 64-char lowercase hex.
+    Unlike `sha256Hex`, which first UTF-8-encodes a `String`, this hashes the given
+    byte list verbatim; high bytes stay single bytes. -/
+def sha256BytesHex (input : List UInt8) : String :=
+  let hash := processBlocks (chunk64 (pad input)) hInit
+  let words :=
+    hash.getD 0 0 :: hash.getD 1 0 :: hash.getD 2 0 :: hash.getD 3 0 ::
+    hash.getD 4 0 :: hash.getD 5 0 :: hash.getD 6 0 :: hash.getD 7 0 :: []
+  let bytesBE : List UInt8 :=
+    words.flatMap (fun word =>
+      [ (word >>> (24 : UInt32)).toUInt8
+      , (word >>> (16 : UInt32)).toUInt8
+      , (word >>> (8 : UInt32)).toUInt8
+      , word.toUInt8 ])
+  String.join (bytesBE.map hexByte)
+
 /-! ## Kernel-reducibility seal (L-H)
 
 `chunk64` was `partial` (opaque to the kernel) and `extend` / `compress` /
@@ -216,5 +232,18 @@ set_option maxHeartbeats 4000000 in
 theorem sha256Hex_abc :
     sha256Hex "abc" = "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad" := by
   decide
+
+set_option maxRecDepth 100000 in
+set_option maxHeartbeats 4000000 in
+theorem sha256BytesHex_empty :
+    sha256BytesHex [] = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" := by
+  decide
+
+/-- on the UTF-8 bytes of a string the exact-byte hash is `sha256Hex`; the two differ on
+    inputs that are not already UTF-8 bytes (see the `[0x80]` pin in `RcicOptimizedKernel`). -/
+theorem sha256BytesHex_utf8Bytes (s : String) : sha256BytesHex (utf8Bytes s) = sha256Hex s := rfl
+
+#print axioms sha256BytesHex_empty
+#print axioms sha256BytesHex_utf8Bytes
 
 end Residua.SHA256

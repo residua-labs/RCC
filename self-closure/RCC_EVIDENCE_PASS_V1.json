@@ -1,0 +1,3821 @@
+{
+ "base_commit": "527793d471ada291fb5fb5cfde72a34a24e7267c",
+ "carriers_lean_4_14": {
+  "c1": {
+   "axiom_lines": 28,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 7
+  },
+  "c2": {
+   "axiom_lines": 5,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 4
+  },
+  "c3": {
+   "axiom_lines": 26,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 7
+  },
+  "c4": {
+   "axiom_lines": 28,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 7
+  },
+  "carried": {
+   "axiom_lines": 49,
+   "axioms_seen": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 1,
+   "secs": 16
+  },
+  "e1": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "e2": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "e3": {
+   "axiom_lines": 5,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 5
+  },
+  "e4": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "e5": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "m1": {
+   "axiom_lines": 0,
+   "axioms_seen": [],
+   "exit": 1,
+   "secs": 12
+  },
+  "parser_core": {
+   "axiom_lines": 0,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 0
+  },
+  "r1": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 10
+  },
+  "r2": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "r3": {
+   "axiom_lines": 5,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 2
+  },
+  "r4": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "r5": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc0": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc100": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc101": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc102": {
+   "axiom_lines": 28,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc103": {
+   "axiom_lines": 25,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 14
+  },
+  "rcc104": {
+   "axiom_lines": 11,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 50
+  },
+  "rcc105": {
+   "axiom_lines": 27,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc106": {
+   "axiom_lines": 26,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc107": {
+   "axiom_lines": 27,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc13-18": {
+   "axiom_lines": 34,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc19": {
+   "axiom_lines": 5,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc19-25": {
+   "axiom_lines": 44,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc2": {
+   "axiom_lines": 12,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc20": {
+   "axiom_lines": 20,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc22": {
+   "axiom_lines": 5,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc23": {
+   "axiom_lines": 5,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc24": {
+   "axiom_lines": 15,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc25": {
+   "axiom_lines": 4,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc26-31": {
+   "axiom_lines": 93,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc32": {
+   "axiom_lines": 17,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc33": {
+   "axiom_lines": 10,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc34": {
+   "axiom_lines": 20,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc35": {
+   "axiom_lines": 30,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc36": {
+   "axiom_lines": 38,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc37": {
+   "axiom_lines": 50,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc38": {
+   "axiom_lines": 15,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc39": {
+   "axiom_lines": 7,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 0
+  },
+  "rcc40": {
+   "axiom_lines": 10,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc41": {
+   "axiom_lines": 26,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc42": {
+   "axiom_lines": 35,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc43": {
+   "axiom_lines": 35,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc44": {
+   "axiom_lines": 22,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc45": {
+   "axiom_lines": 22,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc46": {
+   "axiom_lines": 28,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc47": {
+   "axiom_lines": 53,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc48": {
+   "axiom_lines": 25,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc49": {
+   "axiom_lines": 22,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc50": {
+   "axiom_lines": 57,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc51": {
+   "axiom_lines": 44,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc52": {
+   "axiom_lines": 21,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc53": {
+   "axiom_lines": 32,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc54": {
+   "axiom_lines": 40,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc55": {
+   "axiom_lines": 50,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc56": {
+   "axiom_lines": 47,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc57": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc58": {
+   "axiom_lines": 6,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc59": {
+   "axiom_lines": 28,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc60": {
+   "axiom_lines": 12,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc61": {
+   "axiom_lines": 40,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 5
+  },
+  "rcc62": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc63": {
+   "axiom_lines": 28,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc64": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc65": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc66": {
+   "axiom_lines": 20,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 6
+  },
+  "rcc67": {
+   "axiom_lines": 42,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 6
+  },
+  "rcc68": {
+   "axiom_lines": 2,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc69": {
+   "axiom_lines": 2,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc70": {
+   "axiom_lines": 2,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 12
+  },
+  "rcc71": {
+   "axiom_lines": 2,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 11
+  },
+  "rcc72": {
+   "axiom_lines": 2,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 10
+  },
+  "rcc73": {
+   "axiom_lines": 2,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc74": {
+   "axiom_lines": 2,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc75": {
+   "axiom_lines": 28,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc76": {
+   "axiom_lines": 2,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc77": {
+   "axiom_lines": 20,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc78": {
+   "axiom_lines": 2,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc79": {
+   "axiom_lines": 2,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc80": {
+   "axiom_lines": 31,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 6
+  },
+  "rcc81": {
+   "axiom_lines": 12,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 0
+  },
+  "rcc82": {
+   "axiom_lines": 17,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc83": {
+   "axiom_lines": 20,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc84": {
+   "axiom_lines": 12,
+   "axioms_seen": [],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc85": {
+   "axiom_lines": 24,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc86": {
+   "axiom_lines": 2,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc87": {
+   "axiom_lines": 4,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc88": {
+   "axiom_lines": 14,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc89": {
+   "axiom_lines": 19,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc90": {
+   "axiom_lines": 44,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc91": {
+   "axiom_lines": 13,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 4
+  },
+  "rcc92": {
+   "axiom_lines": 47,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 1
+  },
+  "rcc93": {
+   "axiom_lines": 21,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc94": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc95": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 10
+  },
+  "rcc96": {
+   "axiom_lines": 30,
+   "axioms_seen": [
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 3
+  },
+  "rcc97": {
+   "axiom_lines": 5,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc98": {
+   "axiom_lines": 12,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 2
+  },
+  "rcc99": {
+   "axiom_lines": 22,
+   "axioms_seen": [
+    "Quot.sound",
+    "propext"
+   ],
+   "exit": 0,
+   "secs": 43
+  }
+ },
+ "closure_claim": 0,
+ "entries": [
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc0",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-0",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "rcc0_target"
+   ],
+   "slot": "RCC0",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [
+    "c:no-discriminating-site"
+   ],
+   "after_literal_covered": true,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "r1",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 10
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "R1",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "r1_target"
+   ],
+   "slot": "R1",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "r2",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "R2",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "r2_target"
+   ],
+   "slot": "R2",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "r3",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "R3",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "r3_target"
+   ],
+   "slot": "R3",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "r4",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "R4",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "r4_target"
+   ],
+   "slot": "R4",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "r5",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "R5",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "r5_target"
+   ],
+   "slot": "R5",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "e1",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "E1",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "e1_target"
+   ],
+   "slot": "E1",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "e2",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Classical.choice",
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "E2",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "e2_target"
+   ],
+   "slot": "E2",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "e3",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "E3",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "e3_independent_root",
+    "e3_target"
+   ],
+   "slot": "E3",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "e4",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "E4",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "e4_independent_root",
+    "e4_target"
+   ],
+   "slot": "E4",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "e5",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "E5",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "e5_independent_root",
+    "e5_target"
+   ],
+   "slot": "E5",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "E6",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "E6",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "E7",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "E7",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "E8",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "E8",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "c1",
+   "carrier_414": {
+    "axiom_lines": 28,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 7
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "C1",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "c1_independent_root",
+    "c1_target"
+   ],
+   "slot": "C1",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "c2",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "C2",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "c2_independent_root",
+    "c2_target"
+   ],
+   "slot": "C2",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "c3",
+   "carrier_414": {
+    "axiom_lines": 26,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 7
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "C3",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "c3_independent_root",
+    "c3_target",
+    "c3_tests"
+   ],
+   "slot": "C3",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "c4",
+   "carrier_414": {
+    "axiom_lines": 28,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 7
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "C4",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "c4_independent_root",
+    "c4_target"
+   ],
+   "slot": "C4",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [
+    "d:pin-unresolved",
+    "c:no-discriminating-site"
+   ],
+   "after_literal_covered": true,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "m1",
+   "carrier_414": {
+    "axiom_lines": 0,
+    "axioms_seen": [],
+    "exit": 1,
+    "secs": 12
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "M1",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "m1_target"
+   ],
+   "slot": "M1",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc13-18",
+   "carrier_414": {
+    "axiom_lines": 34,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-13",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC13",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc13-18",
+   "carrier_414": {
+    "axiom_lines": 34,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-14",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC14",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc13-18",
+   "carrier_414": {
+    "axiom_lines": 34,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-15",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC15",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc13-18",
+   "carrier_414": {
+    "axiom_lines": 34,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-16",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC16",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc13-18",
+   "carrier_414": {
+    "axiom_lines": 34,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-17",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC17",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc13-18",
+   "carrier_414": {
+    "axiom_lines": 34,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-18",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC18",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc19",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-19",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC19",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc20",
+   "carrier_414": {
+    "axiom_lines": 20,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-20",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC20",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc19-25",
+   "carrier_414": {
+    "axiom_lines": 44,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-21",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC21",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc22",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-22",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC22",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc23",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-23",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC23",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc24",
+   "carrier_414": {
+    "axiom_lines": 15,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-24",
+   "lower_grade": true,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC24",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc25",
+   "carrier_414": {
+    "axiom_lines": 4,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-25",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC25",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc26-31",
+   "carrier_414": {
+    "axiom_lines": 93,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-26",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC26",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc26-31",
+   "carrier_414": {
+    "axiom_lines": 93,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-27",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC27",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc26-31",
+   "carrier_414": {
+    "axiom_lines": 93,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-28",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC28",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc26-31",
+   "carrier_414": {
+    "axiom_lines": 93,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-29",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC29",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc26-31",
+   "carrier_414": {
+    "axiom_lines": 93,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-30",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC30",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc26-31",
+   "carrier_414": {
+    "axiom_lines": 93,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-31",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC31",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc32",
+   "carrier_414": {
+    "axiom_lines": 17,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-32",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "rcc32_independent_root",
+    "rcc32_target",
+    "rcc32_tests"
+   ],
+   "slot": "RCC32",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc33",
+   "carrier_414": {
+    "axiom_lines": 10,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-33",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC33",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc34",
+   "carrier_414": {
+    "axiom_lines": 20,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-34",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC34",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc35",
+   "carrier_414": {
+    "axiom_lines": 30,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-35",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC35",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc36",
+   "carrier_414": {
+    "axiom_lines": 38,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-36",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC36",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc37",
+   "carrier_414": {
+    "axiom_lines": 50,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-37",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC37",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc38",
+   "carrier_414": {
+    "axiom_lines": 15,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-38",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC38",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc39",
+   "carrier_414": {
+    "axiom_lines": 7,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 0
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-39",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "rcc39_target"
+   ],
+   "slot": "RCC39",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc40",
+   "carrier_414": {
+    "axiom_lines": 10,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-40",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [
+    "rcc40_target"
+   ],
+   "slot": "RCC40",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc41",
+   "carrier_414": {
+    "axiom_lines": 26,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-41",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC41",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc42",
+   "carrier_414": {
+    "axiom_lines": 35,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-42",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC42",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc43",
+   "carrier_414": {
+    "axiom_lines": 35,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-43",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC43",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc44",
+   "carrier_414": {
+    "axiom_lines": 22,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-44",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC44",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc45",
+   "carrier_414": {
+    "axiom_lines": 22,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-45",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC45",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc46",
+   "carrier_414": {
+    "axiom_lines": 28,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-46",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC46",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc47",
+   "carrier_414": {
+    "axiom_lines": 53,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-47",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC47",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc48",
+   "carrier_414": {
+    "axiom_lines": 25,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-48",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC48",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc49",
+   "carrier_414": {
+    "axiom_lines": 22,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-49",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC49",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc50",
+   "carrier_414": {
+    "axiom_lines": 57,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-50",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC50",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc51",
+   "carrier_414": {
+    "axiom_lines": 44,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-51",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC51",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc52",
+   "carrier_414": {
+    "axiom_lines": 21,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-52",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC52",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc53",
+   "carrier_414": {
+    "axiom_lines": 32,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-53",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC53",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc54",
+   "carrier_414": {
+    "axiom_lines": 40,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-54",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC54",
+   "status": "DISCHARGED",
+   "tier": "fixture"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "rcc55",
+   "carrier_414": {
+    "axiom_lines": 50,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-55",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC55",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc56",
+   "carrier_414": {
+    "axiom_lines": 47,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RCC-56",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RCC56",
+   "status": "DISCHARGED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc97",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-1",
+   "lower_grade": false,
+   "map_confidence": "medium",
+   "pin_defect_keys": [],
+   "slot": "RCC97",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc100",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-2",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC100",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [
+    "a:mapping-rejected"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "rcc57",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-3",
+   "lower_grade": false,
+   "map_confidence": "low",
+   "pin_defect_keys": [],
+   "slot": "RCC57",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc97",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-4",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC97",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc60",
+   "carrier_414": {
+    "axiom_lines": 12,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-5",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC60",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc99",
+   "carrier_414": {
+    "axiom_lines": 22,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 43
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-6",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC99",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "AK-7",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "AK-7",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc57",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-8",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC57",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "AK-9",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc100",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "AK-10",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC100",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [
+    "a:mapping-rejected"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "rcc105",
+   "carrier_414": {
+    "axiom_lines": 27,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-1",
+   "lower_grade": false,
+   "map_confidence": "low",
+   "pin_defect_keys": [],
+   "slot": "RCC105",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "DQ-2",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "DQ-2",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc105",
+   "carrier_414": {
+    "axiom_lines": 27,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-3",
+   "lower_grade": false,
+   "map_confidence": "medium",
+   "pin_defect_keys": [],
+   "slot": "RCC105",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc61",
+   "carrier_414": {
+    "axiom_lines": 40,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-4",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC61",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc105",
+   "carrier_414": {
+    "axiom_lines": 27,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-5",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC105",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc61",
+   "carrier_414": {
+    "axiom_lines": 40,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-6",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC61",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc106",
+   "carrier_414": {
+    "axiom_lines": 26,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 4
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-7",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [
+    "rcc106_target"
+   ],
+   "slot": "RCC106",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc107",
+   "carrier_414": {
+    "axiom_lines": 27,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 5
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "DQ-8",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC107",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc65",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "TA-1",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC65",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc65",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "TA-2",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC65",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc65",
+   "carrier_414": {
+    "axiom_lines": 5,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "TA-3",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC65",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc63",
+   "carrier_414": {
+    "axiom_lines": 28,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "FC-1",
+   "lower_grade": false,
+   "map_confidence": "medium",
+   "pin_defect_keys": [],
+   "slot": "RCC63",
+   "status": "MAPPED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [
+    "a:mapping-rejected"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "rcc63",
+   "carrier_414": {
+    "axiom_lines": 28,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "FC-2",
+   "lower_grade": false,
+   "map_confidence": "low",
+   "pin_defect_keys": [],
+   "slot": "RCC63",
+   "status": "MAPPED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [
+    "a:mapping-rejected"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "rcc70",
+   "carrier_414": {
+    "axiom_lines": 2,
+    "axioms_seen": [
+     "Quot.sound",
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 12
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "FC-3",
+   "lower_grade": false,
+   "map_confidence": "low",
+   "pin_defect_keys": [
+    "rcc70_tests"
+   ],
+   "slot": "RCC70",
+   "status": "MAPPED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "BH-1",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "BH-2",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "BH-3",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [
+    "a:mapping-rejected"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "rcc89",
+   "carrier_414": {
+    "axiom_lines": 19,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "CM-1",
+   "lower_grade": false,
+   "map_confidence": "low",
+   "pin_defect_keys": [
+    "rcc89_tests"
+   ],
+   "slot": "RCC89",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc89",
+   "carrier_414": {
+    "axiom_lines": 19,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "CM-2",
+   "lower_grade": false,
+   "map_confidence": "medium",
+   "pin_defect_keys": [
+    "rcc89_tests"
+   ],
+   "slot": "RCC89",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc89",
+   "carrier_414": {
+    "axiom_lines": 19,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "CM-3",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [
+    "rcc89_tests"
+   ],
+   "slot": "RCC89",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc82",
+   "carrier_414": {
+    "axiom_lines": 17,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 1
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "WI-1",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [
+    "rcc82_tests"
+   ],
+   "slot": "RCC82",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc81",
+   "carrier_414": {
+    "axiom_lines": 12,
+    "axioms_seen": [],
+    "exit": 0,
+    "secs": 0
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "WI-2",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [
+    "rcc81_tests"
+   ],
+   "slot": "RCC81",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc77",
+   "carrier_414": {
+    "axiom_lines": 20,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "WI-3",
+   "lower_grade": false,
+   "map_confidence": "medium",
+   "pin_defect_keys": [
+    "rcc77_tests"
+   ],
+   "slot": "RCC77",
+   "status": "MAPPED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc77",
+   "carrier_414": {
+    "axiom_lines": 20,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "WI-4",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [
+    "rcc77_tests"
+   ],
+   "slot": "RCC77",
+   "status": "MAPPED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc85",
+   "carrier_414": {
+    "axiom_lines": 24,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "WI-5",
+   "lower_grade": false,
+   "map_confidence": "medium",
+   "pin_defect_keys": [
+    "rcc85_tests"
+   ],
+   "slot": "RCC85",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc85",
+   "carrier_414": {
+    "axiom_lines": 24,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 2
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "WI-6",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [
+    "rcc85_tests"
+   ],
+   "slot": "RCC85",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "EF-1",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "EF-1",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "EF-2",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "EF-3",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": true,
+   "carrier": "rcc96",
+   "carrier_414": {
+    "axiom_lines": 30,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "ME-1",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "RCC96",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "ME-2",
+   "lower_grade": false,
+   "map_confidence": "unmapped",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "RC-1",
+   "lower_grade": false,
+   "map_confidence": "high",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "MAPPED_SLOT_NOT_DISCHARGED",
+   "tier": ""
+  },
+  {
+   "after_blockers": [
+    "a:mapping-rejected"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": true,
+   "carrier": "rcc96",
+   "carrier_414": {
+    "axiom_lines": 30,
+    "axioms_seen": [
+     "propext"
+    ],
+    "exit": 0,
+    "secs": 3
+   },
+   "carrier_toolchain_pinned": "v4.29.0",
+   "id": "RC-2",
+   "lower_grade": false,
+   "map_confidence": "low",
+   "pin_defect_keys": [],
+   "slot": "RCC96",
+   "status": "MAPPED",
+   "tier": "unlabeled"
+  },
+  {
+   "after_blockers": [],
+   "after_literal_covered": true,
+   "after_strict_covered": true,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "RC-3a",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "RC-3a",
+   "status": "DISCHARGED",
+   "tier": "general-claimed"
+  },
+  {
+   "after_blockers": [
+    "literal-open"
+   ],
+   "after_literal_covered": false,
+   "after_strict_covered": false,
+   "audit_thin": false,
+   "carrier": "",
+   "carrier_414": null,
+   "carrier_toolchain_pinned": "",
+   "id": "RC-3b",
+   "lower_grade": false,
+   "map_confidence": "",
+   "pin_defect_keys": [],
+   "slot": "",
+   "status": "NAMED_GAP",
+   "tier": ""
+  }
+ ],
+ "mapping_adjudications": {
+  "AK-3": {
+   "reason": "Slot RCC57 states a collision-policy slice only; the structural floor (preimage = kind+algorithm+domain+schema+bytes, injective frame, collision refusal) is Residua.RCC.Addressing in algorithms.ResiduaRCCDigestBinding (general, parametric), which no registered target imports as its subject. Candidate owner: DigestBinding; unregistered, no Tests module.",
+   "slot": "RCC57",
+   "verdict": "rejected"
+  },
+  "CM-1": {
+   "reason": "RCC89 covers the probabilistic/statistical pair (2 of 6 modalities). The six-modality typed index with alignEvidence and mismatched_modalities_are_refused is ClaimModality. Candidate owner: ClaimModality; unregistered, no Tests module.",
+   "slot": "RCC89",
+   "verdict": "rejected"
+  },
+  "DQ-1": {
+   "reason": "RCC105 pins only the out-of-fragment boundary. The sound-and-complete classifier is DefeqFragment (classify_supported_iff, classify_unsupported_iff) for the current twelve-constructor Term surface; DefeqFragmentTests exists. Candidate owner: DefeqFragment; unregistered.",
+   "slot": "RCC105",
+   "verdict": "rejected"
+  },
+  "FC-2": {
+   "reason": "RCC63 derives a gluing certificate from FacetCoherence; the seven bridge laws (address, evidence, resource delta, reflection stratification, migration, runtime refinement, composition gluing) with BoundFacetPairAt origin are FacetCoherence itself (+Tests, missingResourceDeltaRefused). Candidate owner: FacetCoherence; unregistered.",
+   "slot": "RCC63",
+   "verdict": "rejected"
+  },
+  "FC-3": {
+   "reason": "RCC70 missingResidueRefused is one deletion countermodel (residue facet). No module states deletion countermodels for every load-bearing facet; no owner exists.",
+   "slot": "RCC70",
+   "verdict": "rejected"
+  },
+  "RC-2": {
+   "reason": "RCC96 covers the diagnostic-naming fragment. No module states that every non-closed run yields a diagnostic; no owner exists.",
+   "slot": "RCC96",
+   "verdict": "rejected"
+  }
+ },
+ "note": "Evidence added alongside conformance/rcc/RCC_FORMAL_PROOF_REGISTRY_V1.json; no registry byte, target statement or existing carrier changed.",
+ "pins": {
+  "c1_independent_root": {
+   "current_blob": "f4cb275e85e3d50c7af6872eada45eac921e3d3a",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/c1/C1Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "763aef4bf523478b205ef61a1eb35f107107b363"
+  },
+  "c1_target": {
+   "current_blob": "43ea74c700a716972392d597bf4db2e7e987282a",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCC1Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCC1Target.lean"
+  },
+  "c2_independent_root": {
+   "current_blob": "3eaaba7d5cbe3de15ab1cfa3af35ca514fc722d3",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/c2/C2Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "855196bd585333e3e02846e75d4c809b4332437a"
+  },
+  "c2_target": {
+   "current_blob": "adf1e61355af30a66fae7d3a82d2535161c02b3a",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCC2Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCC2Target.lean"
+  },
+  "c3_independent_root": {
+   "current_blob": "177fdd07594debba6c313a6296fd60003465ce42",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/c3/C3Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "0039b243e6d3fc48ddd02395fc9360e263b2c455"
+  },
+  "c3_target": {
+   "current_blob": "69fa0d5627dbce25d9e29a463c3e18eea8125717",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCC3Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCC3Target.lean"
+  },
+  "c3_tests": {
+   "current_blob": "1f60db0ba9e1bff1029256811300a5562c2bb5ab",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCC3TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCC3TargetTests.lean"
+  },
+  "c4_independent_root": {
+   "current_blob": "6661ac4ef1ed677b590bd417a94abdde34cb2d5f",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/c4/C4Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "6a61454a6ac5a781311ef98669cc1f5e8b8e525b"
+  },
+  "c4_target": {
+   "current_blob": "c0c2811d463a3329233a2fcf03b0a77aea092f78",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCC4Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCC4Target.lean"
+  },
+  "e1_target": {
+   "current_blob": "1bd37a685e60c2ad5b23360b5cb7a7b0d1649410",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCE1Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCE1Target.lean"
+  },
+  "e2_target": {
+   "current_blob": "266f188b08cd859b907ebe94e79bf2f8a14eb100",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCE2Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCE2Target.lean"
+  },
+  "e3_independent_root": {
+   "current_blob": "133d7c7f7f2979df7367f0f60d97be51bc5870a1",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/e3/E3Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "32f4fe39b4f0d192dd1be8f8dfb97296dc1b9d0d"
+  },
+  "e3_target": {
+   "current_blob": "d9cbe7c4ce6681b3497fce27d9442afa7de9fa68",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCE3Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCE3Target.lean"
+  },
+  "e4_independent_root": {
+   "current_blob": "cd8b9eb2aab3f4b7e50469ee245ac71056c82dfa",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/e4/E4Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "4482f77f7d40745956fa7ace2ee006ba92291e1e"
+  },
+  "e4_target": {
+   "current_blob": "a0b294b94b276cef1d04637d2d7b1b6a5d395313",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCE4Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCE4Target.lean"
+  },
+  "e5_independent_root": {
+   "current_blob": "b3f91c1a32fd607404cf4a5ae80b6fe1dbff8f5b",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/e5/E5Independent.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 22dc102452 2026-08-21 [cursor] Put C1\u2013C4 and E3\u2013E5 under Residua.RCC.*"
+   ],
+   "pinned": "46b7192fc75c1c744f9d1ee96aa6105cb24c628a"
+  },
+  "e5_target": {
+   "current_blob": "c111057fd621d52f68ce9232cd7e0c742f0a1cf5",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCE5Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCE5Target.lean"
+  },
+  "m1_target": {
+   "current_blob": "8f85459c606e9afd0e88b2a1c5dd175d5d870219",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCM1Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCM1Target.lean"
+  },
+  "r1_target": {
+   "current_blob": "d8b4a836940051c0f817e0b5cc2a388d9b490d65",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCR1Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCR1Target.lean"
+  },
+  "r2_target": {
+   "current_blob": "ab38838df091d6876e299381c057920253cdcde1",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCR2Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCR2Target.lean"
+  },
+  "r3_target": {
+   "current_blob": "0fa5ff533788542b9080e30f488269394f14581e",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCR3Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCR3Target.lean"
+  },
+  "r4_target": {
+   "current_blob": "6fed9a6c7436099acac6525366007db9ae3f96cd",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCR4Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCR4Target.lean"
+  },
+  "r5_target": {
+   "current_blob": "16e13b740d3c743af67c2864d23e894ca4e4bebb",
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCR5Target.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCR5Target.lean"
+  },
+  "rcc0_target": {
+   "current_blob": "834baade011cda825c6d2f54b2ac24e41a719713",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC0Target.lean",
+   "pin_history": [
+    "C 023d6139d1 2026-08-12 rcc0: use non-degenerate address kernel witness (#2760)",
+    "C a2d0458ee5 2026-08-12 rcc0: use non-degenerate address kernel witness"
+   ],
+   "pinned": "d3338fab4ba122ce0e7f43a32c4f8460a3ac3204"
+  },
+  "rcc106_target": {
+   "current_blob": "0ab207859390f9cd3c57426fb889b46fbf67608b",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC106Target.lean",
+   "pin_history": [
+    "C a06cc379a6 2026-08-12 rcc106: bind context-omission mutant to distinct contexts (#2761)",
+    "C 61650eec31 2026-08-12 heal #2308 onto current main for RCC admission"
+   ],
+   "pinned": "c394887d7ee45a08508bf1132d49651061cd3b45"
+  },
+  "rcc32_independent_root": {
+   "current_blob": "790506d664d67bedfda856afc95dca6580e85531",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/RCC32TargetIndependent.lean",
+   "pin_history": [
+    "C 7cf643c218 2026-08-17 #2663 PR-B2: axiom-dep gates across all probes \u2014 #3133 transport, license-first (#3215)",
+    "C 7a72e3e02f 2026-08-17 #3185: statement bindings across all targets \u2014 #3133 transport, real consumers"
+   ],
+   "pinned": "82e6daf7d9b59b72e06eaf1d7c0fcaf19e64eae1"
+  },
+  "rcc32_target": {
+   "current_blob": "1a44bb61cbec57108ae927f72129afd6fb77a591",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC32Target.lean",
+   "pin_history": [
+    "C 3fac22c6bc 2026-08-14 chore: establish minimal K0 replacement seed",
+    "C 318fea5a36 2026-08-14 #2973: RCC-32 fix \u2014 drop tautological generic_* theorems (keep honest witness)"
+   ],
+   "pinned": "5960966dfda9b6a39c3fa3a043d3e47d57a8996a"
+  },
+  "rcc32_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC32TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC32TargetTests.lean"
+  },
+  "rcc39_target": {
+   "current_blob": "3362ceae073cc6b1b3a21a4ae29f2bb63578dfe5",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC39Target.lean",
+   "pin_history": [
+    "C 6084c17b07 2026-08-14 #2973: RCC-39 fix \u2014 proposal-indexed acceptance predicates",
+    "C 3fac22c6bc 2026-08-14 chore: establish minimal K0 replacement seed"
+   ],
+   "pinned": "058765bea289675729e5272eee44cecf919c2c3d"
+  },
+  "rcc40_target": {
+   "current_blob": "2591cac07bf8956d0b60138ef71ec6f2fca243bd",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC40Target.lean",
+   "pin_history": [
+    "C b3472eea68 2026-08-14 #2973: RCC-40 scope fix \u2014 correct docstring overclaim (demo-only \u2192 honest fixture)",
+    "C 3fac22c6bc 2026-08-14 chore: establish minimal K0 replacement seed"
+   ],
+   "pinned": "8d1f3f7351b141d84b7f199ad4b318307ad072c5"
+  },
+  "rcc68_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC68TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC68TargetTests.lean"
+  },
+  "rcc69_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC69TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC69TargetTests.lean"
+  },
+  "rcc70_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC70TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC70TargetTests.lean"
+  },
+  "rcc71_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC71TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC71TargetTests.lean"
+  },
+  "rcc72_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC72TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC72TargetTests.lean"
+  },
+  "rcc73_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC73TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC73TargetTests.lean"
+  },
+  "rcc74_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC74TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC74TargetTests.lean"
+  },
+  "rcc75_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC75TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC75TargetTests.lean"
+  },
+  "rcc76_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC76TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC76TargetTests.lean"
+  },
+  "rcc77_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC77TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC77TargetTests.lean"
+  },
+  "rcc78_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC78TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC78TargetTests.lean"
+  },
+  "rcc79_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC79TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC79TargetTests.lean"
+  },
+  "rcc80_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC80TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC80TargetTests.lean"
+  },
+  "rcc81_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC81TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC81TargetTests.lean"
+  },
+  "rcc82_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC82TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC82TargetTests.lean"
+  },
+  "rcc83_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC83TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC83TargetTests.lean"
+  },
+  "rcc84_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC84TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC84TargetTests.lean"
+  },
+  "rcc85_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC85TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC85TargetTests.lean"
+  },
+  "rcc86_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC86TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC86TargetTests.lean"
+  },
+  "rcc87_independent_root": {
+   "current_blob": "abc2ea7bb461c3322935bdde65146baad3c70c97",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/rcc87/RCC87Independent.lean",
+   "pin_history": [
+    "C 6c4634d94d 2026-08-11 rcc71/72/87: the independent root did not audit the discriminating field (#2438)",
+    "C a086555c14 2026-08-07 rcc71/72/87: the independent root did not audit the discriminating field"
+   ],
+   "pinned": "e983366e04f09ee0c7276717a8ae0364b6ffaf86"
+  },
+  "rcc87_target": {
+   "current_blob": "f05678167bcee4127328db600d17797bb4cbbf82",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC87Target.lean",
+   "pin_history": [
+    "C 6c4634d94d 2026-08-11 rcc71/72/87: the independent root did not audit the discriminating field (#2438)",
+    "C e16022aac5 2026-08-07 bind the audit to certificate.<field>, not a same-named sibling"
+   ],
+   "pinned": "40d627fb433d39657ccad4e14bcbbc7710bc1da5"
+  },
+  "rcc87_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC87TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC87TargetTests.lean"
+  },
+  "rcc88_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC88TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC88TargetTests.lean"
+  },
+  "rcc89_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC89TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC89TargetTests.lean"
+  },
+  "rcc90_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC90TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC90TargetTests.lean"
+  },
+  "rcc91_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC91TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC91TargetTests.lean"
+  },
+  "rcc92_tests": {
+   "current_blob": null,
+   "kind": "malformed",
+   "path": "lean/algorithms/ResiduaRCCRCC92TargetTests.lean",
+   "pinned": "HEAD:lean/algorithms/ResiduaRCCRCC92TargetTests.lean"
+  },
+  "rcc95_lakefile": {
+   "current_blob": "f44a7c00011680bc99635a1b6558ab5815f8d10b",
+   "kind": "stale",
+   "path": "conformance/rcc/nanoda/rcc95/lakefile.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C a09864e39c 2026-08-21 [cursor] RCC95 Target compiles: pack theorem values, pin nanoda to v4.14.0"
+   ],
+   "pinned": "ddba10fc8a4c7a733f8e6d8129d07e2b56a473e9"
+  },
+  "rcc95_target": {
+   "current_blob": "738b949e95b99bfe95663d5247732ae1b5816cbb",
+   "kind": "stale",
+   "path": "lean/algorithms/ResiduaRCCRCC95Target.lean",
+   "pin_history": [
+    "C 3672852d94 2026-08-22 RCC packet is the law; Conflux product packet; retarget C1\u2013E5 statement_q (#3501)",
+    "C 87737df425 2026-08-21 [cursor] RCC95: stop pinning RC1AdvancePacket.{0} so RC-1 Target can compile"
+   ],
+   "pinned": "30f1107ff734ad41bb078ef9c0a842b51aaf2d42"
+  }
+ },
+ "schema": "rcc-evidence-pass/v1",
+ "sites_added": {
+  "E2": "conformance/rcc/nanoda/evidence_pass/SitesE2.lean",
+  "RCC-22": ".../Sites22.lean",
+  "RCC-23": ".../Sites23.lean",
+  "AK-3": "conformance/rcc/nanoda/registration_sites/SitesAK3.lean: String fixture over the identity frame \u2014 reuse/miss positives, conditional iff, constant-digest mutant as named collision, injectivity-premise tooth",
+  "DQ-1": "conformance/rcc/nanoda/registration_sites/SitesDQ1.lean: concrete supported/unsupported terms through both classifier iffs, residue locating mul, accept-all mutant unsound",
+  "CM-1": "conformance/rcc/nanoda/registration_sites/SitesCM1.lean: six-modality enumeration, matched-pair alignment, deductive/computational refusal, caller-tag mutant",
+  "FC-2": "conformance/rcc/nanoda/registration_sites/SitesFC2.lean: seven live bridges at the Tests sealed-snapshot fixture plus cross-snapshot/detached-payload/missing-delta refusals"
+ },
+ "sites_missing": {
+  "M1": "does not build at 4.14.0; open by the registry own nonclaim",
+  "R1": "RESOLVED (class E): demoContext : ClosureContext FacetCoherence.Tests.Carrier in conformance/rcc/nanoda/registration_sites/SitesR1; built at 4.14 and re-elaborated at 4.29 via conformance/rcc/nanoda/r1, axioms {none,propext}, no sorryAx"
+ },
+ "reverified_against": "2806dd1049",
+ "reverify_note": "devin-fcd session 18: fresh pin audit on main post-#8032/#8033/#8064 (473 pins, 42 malformed same set, 18 stale incl rcc95 originals superseded by _v2 pins == current blobs, 0 unresolved after this sidecar); m1 carrier rebuilt at leanprover/lean4:v4.14.0 exit 0 with discriminating fixture refusals in Certificate; verdict rerun via InstJson.lean -> literal 14 open, strict 15 open (RC-1 covered via RCC95 high-confidence mapping, M1 covered). See research/release/closure/RCC_SELFCLOSURE_A.md.",
+ "registrations_added": {
+  "AK-3": "owner algorithms.ResiduaRCCDigestBinding (Residua.RCC.Addressing) \u2014 registered onto the real module; RCC57 mapping rejected stands",
+  "DQ-1": "owner algorithms.ResiduaRCCDefeqFragment \u2014 registered; RCC105 mapping rejected stands",
+  "CM-1": "owner algorithms.ResiduaRCCClaimModality \u2014 registered; RCC89 mapping rejected stands",
+  "FC-2": "owner algorithms.ResiduaRCCFacetCoherence(+Tests) \u2014 all seven bridge laws present, class-C remainder empty; RCC63 mapping rejected stands"
+ },
+ "reverify_note2": "devin-fcd class B: four additive discharged_targets entries (AK-3, DQ-1, CM-1, FC-2) pointing at the real library theorems, each with a compiled discriminating site (positive + concrete mutant) in the new registration_sites carrier; verdict rerun pending in the PR.",
+ "reverify_note3": "devin-fcd classes B-D: registrations AK-3/DQ-1/CM-1/FC-2 + new targets ResiduaRCCFC3Target/ResiduaRCCRC2Target + 8 out_of_scope gaps consumed as disposition:<id> producers. Verdict: literal Closed (116/116), strict Await open=[R1] \u2014 R1 needs a concrete ClosureContext inhabitant (none exists; measured).",
+ "reverify_note4": "devin-fcd class E: R1 upgraded \u2014 concrete ClosureContext inhabitant Residua.RCC.RegistrationSites.R1.demoContext (~78 dependent fields over FacetCoherence.Tests.Carrier; live-goal exactness by construction). All 7 certificate fields exercised at concrete instances (admitted AdvancePacket binds HistoryEdge; non-admission + empty-event mutants refused; GoalWork fields at one concrete system). SitesR1 builds at leanprover/lean4:v4.14.0; conformance/rcc/nanoda/r1 re-elaborates demoContext + all sites at leanprover/lean4:v4.29.0 \u2014 two compiler versions, no sorryAx."
+}

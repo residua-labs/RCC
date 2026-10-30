@@ -1,0 +1,63 @@
+import json, os, sys
+# RCC verdict data prep — devin-fcd reimplementation of the #7995/#8037 semantics
+# inputs: coverage.json, registry_pin_audit_main.json, RCC_EVIDENCE_PASS_V1.json
+# output: data_{literal,strict}.json for InstJson.lean
+mode = sys.argv[1]
+R = sys.argv[2] if len(sys.argv) > 2 else os.path.expanduser('<workdir>')
+S = os.path.expanduser('~/.residua-devin-fcd/rcc-sc')
+rows = json.load(open(f'{S}/coverage_main.json'))
+audit = json.load(open(f'{S}/registry_pin_audit_main.json'))
+side = json.load(open(f'{R}/conformance/rcc/RCC_EVIDENCE_PASS_V1.json'))
+reg = json.load(open(f'{R}/conformance/rcc/RCC_FORMAL_PROOF_REGISTRY_V1.json'))
+pins = reg['checked_source_git_blob_sha']
+
+def key(i):
+    return i.replace('RCC-', 'rcc').lower().replace('-', '')
+
+rejected = {k for k, v in side['mapping_adjudications'].items() if v['verdict'] == 'rejected'}
+lower = {'c1','c2','c4','e1','e2','e3','e4','e5','m1','r1','r2','r3','r4','r5','rcc20','rcc22','rcc23','rcc24'}
+# upgraded out of `lower`: 13 field-read + 3 sites-added + m1 (4.14 build post-#8032
+# confirmed + discriminating fixture refusals read from Certificate fields)
+upgraded = {'c1','c2','c4','e1','e3','e4','e5','r2','r3','r4','r5','rcc20','rcc24',
+            'e2','rcc22','rcc23','m1'}
+
+defect_keys = set(audit['malformed']) | set(audit['stale'])
+resolved = set(side['pins'].keys())
+# rcc95 original pins superseded by *_v2 keys that equal current blobs
+superseded = set()
+for k in list(defect_keys):
+    if k.startswith('rcc95_'):
+        part = k.split('rcc95_')[1]
+        v2 = 'rcc95_' + part + '_v2'
+        if v2 in pins and pins[v2] == side['pins'].get(k, {}).get('current_blob', pins[v2]):
+            superseded.add(k)
+unresolved = defect_keys - resolved - superseded
+defect_ids = {k.split('_')[0] for k in unresolved}
+
+nodes = []
+covered_n = 0
+for (i, title, status, via, hasmod, pk) in rows:
+    ok = False
+    if status == 'DISCHARGED':
+        ok = True
+    elif status.startswith('MAPPED_TO_'):
+        ok = i not in rejected
+    if ok and mode == 'strict':
+        k = key(via) if via else key(i)
+        if k in defect_ids:
+            ok = False
+        if k in lower and k not in upgraded:
+            ok = False
+        if status.endswith('(low)') and i in rejected:
+            ok = False
+    if ok:
+        covered_n += 1
+    nodes.append((i, [[]] if ok else []))
+
+data = {"nodes": [{"name": n, "routes": rs, "neg": False} for n, rs in nodes],
+        "intents": [{"name": "RCC-V2-closure", "routes": [list(range(len(nodes)))]}]}
+json.dump(data, open(f"{S}/data_{mode}.json", "w"))
+open_ = [n for n, rs in nodes if not rs]
+print(mode, len(nodes), "obligations; covered", covered_n, "open", len(open_))
+print("open:", open_)
+print("unresolved pin defects:", sorted(unresolved))

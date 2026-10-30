@@ -1,0 +1,4 @@
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+RCC-V2-closure: Await|open hypotheses without a covering producer|open=[RC-3b, ME-2, EF-3, EF-2, BH-3, BH-2, BH-1, AK-9]|halted=[]|closed_count=100
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+RCC-V2-closure: Await|open hypotheses without a covering producer|open=[RC-3b, ME-2, EF-3, EF-2, BH-3, BH-2, BH-1, AK-9, R1]|halted=[]|closed_count=99

@@ -61,6 +61,7 @@ import RCC.EvidenceModalityTransport
 import RCC.EvidenceProfile
 import RCC.EvidenceReplayability
 import RCC.ExactlyOnce
+import RCC.FC3Target
 import RCC.FacetCoherence
 import RCC.FacetSnapshot
 import RCC.FailureCoverage
@@ -82,6 +83,7 @@ import RCC.InvalidationSurface
 import RCC.KeyEpochVote
 import RCC.KeyRoleSeparation
 import RCC.LongRangeSafety
+import RCC.M1Target
 import RCC.MetaFailureExhaustion
 import RCC.MobileAdversarySafety
 import RCC.NoDoubleCounting
@@ -109,6 +111,7 @@ import RCC.RC1StepExecAdapter
 import RCC.RC1StepMSTBinding
 import RCC.RC1StepVerdictAdapter
 import RCC.RC1TraceClosure
+import RCC.RC2Target
 import RCC.RC3aTarget
 import RCC.RCC0Target
 import RCC.RCC100Target

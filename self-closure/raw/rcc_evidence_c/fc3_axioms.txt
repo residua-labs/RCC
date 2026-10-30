@@ -1,0 +1,10 @@
+'Residua.RCC.FC3.vacuous_world_coherent' does not depend on any axioms
+'Residua.RCC.FC3.addressDeletedWorld_incoherent' does not depend on any axioms
+'Residua.RCC.FC3.reductionDeletedWorld_incoherent' does not depend on any axioms
+'Residua.RCC.FC3.evidenceDeletedWorld_incoherent' does not depend on any axioms
+'Residua.RCC.FC3.forged_delta_is_no_ledger_proof' does not depend on any axioms
+'Residua.RCC.FC3.reflectionDeletedWorld_incoherent' does not depend on any axioms
+'Residua.RCC.FC3.runtimeDeletedWorld_incoherent' does not depend on any axioms
+'Residua.RCC.FC3.migrationDeletedWorld_incoherent' depends on axioms: [propext]
+'Residua.RCC.FC3.compositionDeletedWorld_incoherent' does not depend on any axioms
+'Residua.RCC.FC3.every_loadBearing_facet_necessary' depends on axioms: [propext]

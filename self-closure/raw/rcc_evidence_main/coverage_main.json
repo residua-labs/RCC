@@ -1,0 +1,866 @@
+[
+[
+"RCC-0",
+"Typed AddressKernel and complete AddressUseRegistry justify every concrete q use",
+"DISCHARGED",
+"RCC0",
+true,
+"quotient_factorization_plus_registry_refusal"
+],
+[
+"R1",
+"Goal/work/candidate/judgment/event separation",
+"DISCHARGED",
+"R1",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"R2",
+"Verifier soundness",
+"DISCHARGED",
+"R2",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"R3",
+"Intent coverage",
+"DISCHARGED",
+"R3",
+true,
+"universal_coverage_necessity_plus_fixture_refusal"
+],
+[
+"R4",
+"Assumption-relative judgment soundness",
+"DISCHARGED",
+"R4",
+true,
+"fixture_assumption_relative_soundness_plus_mutant_refusals"
+],
+[
+"R5",
+"No silent pressure/goal/event drop",
+"DISCHARGED",
+"R5",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"E1",
+"Every primitive total-or-residue",
+"DISCHARGED",
+"E1",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"E2",
+"Source and negative-claim universe coverage",
+"DISCHARGED",
+"E2",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"E3",
+"Evidence/state derivation uniqueness",
+"DISCHARGED",
+"E3",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"E4",
+"Sealed candidate-window determinism",
+"DISCHARGED",
+"E4",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"E5",
+"Advanced-step legality and strict progress",
+"DISCHARGED",
+"E5",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"E6",
+"Normalization termination",
+"DISCHARGED",
+"E6",
+false,
+"well_founded_definition_plus_nontrivial_witness"
+],
+[
+"E7",
+"Closed soundness and idempotence",
+"DISCHARGED",
+"E7",
+false,
+"parametric_theorem"
+],
+[
+"E8",
+"RCCExec refines RCCRel",
+"DISCHARGED",
+"E8",
+false,
+"parametric_refinement_theorem_plus_witness"
+],
+[
+"C1",
+"Component closure preservation",
+"DISCHARGED",
+"C1",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"C2",
+"Seam exactness",
+"DISCHARGED",
+"C2",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"C3",
+"Global intent coverage",
+"DISCHARGED",
+"C3",
+true,
+"global_intent_coverage_certificate"
+],
+[
+"C4",
+"Component closure plus exact seams implies global closure",
+"DISCHARGED",
+"C4",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"M1",
+"Step ExecModel and slot coherence yield admitted traces and CoreObject.Exact",
+"DISCHARGED",
+"M1",
+true,
+"mixed_parametric_fixture_slot_coherence_plus_four_refusals"
+],
+[
+"RCC-13",
+"Goal/work-item separation prevents invalid work from deleting a goal",
+"DISCHARGED",
+"RCC13",
+true,
+"universally_quantified_goal_preservation_plus_mutant_refusals"
+],
+[
+"RCC-14",
+"Assumption dependency and retraction reopen or migrate dependent judgments",
+"DISCHARGED",
+"RCC14",
+true,
+"fixture_transitive_source_detection_plus_direct_only_mutant"
+],
+[
+"RCC-15",
+"Runtime implementation soundness bridges formal verifier to measured executable",
+"DISCHARGED",
+"RCC15",
+true,
+"fixture_exact_closure_grade_order_plus_six_refusals"
+],
+[
+"RCC-16",
+"Canonical-head coherence rejects stale snapshots, forks, and local-only closure",
+"DISCHARGED",
+"RCC16",
+true,
+"fixture_finalized_head_consumes_admission_plus_awaits"
+],
+[
+"RCC-17",
+"Collision-aware addressing rechecks canonical bytes and refuses digest aliases",
+"DISCHARGED",
+"RCC17",
+true,
+"fixture_addressed_store_exactness_plus_collision_contract"
+],
+[
+"RCC-18",
+"Primitive operational totality returns Ok/Await/Refuse/ResourceExhausted",
+"DISCHARGED",
+"RCC18",
+true,
+"fixture_four_way_primitive_boundary_plus_mutants"
+],
+[
+"RCC-19",
+"Intent and goal non-vacuity require load-bearing evidence",
+"DISCHARGED",
+"RCC19",
+true,
+"universally_quantified_intent_load_bearing"
+],
+[
+"RCC-20",
+"Goal refinement soundness preserves parent meaning across split/merge",
+"DISCHARGED",
+"RCC20",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"RCC-21",
+"Judgment invalidation closure prevents stale GREEN reuse",
+"DISCHARGED",
+"RCC21",
+true,
+"universally_quantified_terminal_resolution_plus_fixture_tooth"
+],
+[
+"RCC-22",
+"Await wake adequacy requires a causal non-empty wake contract",
+"DISCHARGED",
+"RCC22",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"RCC-23",
+"Reepoch anti-churn and migration refinement require semantic delta and debt conservation",
+"DISCHARGED",
+"RCC23",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"RCC-24",
+"Theory growth is conservative over old semantics",
+"DISCHARGED",
+"RCC24",
+true,
+"carrier_built_certificate_with_structural_discrimination"
+],
+[
+"RCC-25",
+"Final branch exactness derives Closed/Await/Reepoch/Halt rather than choosing tags",
+"DISCHARGED",
+"RCC25",
+true,
+"universally_quantified_branch_carry_plus_exclusion"
+],
+[
+"RCC-26",
+"Key-role separation prevents one quotient from serving incompatible identities",
+"DISCHARGED",
+"RCC26",
+true,
+"fixture_content_key_exactness_plus_mutants"
+],
+[
+"RCC-27",
+"Occurrence exactness identifies retries of one logical occurrence, not equal content",
+"DISCHARGED",
+"RCC27",
+true,
+"fixture_retry_vs_intentional_repeat_plus_mutant"
+],
+[
+"RCC-28",
+"Exactly-once premise requires at-least-once delivery plus atomic receiver dedup on occurrence identity",
+"DISCHARGED",
+"RCC28",
+true,
+"fixture_exactly_once_plus_four_mutants"
+],
+[
+"RCC-29",
+"Temporal judgment validity separates ValidAt, UsableAt, and Transportable",
+"DISCHARGED",
+"RCC29",
+true,
+"fixture_temporal_validity_plus_five_mutants"
+],
+[
+"RCC-30",
+"Actuation binding distinguishes merged/proved artifacts from live behavior",
+"DISCHARGED",
+"RCC30",
+true,
+"fixture_live_closure_grade_plus_six_mutants"
+],
+[
+"RCC-31",
+"Fenced effect settlement reconciles effect and history under a head-bound occurrence",
+"DISCHARGED",
+"RCC31",
+true,
+"fixture_epoch_effect_closed_plus_eight_mutants"
+],
+[
+"RCC-32",
+"Failure-mode evidence coverage covers every mandatory threat class",
+"DISCHARGED",
+"RCC32",
+true,
+"fixture_concrete_witness_plus_seven_mutant_refusals"
+],
+[
+"RCC-33",
+"Common-cause independence measures fault-domain min-cuts rather than evidence count",
+"DISCHARGED",
+"RCC33",
+true,
+"minimum_cut_certificate_with_three_named_refusals"
+],
+[
+"RCC-34",
+"Effective authority quorum exceeds the declared control-domain threat budget",
+"DISCHARGED",
+"RCC34",
+true,
+"closed_world_coverage_refuses_incomplete_topology"
+],
+[
+"RCC-35",
+"Evidence-profile dimensions are non-compensable",
+"DISCHARGED",
+"RCC35",
+true,
+"policy_nondegeneracy_plus_no_transport"
+],
+[
+"RCC-36",
+"No evidence double counting across aliases, shared receipts, or shared lineages",
+"DISCHARGED",
+"RCC36",
+true,
+"sealed_universe_refuses_ghosts_and_omissions"
+],
+[
+"RCC-37",
+"Trust-topology changes invalidate dependent quorum and evidence judgments",
+"DISCHARGED",
+"RCC37",
+true,
+"delta_exactness_plus_stale_authority_refusal"
+],
+[
+"RCC-38",
+"Cross-epoch goal fairness prevents indefinite lawful carry and starvation",
+"DISCHARGED",
+"RCC38",
+true,
+"liveness_is_an_explicit_input_not_a_consequence"
+],
+[
+"RCC-39",
+"Authorization-finality separation forbids treating threshold authorization as admission",
+"DISCHARGED",
+"RCC39",
+true,
+"fixture_proposal_indexed_authorization_plus_eight_refusals"
+],
+[
+"RCC-40",
+"Quorum-intersection safety guarantees an honest intersection under the declared fault model",
+"DISCHARGED",
+"RCC40",
+true,
+"fixture_quorum_intersection_with_countermodel"
+],
+[
+"RCC-41",
+"Durable signer non-equivocation binds slot/head/round/config and survives crash",
+"DISCHARGED",
+"RCC41",
+true,
+"exact_signature_binding_refuses_the_verdict_mutant"
+],
+[
+"RCC-42",
+"Admission linearizer yields one finalized judgment per decision slot",
+"DISCHARGED",
+"RCC42",
+true,
+"single_valuedness_refuses_conflicting_local_successes"
+],
+[
+"RCC-43",
+"Admission linearizer plus effect settlement and history recording implies AtMostOneAdmit",
+"DISCHARGED",
+"RCC43",
+true,
+"settled_admission_refuses_incomplete_effect_and_history"
+],
+[
+"RCC-44",
+"Safe authority reconfiguration prevents old/new configuration overlap and forks",
+"DISCHARGED",
+"RCC44",
+true,
+"joint_authority_refuses_one_concrete_disjoint_fixture"
+],
+[
+"RCC-45",
+"Finalized head and source window are globally certified rather than local opinions",
+"DISCHARGED",
+"RCC45",
+true,
+"finalized_window_awaits_on_missing_evidence"
+],
+[
+"RCC-46",
+"Finality liveness is conditional on quorum availability, delivery, and stable configuration",
+"DISCHARGED",
+"RCC46",
+true,
+"all_true_environment_cannot_fabricate_progress"
+],
+[
+"RCC-47",
+"State-basis binding validates every proposal against the state root it mutates",
+"DISCHARGED",
+"RCC47",
+true,
+"stale_host_refused_with_shared_basis"
+],
+[
+"RCC-48",
+"Transaction-footprint completeness covers reads, writes, effects, and invariant domains",
+"DISCHARGED",
+"RCC48",
+true,
+"three_missing_coordinate_refusals_over_full_coverage"
+],
+[
+"RCC-49",
+"Conflict serializability orders all noncommuting finalized events",
+"DISCHARGED",
+"RCC49",
+true,
+"local_order_is_not_global_plus_dedup_refusal"
+],
+[
+"RCC-50",
+"Commutative join exactness equates parallel joins with legal serial executions",
+"DISCHARGED",
+"RCC50",
+true,
+"join_admission_with_three_named_refusals"
+],
+[
+"RCC-51",
+"Global invariant preservation follows from the serializable finalized history",
+"DISCHARGED",
+"RCC51",
+true,
+"global_intent_with_four_structural_refusals"
+],
+[
+"RCC-52",
+"Key-epoch vote admissibility binds votes to active signer and configuration epochs",
+"DISCHARGED",
+"RCC52",
+true,
+"exact_certificate_fields_plus_epoch_refusals"
+],
+[
+"RCC-53",
+"Historical inclusion authenticity requires finalized checkpoint inclusion",
+"DISCHARGED",
+"RCC53",
+true,
+"fixture_finalized_closure_evidence_plus_thirteen_sites"
+],
+[
+"RCC-54",
+"Long-range safety prevents later compromise of old keys from forging accepted history",
+"DISCHARGED",
+"RCC54",
+true,
+"fixture_key_activation_nine_sites_plus_universal_refusal"
+],
+[
+"RCC-55",
+"Mobile-adversary safety relates refresh, erasure, checkpoint cadence, and corruption horizon",
+"DISCHARGED",
+"RCC55",
+true,
+"exact_certificate_fields_plus_interval_refusals"
+],
+[
+"RCC-56",
+"Serializable finalized cut is the only history cut eligible for EpochClosed",
+"DISCHARGED",
+"RCC56",
+true,
+"serializability_refuses_local_partition_and_unserializable"
+],
+[
+"AK-1",
+"Typed identity domain and context-indexed quotient adequacy",
+"MAPPED_TO_RCC97(medium)",
+"RCC97",
+false,
+"nonconstant_consumer_not_factorable"
+],
+[
+"AK-2",
+"Canonical codec soundness, completeness, and canonical-byte uniqueness",
+"MAPPED_TO_RCC100(high)",
+"RCC100",
+false,
+"nonsemantic_field_does_not_factor"
+],
+[
+"AK-3",
+"Domain/schema-separated digest binding with explicit collision policy",
+"MAPPED_TO_RCC57(low)",
+"RCC57",
+false,
+"five_named_defect_classes_each_refused_by_name"
+],
+[
+"AK-4",
+"Consumer factorization through the declared quotient",
+"MAPPED_TO_RCC97(high)",
+"RCC97",
+false,
+"nonconstant_consumer_not_factorable"
+],
+[
+"AK-5",
+"Faithful store resolution by rehash, decode, re-encode, and byte comparison",
+"MAPPED_TO_RCC60(high)",
+"RCC60",
+false,
+"corrupt_slot_and_collision_refused_with_store_preservation"
+],
+[
+"AK-6",
+"Addressed graph referential closure and DAG/SCC-block canonicalization",
+"MAPPED_TO_RCC99(high)",
+"RCC99",
+false,
+"single_negation_anchor"
+],
+[
+"AK-7",
+"Rooted address-scheme bootstrap and conservative schema transport",
+"DISCHARGED",
+"AK-7",
+false,
+"universal_prelude_restatement_plus_harness"
+],
+[
+"AK-8",
+"AddressUseRegistry completeness, kind/domain/schema matching, and use-site justification",
+"MAPPED_TO_RCC57(high)",
+"RCC57",
+false,
+"five_named_defect_classes_each_refused_by_name"
+],
+[
+"AK-9",
+"Address exposure policy for equality, length, topology, access, timing, and dictionary leakage",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"AK-10",
+"Canonical-surface coverage for constructors and semantic/nonsemantic fields",
+"MAPPED_TO_RCC100(high)",
+"RCC100",
+false,
+"nonsemantic_field_does_not_factor"
+],
+[
+"DQ-1",
+"Supported-fragment classifier is sound and complete",
+"MAPPED_TO_RCC105(low)",
+"RCC105",
+false,
+"collapsed_normal_form_mutant_exposed"
+],
+[
+"DQ-2",
+"Normalizer is total on the supported subtype",
+"DISCHARGED",
+"DQ-2",
+false,
+"universal_normalizer_totality_restatement"
+],
+[
+"DQ-3",
+"Universal semantic preservation",
+"MAPPED_TO_RCC105(medium)",
+"RCC105",
+false,
+"collapsed_normal_form_mutant_exposed"
+],
+[
+"DQ-4",
+"Fuel irrelevance above a structurally derived bound",
+"MAPPED_TO_RCC61(high)",
+"RCC61",
+false,
+"codec_injectivity_plus_term_distinctness"
+],
+[
+"DQ-5",
+"Normal-form uniqueness and defeq exactness",
+"MAPPED_TO_RCC105(high)",
+"RCC105",
+false,
+"collapsed_normal_form_mutant_exposed"
+],
+[
+"DQ-6",
+"Normal-form codec roundtrip and canonical-byte injectivity",
+"MAPPED_TO_RCC61(high)",
+"RCC61",
+false,
+"codec_injectivity_plus_term_distinctness"
+],
+[
+"DQ-7",
+"Typed context-bound defeq address",
+"MAPPED_TO_RCC106(high)",
+"RCC106",
+false,
+"three_mutants_each_proven_exposed"
+],
+[
+"DQ-8",
+"Defeq address exactness relative to digest binding or collision-aware resolution",
+"MAPPED_TO_RCC107(high)",
+"RCC107",
+false,
+"constant_digest_collapses_and_terms_are_not_defeq"
+],
+[
+"TA-1",
+"Theory-collision adapters classify theorem transfer, proof template, or interpretive analogy",
+"MAPPED_TO_RCC65(high)",
+"RCC65",
+false,
+"five_named_ways_a_fake_proof_is_refused"
+],
+[
+"TA-2",
+"Borrowed-theorem assumptions and object translations are explicit and discharged",
+"MAPPED_TO_RCC65(high)",
+"RCC65",
+false,
+"five_named_ways_a_fake_proof_is_refused"
+],
+[
+"TA-3",
+"Analogy without a bridge cannot satisfy a proof obligation",
+"MAPPED_TO_RCC65(high)",
+"RCC65",
+false,
+"five_named_ways_a_fake_proof_is_refused"
+],
+[
+"FC-1",
+"All RCC facets share one sealed snapshot and carrier",
+"MAPPED_TO_RCC63(medium)",
+"RCC63",
+false,
+"facet_coherence_refuses_unbound_composition"
+],
+[
+"FC-2",
+"Cross-facet coherence laws connect addressing, evidence, reduction, resources, reflection, runtime, migration, and composition",
+"MAPPED_TO_RCC63(low)",
+"RCC63",
+false,
+"facet_coherence_refuses_unbound_composition"
+],
+[
+"FC-3",
+"Deletion countermodels establish necessity of every load-bearing facet",
+"MAPPED_TO_RCC70(low)",
+"RCC70",
+false,
+"closure_context_universal_with_missing_residue_refusal"
+],
+[
+"BH-1",
+"Behavior semantics supports deterministic traces, trace sets, and probability measures",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"BH-2",
+"Snapshot, safety, liveness, hyperproperty, and quantitative goals are typed separately",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"BH-3",
+"Inner epoch normalization is inductive and outer institutional lineage is coinductive",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"CM-1",
+"Claims are typed as deductive, computational, probabilistic, statistical, empirical-window, or assumption-relative",
+"MAPPED_TO_RCC89(low)",
+"RCC89",
+false,
+"missing_security_parameter_and_rewritten_adversary_refused"
+],
+[
+"CM-2",
+"Evidence modality cannot be silently upgraded",
+"MAPPED_TO_RCC89(medium)",
+"RCC89",
+false,
+"missing_security_parameter_and_rewritten_adversary_refused"
+],
+[
+"CM-3",
+"Quantitative claims retain security parameters, adversary classes, probability bounds, and confidence metadata",
+"MAPPED_TO_RCC89(high)",
+"RCC89",
+false,
+"missing_security_parameter_and_rewritten_adversary_refused"
+],
+[
+"WI-1",
+"Observation soundness",
+"MAPPED_TO_RCC82(high)",
+"RCC82",
+false,
+"stale_observation_and_unsigned_capture_refused"
+],
+[
+"WI-2",
+"Observation completeness within the sealed world-event scope",
+"MAPPED_TO_RCC81(high)",
+"RCC81",
+false,
+"unsealed_universe_has_no_authority"
+],
+[
+"WI-3",
+"Abstraction soundness from observations to model",
+"MAPPED_TO_RCC77(medium)",
+"RCC77",
+false,
+"wrong_intent_certificate_refused"
+],
+[
+"WI-4",
+"World-model adequacy from model property to external intent",
+"MAPPED_TO_RCC77(high)",
+"RCC77",
+false,
+"wrong_intent_certificate_refused"
+],
+[
+"WI-5",
+"Actuation soundness",
+"MAPPED_TO_RCC85(medium)",
+"RCC85",
+false,
+"reobservation_and_same_actor_refused"
+],
+[
+"WI-6",
+"Post-effect feedback closure by independent re-observation",
+"MAPPED_TO_RCC85(high)",
+"RCC85",
+false,
+"reobservation_and_same_actor_refused"
+],
+[
+"EF-1",
+"Effects are classified as Pure, PrepareCommit, ExactlyReversible, Compensatable, or Irreversible",
+"DISCHARGED",
+"EF-1",
+false,
+"universal_effect_classification_restatement"
+],
+[
+"EF-2",
+"Compensation proves its declared compensation goal and never masquerades as exact reversal",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"EF-3",
+"Irreversible effects require finality-before-actuation, occurrence fencing, receiver receipt, and post-effect observation",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"ME-1",
+"End-to-end failure classification is exhausted by node residue, bridge residue, assumption violation, or scope escape",
+"MAPPED_TO_RCC96(high)",
+"RCC96",
+false,
+"ambiguous_and_unknown_windows_cannot_be_exhaustive"
+],
+[
+"ME-2",
+"A counterexample outside the current model yields a diagnostic witness and specification reepoch",
+"NAMED_GAP",
+null,
+false,
+""
+],
+[
+"RC-1",
+"Relative Complete Closure theorem",
+"MAPPED_TO_RCC95(high)",
+"RCC95",
+false,
+"relative_complete_closure_capstone_and_refusals"
+],
+[
+"RC-2",
+"Diagnostic completeness theorem",
+"MAPPED_TO_RCC96(low)",
+"RCC96",
+false,
+"ambiguous_and_unknown_windows_cannot_be_exhaustive"
+],
+[
+"RC-3a",
+"RCC self-check is stratified (verification stratum strictly above artifact)",
+"DISCHARGED",
+"RC-3a",
+false,
+"universal_stratification_restatement_plus_bilateral_harness"
+],
+[
+"RC-3b",
+"RCC self-check may govern only a successor epoch",
+"NAMED_GAP",
+null,
+false,
+""
+]
+]

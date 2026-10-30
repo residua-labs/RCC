@@ -1,0 +1,83 @@
+import Lean
+import algorithms.ResiduaRCCFormalCore
+open Residua.RCC Lean
+
+-- RCC Exec instance over an obligation graph read from data.json (adapted from cc-riskexplorer rcc/Inst.lean:
+-- same stepOpen rule; data is loaded at runtime so large graphs do not hit the elaborator).
+structure Node where
+  name : String
+  routes : List (List Nat)
+  neg : Bool
+instance : Inhabited Node := ⟨⟨"", [], false⟩⟩
+
+structure St where
+  fuel : Nat
+  root : Nat
+  rootRoutes : List (List Nat)
+  stack : List Nat
+  closedL : List Nat
+  haltedL : List Nat
+  openL : List Nat
+
+def routesOf (nodes : Array Node) (s : St) (n : Nat) : List (List Nat) :=
+  if n = s.root then s.rootRoutes else if h : n < nodes.size then nodes[n].routes else []
+def negOf (nodes : Array Node) (n : Nat) : Bool := if h : n < nodes.size then nodes[n].neg else false
+
+def resolved (s : St) (h : Nat) : Bool :=
+  s.closedL.contains h || s.haltedL.contains h || s.openL.contains h || s.stack.contains h
+
+def firstUnresolved (s : St) (rs : List (List Nat)) : Option Nat :=
+  (rs.flatten).find? (fun h => !resolved s h)
+
+def stepOpenF (nodes : Array Node) (s : St) : OpenStepResult St St.fuel s :=
+  match hf : s.fuel with
+  | 0 => .await "fuel exhausted"
+  | k + 1 =>
+    match s.stack with
+    | [] =>
+      if s.haltedL.contains s.root then .halt "root refuted on every route"
+      else .await "open hypotheses without a covering producer"
+    | n :: rest =>
+      let rs := routesOf nodes s n
+      if rs.any (fun r => r.all (fun h => s.closedL.contains h)) then
+        .advanced { s with fuel := k, stack := rest, closedL := n :: s.closedL } (by simp [hf])
+      else match firstUnresolved s rs with
+        | some h => .advanced { s with fuel := k, stack := h :: n :: rest } (by simp [hf])
+        | none =>
+          if negOf nodes n && n != s.root || (!rs.isEmpty && rs.all (fun r => r.any (fun h => s.haltedL.contains h))) then
+            .advanced { s with fuel := k, stack := rest, haltedL := n :: s.haltedL } (by simp [hf])
+          else
+            .advanced { s with fuel := k, stack := rest, openL := n :: s.openL } (by simp [hf])
+
+def mkE (nodes : Array Node) : Exec where
+  State := St
+  measure := St.fuel
+  closed := fun s => s.stack = [] ∧ s.closedL.contains s.root = true
+  closedDecidable := fun s => inferInstance
+  stepOpen := fun s _ => stepOpenF nodes s
+
+def run (nodes : Array Node) (rs : List (List Nat)) : String :=
+  let root := nodes.size
+  let s1 : St := ⟨1000000, root, rs, [root], [], [], []⟩
+  match normalize (mkE nodes) s1 with
+  | .closed st _ => s!"Closed|closed={st.closedL.length}"
+  | .await st w => s!"Await|{w}|open={(st.openL.filter (· < nodes.size)).map (fun i => nodes[i]!.name)}|halted={st.haltedL.map (fun i => nodes[i]!.name)}|closed_count={st.closedL.length}"
+  | .reepoch _ w => s!"Reepoch|{w}"
+  | .halt st w => s!"Halt|{w}|halted={st.haltedL.map (fun i => nodes[i]!.name)}"
+
+def natList (j : Json) : List Nat := (j.getArrVal? 0 |>.toOption).isSome |> fun _ =>
+  match j.getArr? with | .ok a => a.toList.map (fun x => (x.getNat?.toOption.getD 0)) | _ => []
+
+def routesOfJson (j : Json) : List (List Nat) :=
+  match j.getArr? with | .ok a => a.toList.map natList | _ => []
+
+#eval show IO Unit from do
+  let path := (← IO.getEnv "RCC_DATA").getD "data.json"
+  let j ← IO.ofExcept (Json.parse (← IO.FS.readFile path))
+  let nodesJ := (j.getObjValD "nodes").getArr?.toOption.getD #[]
+  let nodes : Array Node := nodesJ.map fun n =>
+    ⟨(n.getObjValD "name").getStr?.toOption.getD "", routesOfJson (n.getObjValD "routes"), (n.getObjValD "neg").getBool?.toOption.getD false⟩
+  let intentsJ := (j.getObjValD "intents").getArr?.toOption.getD #[]
+  for i in intentsJ do
+    let nm := (i.getObjValD "name").getStr?.toOption.getD ""
+    IO.println s!"{nm}: {run nodes (routesOfJson (i.getObjValD "routes"))}"

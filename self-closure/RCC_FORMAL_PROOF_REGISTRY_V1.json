@@ -1,0 +1,1929 @@
+{
+ "checked_source_git_blob_sha": {
+  "formal_core": "dc0e311bd0b7985283dc7b12c3796e87e9f5ca7a",
+  "formal_tests": "9718482eac6ac3a0697df975a0acd66350e4d52f",
+  "rcc39_target": "058765bea289675729e5272eee44cecf919c2c3d",
+  "rcc39_target_tests": "0919f88347cc3cd26e3c976868041adf5d1573ca",
+  "rcc39_independent_root": "b37307df318d4f2d0efd2c08a07d4f71b74d4114",
+  "rcc2_independent_root": "a09d9abd59934df7dc5ed61c43aa34c8a1a8b886",
+  "rcc32_independent_root": "82e6daf7d9b59b72e06eaf1d7c0fcaf19e64eae1",
+  "c3_independent_root": "0039b243e6d3fc48ddd02395fc9360e263b2c455",
+  "rcc52_independent_root": "07b5987ff2d7f2eadfafe36308734ce55f69a519",
+  "rcc55_independent_root": "9e359e1c831bdd1de95aa0a01f320c735b954df1",
+  "rcc59_independent_root": "3447dc81c886b77a5e3fb4cd38d9ceafe6c6a21f",
+  "rcc0_independent_root": "84f66f135ad75ca84f412d8743a947a8981596ed",
+  "rcc19_independent_root": "44e6abffd4dabfbeac170514eb68f61990f7c229",
+  "rcc25_independent_root": "f39bbb21cfe9475efca19a072723c3faabf20b7a",
+  "rcc33_independent_root": "4be139752c078064a04fea75437ba9716af8ce7d",
+  "rcc34_independent_root": "4df60ea771d84e9b6f1d6a1a1ebb389b3818317d",
+  "rcc35_independent_root": "75ce468ceb4e4fdfea9c556ab1c737016c9e0c92",
+  "rcc36_independent_root": "0b00624d36bbd297794561fc3ad3c33dbd34d22d",
+  "rcc37_independent_root": "61785836634d85997d9ebcdcf63fab5144ae9f46",
+  "rcc38_independent_root": "d8377bf9f7cda21327030c734df6788a6b9e9168",
+  "rcc40_independent_root": "cffb9fea6137512a7fde0aaf9b96c09262ab5230",
+  "rcc41_independent_root": "a382c3c20af278269853a4ccbc507023f3feab49",
+  "rcc42_independent_root": "717248313ad53c9c7b3598d4daf2d3e511a44ba8",
+  "rcc43_independent_root": "5a54b908e6a896bee1e9040d3c0c633e9b9a34d7",
+  "rcc44_independent_root": "b1df137bca21cb0af1fe78d127600392714a5d3a",
+  "rcc45_independent_root": "3c2242ddcda6aa5ce5ce3fe62297116741bcf18f",
+  "rcc46_independent_root": "357c656acfb3f37304fba66831df8ac98a9266c4",
+  "rcc47_independent_root": "acb804ce7af926889587902e87ce9e67db8fe707",
+  "rcc48_independent_root": "dcbe12594b1d9227190f855b5b7a0c6aabc47eae",
+  "rcc49_independent_root": "c3f1fe8a5dbdc6d251275d8b9d7df3df53f3cc03",
+  "rcc50_independent_root": "350c05a61a64d92334b1987b93aa754087df2b4d",
+  "rcc51_independent_root": "bc9439c02cac6171982d71cca878d31d4f025cc2",
+  "rcc56_independent_root": "bdc2521e95ae0d9b2c09c451d837afc3820f89c2",
+  "rcc57_independent_root": "6f9a6ff273cf4f0a3e74b0d38bf896e725f6da69",
+  "rcc58_independent_root": "2cb304c885eb5972ef457ef50e29f7ce0f7d8ccb",
+  "rcc60_independent_root": "96e30167de9b98b0760f2f4b1ff7cf3153957f94",
+  "rcc61_independent_root": "0b0f451176a20ab8fda6b65f0f1f6059c99ed8cd",
+  "rcc39_tests": "0919f88347cc3cd26e3c976868041adf5d1573ca",
+  "rcc39_lakefile": "43e138be4f3d53fce223c4806899249cf5d986b1",
+  "rcc39_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc2_target": "129e04d81e3b1e36f4aabbf95c06138780064190",
+  "rcc2_tests": "ab800a196f58d71fae319aea42cc524a4d5f9ed6",
+  "rcc2_lakefile": "92764a5fa8b361c5579b8c4fe86ef2818990c67d",
+  "rcc2_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc32_target": "5960966dfda9b6a39c3fa3a043d3e47d57a8996a",
+  "rcc32_tests": "HEAD:lean/algorithms/ResiduaRCCRCC32TargetTests.lean",
+  "rcc32_lakefile": "2d4d216d7367062eee7b1afbab7209205eddd684",
+  "rcc32_toolchain": "8661b36144222636328ab4e664d06faa6a45127d",
+  "c3_target": "HEAD:lean/algorithms/ResiduaRCCC3Target.lean",
+  "c3_tests": "HEAD:lean/algorithms/ResiduaRCCC3TargetTests.lean",
+  "c3_lakefile": "bf7982ae088bda18ed78ab2d80be5489de8b2ef1",
+  "c3_toolchain": "8661b36144222636328ab4e664d06faa6a45127d",
+  "rcc52_target": "8ea2bc6ae43c638c231b31c46a396e244d9a0fe4",
+  "rcc52_tests": "f4797ac6d1a8dde423db0d3e6924c3928f53a8da",
+  "rcc52_lakefile": "b87d06b8e721810303eb6ee079f7c0a706510a22",
+  "rcc52_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc55_target": "a57c1522844d142a4ca844d83495919ce863c1f3",
+  "rcc55_tests": "6cd72d022408c940c37483eb1a21a2d5ef1a1b15",
+  "rcc55_lakefile": "aa3b17a1db3b02556e4a817e5dbcbdd0097de5bb",
+  "rcc55_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc59_target": "6663e2a8f28e39268a0929658ffb9096c57044a7",
+  "rcc59_tests": "02eb6fc30bbdf86ed2473600a52c8759b7fe33ae",
+  "rcc59_lakefile": "67eb787ce54549c8f2c842f36e4f197138b2bfc0",
+  "rcc59_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc0_target": "d3338fab4ba122ce0e7f43a32c4f8460a3ac3204",
+  "rcc0_tests": "3029a9da0604e3ac2d918b89e966cf153e4e6155",
+  "rcc0_lakefile": "56ccf7779d304a591824ddcb5702d45061b997dd",
+  "rcc0_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc19_target": "2420b50db4cfb9f156f4968777c139142f8e78be",
+  "rcc19_tests": "589788235e31cebb18d1ed8f9f042a2117414987",
+  "rcc19_lakefile": "a4bfa031a280344087847276a9800d7f9328b708",
+  "rcc19_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc25_target": "c990f7fc97135754942905a390d631cb3feda3e9",
+  "rcc25_tests": "9241cac42013d470492aec5aec2aca0d1348f422",
+  "rcc25_lakefile": "d5b13f464a2632823b81a66b718e994087ce35e4",
+  "rcc25_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc33_target": "a64b480a18757fdddfc8126247abacf79833abc4",
+  "rcc33_tests": "95f592e7c38ee41b8f96228b783e75d80f288eaa",
+  "rcc33_lakefile": "172fa6f13f7f386e63ec88e5c005131c6ff32406",
+  "rcc33_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc34_target": "14cabd80c93fa5e4b415b8a01c895b2688dc958c",
+  "rcc34_tests": "4c644dd53d731977f2f48c45ebb8dfc56167a85e",
+  "rcc34_lakefile": "dde4e5bd572528a1d7b4d7d0dd2e1eaa21635d3e",
+  "rcc34_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc35_target": "fe719654a9baf6e698c3cda6ebebd457b11cacb5",
+  "rcc35_tests": "eaa3418c02211c918feae64859ad81467538c0fa",
+  "rcc35_lakefile": "05a42f432084b81e61f4f442b129c9169d1c8658",
+  "rcc35_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc36_target": "1565992e4e2c8faa06d72d699e86381d0e4bdafe",
+  "rcc36_tests": "2789b0dbbcfd5029e7059d9b9fb4f559ee6ab022",
+  "rcc36_lakefile": "54911cf31c344ffe94f1441cca5d5fc527ed6186",
+  "rcc36_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc37_target": "0febeed8c7c8933757ca49bc515c41656b0af600",
+  "rcc37_tests": "f5ecd8ffc07aa22ef6547ae36ce2b331a32f327b",
+  "rcc37_lakefile": "fc331e2a6b0580ea971134762c4065694e633d7d",
+  "rcc37_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc38_target": "f0fa62f9e5cbbb20dbc7841d3a9fea1f331125d9",
+  "rcc38_tests": "f37e52bfb6ad39f277272b5912190f77a86bac12",
+  "rcc38_lakefile": "407f42b3a4985d4b5095a1c9322a722113849ee4",
+  "rcc38_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc40_target": "8d1f3f7351b141d84b7f199ad4b318307ad072c5",
+  "rcc40_tests": "96a2abdbf821535e2b6f9718596743d7e707007c",
+  "rcc40_lakefile": "ad49a3203d12703f23ca78ff5db0c0b563e3bc54",
+  "rcc40_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc41_target": "011e130da1922b83a50855fd71b33253602d061d",
+  "rcc41_tests": "82167772af1cfb41e8eeeb92f496770276f6a808",
+  "rcc41_lakefile": "d5b82a5a4c64fb53f51b2ff6cf419a3b2f23b8c0",
+  "rcc41_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc42_target": "b544b190190313da5e758981e4f15ed279bb2786",
+  "rcc42_tests": "32e84e4449a058ed879b41f25eb792f9f99919fb",
+  "rcc42_lakefile": "c541a14c3f246c5d1d1ae821c1c0275df6474739",
+  "rcc42_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc43_target": "25a4e905c35cf1766ae1514863ffa7510819f982",
+  "rcc43_tests": "fe140440f4c563cc76fd173c43258117034cdf16",
+  "rcc43_lakefile": "0f91b7abee837bc5ae42a0ef64f987afdb87b0b8",
+  "rcc43_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc44_target": "a72c0ce3f06d8ae9b46c289e1075f8a300917674",
+  "rcc44_tests": "5c54712b08082297d7fa1b589afef30d901ce9a9",
+  "rcc44_lakefile": "3d94f67f468d4050907b2f7534e417a86a444b08",
+  "rcc44_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc45_target": "7c79013ad5b7eba4bed9c852d42c981746f7dd54",
+  "rcc45_tests": "a23c1e9c0c984acc2524a40b4af2a30bced3f929",
+  "rcc45_lakefile": "6dbf26c5a766980d427b8ce9918f4a4af5916a11",
+  "rcc45_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc46_target": "72f6fc0c5178b37dc7ae5efda8ba6af4cc3c09fb",
+  "rcc46_tests": "0aea444c74e9540a86fbe1d970c3d2e733fd4985",
+  "rcc46_lakefile": "7f30ca51286c3d7be458474e2e182cc3fde94ea3",
+  "rcc46_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc47_target": "b28849eade2ff14da0d26a8bf708aeb3d2632111",
+  "rcc47_tests": "04774376718c01a3be7f615f88f99e8a569b2f71",
+  "rcc47_lakefile": "f8c05e3a9677edf858c5c27f645efec27e27eb39",
+  "rcc47_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc48_target": "428b5fd6cfd69dc447538b36c4df5c6ccc7497f1",
+  "rcc48_tests": "c775f6ae6d10181ca817172a513f72cc02bba276",
+  "rcc48_lakefile": "68184ad2771ebfefde17d7954f792452422a5ffb",
+  "rcc48_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc49_target": "fde808b38adfc6862d8466f24485291e67a48b01",
+  "rcc49_tests": "7de649123a453bdecedcc87274698a44dc8847a1",
+  "rcc49_lakefile": "daf60ee4f6f6869b56c001cd00cef4dce2df29e6",
+  "rcc49_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc50_target": "8946f98c8677dbcee821cfbf65253c15ecc4dea5",
+  "rcc50_tests": "94e398238c83ed59293754c520c594358ccfb319",
+  "rcc50_lakefile": "730ee2a4e90828f99034f8621cb648b0723f96cd",
+  "rcc50_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc51_target": "c1ff45c65e072a3862f28740fb2aa7bed7e2f424",
+  "rcc51_tests": "b5326d2368f135915aaa01c7cd505d1ba4607346",
+  "rcc51_lakefile": "fa1ef515ce77845c703e1235b1b101dc50dee419",
+  "rcc51_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc56_target": "90bb4439bd5895b8efe460e87ac3231ad7c11b38",
+  "rcc56_tests": "f4b2fe6ca7ac6c2278dc77168bdabd7e93fee73d",
+  "rcc56_lakefile": "31bced8d2620108b2549787901df225615bdbfa0",
+  "rcc56_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc57_target": "6246c120cd1f43009fb47808763009af3ef8fc8f",
+  "rcc57_tests": "f68e05b44d5c597a18881fcd0b7af174b9c9f3d5",
+  "rcc57_lakefile": "0340ed8941b8af6827e02457aa6186a84ec140d1",
+  "rcc57_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc58_target": "b11f5a3de83430b82ff58568d599fc53ca0375f9",
+  "rcc58_tests": "97ce1657a89195d38f6a2158a869a515d1b136e4",
+  "rcc58_lakefile": "e1c8a342abc252ba19d4ffca52e55dd518b5043d",
+  "rcc58_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc60_target": "27037137b3ecabe40cc290be55f7c0b9c81bc231",
+  "rcc60_tests": "aa43ef0557a870a51bf389a2c137bb5ec71d4221",
+  "rcc60_lakefile": "d16c701952a87ad6ba275e06d8706f47b7676a94",
+  "rcc60_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc61_target": "e9bc616ee1e6705b0e7c9927c358f47a26d41527",
+  "rcc61_tests": "02d640236a06d92f04ee072bb60c2273afc8d60d",
+  "rcc61_lakefile": "5c6c966d351c65353de267ec5a3fe98b3d7fc2ce",
+  "rcc61_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc62_independent_root": "535312ba067ce74067298bf4c6c3e44c43d443a1",
+  "rcc62_target": "a75a55f1f844fc3a2739282a8dfe2bc1bdae088b",
+  "rcc62_tests": "079cc718455ff05ca490f49ba0fe50395ae44b96",
+  "rcc62_lakefile": "5d7343a7ded8a974628dd9e9b28685415d5bb298",
+  "rcc62_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc63_independent_root": "3a6f90f427353db8b24a2b4992959027e173d49a",
+  "rcc63_target": "a1a336ab6556ee3264d77f678db5c5982dcaff43",
+  "rcc63_tests": "6b8b41aea3a0a9b383de4d550c9a4be77d859316",
+  "rcc63_lakefile": "44e1cf29f7d340193117640b5b6fb0096d2e1b18",
+  "rcc63_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc64_independent_root": "d53a7441a459bcc27cba23ac5cf126d67459e1f9",
+  "rcc64_target": "e36e0d5cd94ce0ed8dff41cd0ddd3b69325775ff",
+  "rcc64_tests": "1133093a643fd9656d5b0707d818ef3916e0425d",
+  "rcc64_lakefile": "4206499ac038a1b6cbbcfce108c1ea85819a8ba9",
+  "rcc64_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc65_independent_root": "e27710846e3dbf3b73ffbd6043ace78956de4d52",
+  "rcc65_target": "520fb79acc517fee69adf4706907c6b1323c0e3d",
+  "rcc65_tests": "32ac2094b7b9159a76e19cc3e1f28c66b2b30853",
+  "rcc65_lakefile": "58c748c36dfdad5a3d7835dab65b5424753b67bc",
+  "rcc65_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc66_independent_root": "97519672aefee61883eccb57aafc75e67e1524b2",
+  "rcc66_target": "af1592657bac88c9aa7d5568afbef76d66d9250d",
+  "rcc66_tests": "0657d1c53ca024c703a092ac79b8ed6261c752d4",
+  "rcc66_lakefile": "729ff16cfe48a08b893b17cc797c3a90a5bf747b",
+  "rcc66_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc67_independent_root": "1167ffd3f367e0685e5e50b6a28d548df894cf88",
+  "rcc67_target": "a9850df8b047758c3bca9a052842695255d053e9",
+  "rcc67_tests": "1d91f7ecf04a6725b564282348c6057afc8d5c3d",
+  "rcc67_lakefile": "7e7270ccfb3443d7c9712848081ebf44a51cce72",
+  "rcc67_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc68_independent_root": "ada7f91d61f2cc44da909616c35a1aa3ca9712cc",
+  "rcc68_target": "11bd59d85d1074385c20cb46bf331c4f21c32578",
+  "rcc68_tests": "HEAD:lean/algorithms/ResiduaRCCRCC68TargetTests.lean",
+  "rcc68_lakefile": "1d4c1fb64bd07b661e039231f8b09f03a7c58cc7",
+  "rcc68_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc69_independent_root": "7ac9a6b1b9ce65d408b95ef54532e4263120827c",
+  "rcc69_target": "0f513ee968533736599f72edc5cf4cf0bb851730",
+  "rcc69_tests": "HEAD:lean/algorithms/ResiduaRCCRCC69TargetTests.lean",
+  "rcc69_lakefile": "9ef9468f01bd996ec66a5ccb46d456f9f144836a",
+  "rcc69_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc70_independent_root": "d2f75439a45950bfcb64c88813059afedcb52ac4",
+  "rcc70_target": "b8e3bbd1de4c53e33c677286f839832b9f7b1afe",
+  "rcc70_tests": "HEAD:lean/algorithms/ResiduaRCCRCC70TargetTests.lean",
+  "rcc70_lakefile": "7c6a10770868995f762957f9c06728bc418f9c7d",
+  "rcc70_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc71_independent_root": "b23da897750947d56cf2b98e6a05b1bc31b2941f",
+  "rcc71_target": "a22c9d4778fa6ac2bf1620350bdcb9d4e6c5f02a",
+  "rcc71_tests": "HEAD:lean/algorithms/ResiduaRCCRCC71TargetTests.lean",
+  "rcc71_lakefile": "da68a68235a45623c13c7ad2eddd960dea452aff",
+  "rcc71_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc72_independent_root": "a024ba762ad36e45df3fa494a07fd19bc37b1ca5",
+  "rcc72_target": "a2c39bc56b0155cb0828cbd68f9f4582a4044149",
+  "rcc72_tests": "HEAD:lean/algorithms/ResiduaRCCRCC72TargetTests.lean",
+  "rcc72_lakefile": "c36efe14097bf46c742ee548d815f24be9159fa1",
+  "rcc72_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc73_independent_root": "da2b230c60b5fe7e2a721cd068392ce1ad5b64e9",
+  "rcc73_target": "8c479dc8b68c8079c9500e904a42794a21ae4fac",
+  "rcc73_tests": "HEAD:lean/algorithms/ResiduaRCCRCC73TargetTests.lean",
+  "rcc73_lakefile": "a92d75de972191798697f7abdd0fe73e9deade8d",
+  "rcc73_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc74_independent_root": "9f62e00820b4a6017dbef5cfd4442f5b2135ee34",
+  "rcc74_target": "2859a507a96685ba8eef22accd02f8d6ff8db8cd",
+  "rcc74_tests": "HEAD:lean/algorithms/ResiduaRCCRCC74TargetTests.lean",
+  "rcc74_lakefile": "8d44aa5d52e82b5a8dee9c410b9c47a827d4454d",
+  "rcc74_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc75_independent_root": "9345e5617d59013327c3ce86ee7ca3c95a505a4e",
+  "rcc75_target": "e87ad18eb6a7cdaf5ab5dd2d6a5de2ce499c302d",
+  "rcc75_tests": "HEAD:lean/algorithms/ResiduaRCCRCC75TargetTests.lean",
+  "rcc75_lakefile": "39b12703646c1a0eeaf5eff567ebbbfc2bbd21bd",
+  "rcc75_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc76_independent_root": "c8ddd07c76095d01a4520c6c9029c466b30899c7",
+  "rcc76_target": "72325a43f90331ee6ce9a206c6d24523b4e5d4db",
+  "rcc76_tests": "HEAD:lean/algorithms/ResiduaRCCRCC76TargetTests.lean",
+  "rcc76_lakefile": "af26e49a490a15feffc99424f414fb8788f37609",
+  "rcc76_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc77_independent_root": "2035cd4c891e66ea58d5abb36127eb8f2da70a20",
+  "rcc77_target": "014194e3d9aa2eada88f0f327d9b5b7dad758188",
+  "rcc77_tests": "HEAD:lean/algorithms/ResiduaRCCRCC77TargetTests.lean",
+  "rcc77_lakefile": "cc73f1414053078e9639cb7238d8175a9b756e60",
+  "rcc77_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc78_independent_root": "fa71b5b17149dd9070d8423f5d2918ee2c533702",
+  "rcc78_target": "75ade60e7ffb963fe54c0c0c87958a2d916c15fc",
+  "rcc78_tests": "HEAD:lean/algorithms/ResiduaRCCRCC78TargetTests.lean",
+  "rcc78_lakefile": "7e88e5456d207747b44ba966e4747846642049a6",
+  "rcc78_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc79_independent_root": "50a08a0c785b55b4196cdbd8b8f0250c65332b64",
+  "rcc79_target": "cd70143b5b59dc6e6de122b6cfb5f0275d149cf1",
+  "rcc79_tests": "HEAD:lean/algorithms/ResiduaRCCRCC79TargetTests.lean",
+  "rcc79_lakefile": "9f67132b02603cf4fa15424c44625b819bb5d2f7",
+  "rcc79_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc80_independent_root": "a2a7f2ec9cd7dba0b13dfe58f912753c07190dad",
+  "rcc80_target": "b3c02b6fd0b7682e94dabfede6f50e52945de540",
+  "rcc80_tests": "HEAD:lean/algorithms/ResiduaRCCRCC80TargetTests.lean",
+  "rcc80_lakefile": "1f1da15d3902bfaa4bb022d98d51721e1a47717d",
+  "rcc80_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc81_independent_root": "22bf9cdeafbdffd9fd5530f8b0114978a89add28",
+  "rcc81_target": "70ebf6ec1aeca5c62256606c63608fea2408e5c8",
+  "rcc81_tests": "HEAD:lean/algorithms/ResiduaRCCRCC81TargetTests.lean",
+  "rcc81_lakefile": "481c3d357a65e477430cd0f7c69bacb5149bc58b",
+  "rcc81_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc82_independent_root": "7e1851db8bdabc20ca410614233755892b184441",
+  "rcc82_target": "327ff4af610553c8e389d97cbf704f42f8645632",
+  "rcc82_tests": "HEAD:lean/algorithms/ResiduaRCCRCC82TargetTests.lean",
+  "rcc82_lakefile": "1d4eef8eb9250effb732d50e29c92aea5b5be989",
+  "rcc82_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc83_independent_root": "0e04116903c2660e732b8c230dbc8292f943c85a",
+  "rcc83_target": "4f1ac2da00c2cc862fe3cd18cff001ab6752078f",
+  "rcc83_tests": "HEAD:lean/algorithms/ResiduaRCCRCC83TargetTests.lean",
+  "rcc83_lakefile": "29e831f1e49020a74ea15ea38f0a4831fc51ff5f",
+  "rcc83_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc84_independent_root": "6d46218b0c68e122e7ad111b16570c7c2e40c985",
+  "rcc84_target": "c145211db8efce85ef78014f43a9cedddcc71a97",
+  "rcc84_tests": "HEAD:lean/algorithms/ResiduaRCCRCC84TargetTests.lean",
+  "rcc84_lakefile": "3b1ebef2d7a3d2c4bb5749094d77b9e576b7dd08",
+  "rcc84_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc85_independent_root": "a719de52698af5d5f680a879e678b57fbd01a07d",
+  "rcc85_target": "5240e8af81cf35a7a781915112c109f58dac624a",
+  "rcc85_tests": "HEAD:lean/algorithms/ResiduaRCCRCC85TargetTests.lean",
+  "rcc85_lakefile": "859d2b5e76db8af3a6cce3677f9522f9d49fee2a",
+  "rcc85_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc86_independent_root": "5ab54a8b0f167ccda2b45ec35dff82cbc65ba252",
+  "rcc86_target": "378d570c9372383d8ab231297299ea1e42ff6437",
+  "rcc86_tests": "HEAD:lean/algorithms/ResiduaRCCRCC86TargetTests.lean",
+  "rcc86_lakefile": "5e18442a0dfd32f580bc00536d98c3dbea64b359",
+  "rcc86_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc87_independent_root": "e983366e04f09ee0c7276717a8ae0364b6ffaf86",
+  "rcc87_target": "40d627fb433d39657ccad4e14bcbbc7710bc1da5",
+  "rcc87_tests": "HEAD:lean/algorithms/ResiduaRCCRCC87TargetTests.lean",
+  "rcc87_lakefile": "ddd5b659fb3888c6996486192063cb03d293c889",
+  "rcc87_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc88_independent_root": "bdf51186f736a000620dc83c3bfb9141564c91c7",
+  "rcc88_target": "37f2d6b2278239cb14e466343ab8d886a0d1231a",
+  "rcc88_tests": "HEAD:lean/algorithms/ResiduaRCCRCC88TargetTests.lean",
+  "rcc88_lakefile": "38ea21f0554adfb6f6e9c6efab6da610040a6223",
+  "rcc88_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc89_independent_root": "163c70a0d55de61daf67714413ff32c6f09021a8",
+  "rcc89_target": "faa4658b570dafa66b1c9f8e635f6095a4661462",
+  "rcc89_tests": "HEAD:lean/algorithms/ResiduaRCCRCC89TargetTests.lean",
+  "rcc89_lakefile": "eb794dd503049716e4b50ae28f5ee0637146c157",
+  "rcc89_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc90_independent_root": "29d042f98d97a3afd50ba9c48e95ed3bf7abb05d",
+  "rcc90_target": "96cb810363a7a759fb50c588cfdca8754aaf1e4c",
+  "rcc90_tests": "HEAD:lean/algorithms/ResiduaRCCRCC90TargetTests.lean",
+  "rcc90_lakefile": "672951ab33e3dccb3f57e08f1a0ee623f65b176f",
+  "rcc90_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc91_independent_root": "de3b4e80dbc44bf5518cb4d00c427a4901fe4d07",
+  "rcc91_target": "939d7c37392a84fd2899db96da0288e7ae510e76",
+  "rcc91_tests": "HEAD:lean/algorithms/ResiduaRCCRCC91TargetTests.lean",
+  "rcc91_lakefile": "7822b4271e8b426d5f3cdf97500155beb912995c",
+  "rcc91_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc92_independent_root": "e607183627b022359354b6d162c3becaba86b05c",
+  "rcc92_target": "d00f22f9c32647bf412387c6fcb8849d188a6fc3",
+  "rcc92_tests": "HEAD:lean/algorithms/ResiduaRCCRCC92TargetTests.lean",
+  "rcc92_lakefile": "a486e225ee10670da12b6fc7e2bbf390d67cbd23",
+  "rcc92_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc93_independent_root": "06145e67d6ca926500e7354590c7ec7851ed1c1d",
+  "rcc93_target": "80e8b325bf2d793faca2b66030c90033939f2fec",
+  "rcc93_tests": "d1c03102b1d5d5c79b770193983773013cf6fb58",
+  "rcc93_lakefile": "a3c5da82fd28a221b65fc21f55efc69943f253a3",
+  "rcc93_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc94_independent_root": "44cb7c7b2fdc08e481eb58e2d801354ed53522b7",
+  "rcc94_target": "2e582b3d2f34b13267912ad6eab6fd8ccd319c2f",
+  "rcc94_tests": "a01b44a95b077e2ffb8ee178e8acd05c8a59999b",
+  "rcc94_lakefile": "8f9f08f0a7b145f2409e0c8fe0bd358586f9d0e0",
+  "rcc94_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc95_independent_root": "f3dea313d6a08ec5a9c12dcc961a98fb39bad09c",
+  "rcc95_target": "30f1107ff734ad41bb078ef9c0a842b51aaf2d42",
+  "rcc95_tests": "04a584a30bf73eeab7aeb5097b7695ac7e49b7a6",
+  "rcc95_lakefile": "ddba10fc8a4c7a733f8e6d8129d07e2b56a473e9",
+  "rcc95_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc96_independent_root": "a837ce3babfcf214ed40d11e90b936fdc4ddac81",
+  "rcc96_target": "f8b7ad386350ffae33da519fb5b98d05e33ce3a6",
+  "rcc96_tests": "68918115371ffa483a3a73abb3f4fa0ececf422d",
+  "rcc96_lakefile": "5d61931cb1d674c6b824fba834499140b21d6f75",
+  "rcc96_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc97_independent_root": "7f2c78d4f947e3f203dd345f1a44525c7e401f56",
+  "rcc97_target": "3d0f648d4349871708fa8fd82985f456d2d27448",
+  "rcc97_tests": "6dc35f99f345f345205cdfbae598cad6d87544c7",
+  "rcc97_lakefile": "83bee547a796c2b82add3e013284b6aed1630adb",
+  "rcc97_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc98_independent_root": "8ccf35945f2ffd45f2758183db4e4cd66ff63633",
+  "rcc98_target": "0b9c0e73f6122ea9024390c155695a2aa1f883d9",
+  "rcc98_tests": "816e0bd7c1320c4842753a865ea78680f66fabed",
+  "rcc98_lakefile": "390e645a5eff7361608249eca367ef45e1a195ba",
+  "rcc98_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc99_independent_root": "91e7a56eb7f349af1546d690af3085a28e4e7dea",
+  "rcc99_target": "0a068b670d0ee94b6887972794287fb28b8863a3",
+  "rcc99_tests": "47f5d85fcbc7ee9d721fb0e330b64d409ef548e8",
+  "rcc99_lakefile": "df8dfe5751c3702ea03235a8fc4d1cf8b3725f3a",
+  "rcc99_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc100_independent_root": "fbbce11f50429fe355bb6d43373fcd633ce30840",
+  "rcc100_target": "bebe7ee06f7b006aeb2427c2a86ffb60bb9acc70",
+  "rcc100_tests": "3e3438cb836c692e8364bdea012db718707eaa41",
+  "rcc100_lakefile": "2b9f3f389328fe982a1cf1bcd4e443c6cf388662",
+  "rcc100_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc101_independent_root": "7ce949f08cbc1e9543f65c5eb8900477d23da84d",
+  "rcc101_target": "3f8fd80198a99b71416b2ec6e75ed2f932bff8e1",
+  "rcc101_tests": "66a0c1cc079ed88895c00f09864e8316d082d472",
+  "rcc101_lakefile": "66f9a7618e2170755db7c94616a46244496ea62c",
+  "rcc101_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc102_independent_root": "f4ae30097bef7c6d1a7e4916319eca9fe4225087",
+  "rcc102_target": "9083f09d752de72a14cefe0056eec6f3f4817f94",
+  "rcc102_tests": "24d1059a6395197f7755c972c6de3fe5d3e58933",
+  "rcc102_lakefile": "761c07c61b0bc83e76f23c0c21ffb199de1e485b",
+  "rcc102_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc103_independent_root": "5d8e7885d8e7d1d4913c13a1c498b6e9c81295df",
+  "rcc103_target": "b2747280b9eeb0ffd604d8d1d3b90c6440ac57f4",
+  "rcc103_tests": "2cf3b0a9b10bfd4a8e99dc190ed27bd1576f62dc",
+  "rcc103_lakefile": "af9c35e4250484bcb5ba73f30076658084487fb5",
+  "rcc103_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc104_independent_root": "fa2bff7962e0747590a196e1ef710837e73e53c1",
+  "rcc104_target": "9b3f42ca367fcde4b6d6b55829c0afe4294beedd",
+  "rcc104_tests": "0e54bc3c27fc3bab6bb2ebf5c8d03c0160306116",
+  "rcc104_lakefile": "88934f1b238138af04fbb36d5c36b29f22752fbc",
+  "rcc104_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc105_independent_root": "81eca2a47426096e67073d4c90b921617c4627bd",
+  "rcc105_target": "eaaeac75dedc0a4dd28197f3bb6c44377c540fd2",
+  "rcc105_tests": "369e7db941e4a6add979639f359f885b11500fa0",
+  "rcc105_lakefile": "afe7062023937e09072fbdade96ddeabd8159c77",
+  "rcc105_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc106_independent_root": "2b6e851b628c42ec90c420c92db898d9f5eb820b",
+  "rcc106_target": "c394887d7ee45a08508bf1132d49651061cd3b45",
+  "rcc106_tests": "8486983727dba57a16e515777b306a87a61ab040",
+  "rcc106_lakefile": "449f4fd99a454923a36b5656f4cea2d3ec27a376",
+  "rcc106_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc107_independent_root": "12ac6d44af07f12e6e84b7e5f55f0bcf64ddbcec",
+  "rcc107_target": "6cb7a1f75f5179a2cd5c7a8153250ef03730fe7d",
+  "rcc107_tests": "4f88b65da497c1b684ac0b2789d077c4e8111dd6",
+  "rcc107_lakefile": "4c0c54760ff66fcaa2e1a7ac4a445bae6d6d6c65",
+  "rcc107_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "c1_independent_root": "763aef4bf523478b205ef61a1eb35f107107b363",
+  "c1_target": "HEAD:lean/algorithms/ResiduaRCCC1Target.lean",
+  "c1_lakefile": "db115fd309e4e800463f3cdc5bae36147697ced0",
+  "c1_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "c2_independent_root": "855196bd585333e3e02846e75d4c809b4332437a",
+  "c2_target": "HEAD:lean/algorithms/ResiduaRCCC2Target.lean",
+  "c2_lakefile": "c0d7621995e126766318f18bfa549519162e9e0b",
+  "c2_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "c4_independent_root": "6a61454a6ac5a781311ef98669cc1f5e8b8e525b",
+  "c4_target": "HEAD:lean/algorithms/ResiduaRCCC4Target.lean",
+  "c4_lakefile": "cae991c6042e6d57b8d3f7afdd55a78457c3f539",
+  "c4_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "e1_independent_root": "10b6cb6910c8f8a462907654040514452d4d5f71",
+  "e1_target": "HEAD:lean/algorithms/ResiduaRCCE1Target.lean",
+  "e1_lakefile": "6de81fc9599c7a75a13378381b2f4935d91ee5b0",
+  "e1_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "e2_independent_root": "ef3285193d1aaac6db4430ecf399bad2d5bd57d6",
+  "e2_target": "HEAD:lean/algorithms/ResiduaRCCE2Target.lean",
+  "e2_lakefile": "ffdadead5af8789e200e36a3c9ba94a3bcacee06",
+  "e2_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "e3_independent_root": "32f4fe39b4f0d192dd1be8f8dfb97296dc1b9d0d",
+  "e3_target": "HEAD:lean/algorithms/ResiduaRCCE3Target.lean",
+  "e3_lakefile": "4daf909d1322e59950fecd565cbaae6d257f41d2",
+  "e3_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "e4_independent_root": "4482f77f7d40745956fa7ace2ee006ba92291e1e",
+  "e4_target": "HEAD:lean/algorithms/ResiduaRCCE4Target.lean",
+  "e4_lakefile": "4bbb71029e484376632df14486d6f870d56028c5",
+  "e4_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "e5_independent_root": "46b7192fc75c1c744f9d1ee96aa6105cb24c628a",
+  "e5_target": "HEAD:lean/algorithms/ResiduaRCCE5Target.lean",
+  "e5_lakefile": "db0fe3afbf54894372b61118e6a2c5b7ebbfc5a4",
+  "e5_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "m1_independent_root": "fc710e99a5bceff214fada6d7bb59ea6ce1eaa3b",
+  "m1_target": "HEAD:lean/algorithms/ResiduaRCCM1Target.lean",
+  "m1_lakefile": "b9cb1304bfaa32724ca0c5b9eb651f1d1df26478",
+  "m1_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "r1_independent_root": "9d29952700d4127e5ea7d72ae24cfc1fb5516632",
+  "r1_target": "HEAD:lean/algorithms/ResiduaRCCR1Target.lean",
+  "r1_lakefile": "03c6bca2695d8dfe61e33511e8fd202395727994",
+  "r1_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "r2_independent_root": "07682a08e220fcb224c5d9fbef8846e6c6609014",
+  "r2_target": "HEAD:lean/algorithms/ResiduaRCCR2Target.lean",
+  "r2_lakefile": "a2fd9971d2b691e993299dc1e67853dc142cbfc3",
+  "r2_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "r3_independent_root": "d40a9181eeb7f89ad7b66541dbdffcd79a0cc40c",
+  "r3_target": "HEAD:lean/algorithms/ResiduaRCCR3Target.lean",
+  "r3_lakefile": "4c1eb140fdfc67af04007e0dc8974065d60beb29",
+  "r3_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "r4_independent_root": "9c5343032b48d9043082c22cf0a9892af6fea65c",
+  "r4_target": "HEAD:lean/algorithms/ResiduaRCCR4Target.lean",
+  "r4_lakefile": "d307c42a2e1f193b56f3028a42ca1e5f67975b86",
+  "r4_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "r5_independent_root": "9f55bb72440ce3a793d345f84ccbab41a174f1ab",
+  "r5_target": "HEAD:lean/algorithms/ResiduaRCCR5Target.lean",
+  "r5_lakefile": "07933508481f11b3411976abf74fd899f55e53ef",
+  "r5_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc20_independent_root": "28a8d451300c60d9f8c2758fe86465b34b2295db",
+  "rcc20_target": "aebc0f8cd0218d7469b23d2005b48bf848606982",
+  "rcc20_lakefile": "a288e49ead8dde07c0be914af3792f440807cee8",
+  "rcc20_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc22_independent_root": "d284962050c5fb6dc0df3fcaecc9114f8f19c268",
+  "rcc22_target": "82ca81d2cb6ab1d7f7260d7300189110d5d7aeca",
+  "rcc22_lakefile": "873fb2bab868c404a771171278eb0c00705fb10a",
+  "rcc22_toolchain": "8661b36144222636328ab4e664d06faa6a45127d",
+  "rcc23_independent_root": "e0f13a1083cf46afe305002ed4e5dcbad3c98307",
+  "rcc23_target": "bffec2102fb0df2aae876f948cd650be44c6220d",
+  "rcc23_lakefile": "f555af4b2d5e407fd92b86d3b3e9300fd90c61e6",
+  "rcc23_toolchain": "8661b36144222636328ab4e664d06faa6a45127d",
+  "rcc24_independent_root": "1bf4cc44e131fb6074dadbf26c429561607fc67a",
+  "rcc24_target": "4da1b759add0f06724b8169bf78584f5e462aab1",
+  "rcc24_lakefile": "3d28b8161231c287f0d4f3fedd1197bce4a79fe3",
+  "rcc24_toolchain": "14791d727f9a9455fb1e828c6ce6c07fae007990",
+  "rcc95_target_v2": "738b949e95b99bfe95663d5247732ae1b5816cbb",
+  "rcc95_lakefile_v2": "f44a7c00011680bc99635a1b6558ab5815f8d10b",
+  "rcc95_toolchain_v2": "1e70935f6929925474350e9c03824a9124ef1543"
+ },
+ "closure_claim": 0,
+ "discharged_targets": [
+  {
+   "declarations": [
+    "Residua.RCC.normalize",
+    "Residua.RCC.Tests.countdown_normalize_succ",
+    "Residua.RCC.Tests.countdown_normalizes_to_zero"
+   ],
+   "id": "E6",
+   "proof_kind": "well_founded_definition_plus_nontrivial_witness",
+   "scope": "For every RCC Exec value, only Advanced recurses and carries a strict Nat-measure decrease; the countdown witness performs three real steps."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.normalize_state_of_closed",
+    "Residua.RCC.normalize_tag_of_closed",
+    "Residua.RCC.core_sound",
+    "Residua.RCC.core_complete",
+    "Residua.RCC.core_exact_iff"
+   ],
+   "id": "E7",
+   "proof_kind": "parametric_theorem",
+   "scope": "For the abstract Exec.closed predicate, Closed is sound for the partial dynamics and already-closed states normalize idempotently."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.relOfExec",
+    "Residua.RCC.advanced_refines_rel",
+    "Residua.RCC.exec_closed_refines_rel",
+    "Residua.RCC.Tests.countdown_exec_refines_rel"
+   ],
+   "id": "E8",
+   "proof_kind": "parametric_refinement_theorem_plus_witness",
+   "scope": "Every executable Advanced branch and executable Closed proof inhabits the induced RCCRel semantics."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC2Target.certificate",
+    "Residua.RCC.RCC2Target.Tests.accepted_certificate_projects_claim",
+    "Residua.RCC.RCC2Target.Tests.bad_candidate_family_is_non_degenerate",
+    "Residua.RCC.RCC2Target.Tests.every_bad_candidate_is_rejected_by_real_verifier",
+    "Residua.RCC.RCC2Target.Tests.every_candidate_is_accepted_by_mutant",
+    "Residua.RCC.RCC2Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "RCC2",
+   "proof_kind": "adversarial_certificate_real_rejects_mutant_accepts",
+   "scope": "The bad-candidate family is proven NON-EMPTY, the real verifier REJECTS every member of it, and the weakened mutant ACCEPTS every member. Rejection and non-vacuity are both theorems, so the verifier-soundness claim cannot be satisfied by a verifier that refuses nothing \u2014 the \u00a715 mutant discipline stated in Lean rather than asserted in prose. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc2 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.C3Target.certificate",
+    "Residua.RCC.C3Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.C3Target.Tests.target_certificate_reexports"
+   ],
+   "id": "C3",
+   "proof_kind": "global_intent_coverage_certificate",
+   "scope": "Global intent coverage for C3, with the certificate re-exported through an independent root. Every audited declaration reports NO axiom dependency at all \u2014 not even propext. Re-elaborated by the independent carrier conformance/rcc/nanoda/c3 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC52Target.certificate",
+    "Residua.RCC.RCC52Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC52Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC52",
+   "proof_kind": "exact_certificate_fields_plus_epoch_refusals",
+   "scope": "After #2376 removed `abbrev ClaimOf (_proof : claim) := claim` \u2014 a tautology wrapper provable exactly when the hypothesis was already granted \u2014 the target binds exact certificate fields. 8 discriminating sites include runtimeReuseRefused, crossEpochRefused and retiredEpochRefused. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc52 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC55Target.certificate",
+    "Residua.RCC.RCC55Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC55Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC55",
+   "proof_kind": "exact_certificate_fields_plus_interval_refusals",
+   "scope": "Same ClaimOf removal as RCC52. 11 discriminating sites include intervalOmissionRefused, noErasureRefused and slowCheckpointRefused, so an omitted interval or an absent erasure is refused rather than admitted by default. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc55 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC59Target.certificate",
+    "Residua.RCC.RCC59Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC59Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC59",
+   "proof_kind": "universal_unknown_registry_refusal",
+   "scope": "Unknown-registry refusal, carried by unknownRefusedClaim rather than by the removed ClaimOf wrapper. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc59 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC0Target.certificate",
+    "Residua.RCC.RCC0Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC0Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC0",
+   "proof_kind": "quotient_factorization_plus_registry_refusal",
+   "scope": "nonfactorableConsumerRefused states \u00ac ConsumerFactorsThroughQuotient for a consumer that does NOT factor, and omittedUseRefused evaluates assessAddressUseRegistry on a registry with a MISSING occurrence and requires the verdict `refuse`. Both refusals are stated about the defective input, not about the good one paired with bad evidence. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc0 (own lakefile, srcDir ../../../../lean); lake build completes, and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC19Target.certificate",
+    "Residua.RCC.RCC19Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC19Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC19",
+   "proof_kind": "universally_quantified_intent_load_bearing",
+   "scope": "Every field is \u2200 (intent : IntentProfile) \u2014 mandatoryNonempty, mandatoryLoadBearing, criticalLoadBearing and a combined headline. Quantified over ALL intent profiles rather than a demo instance, so there is no stand-in for the quantifier to range over. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc19 (own lakefile, srcDir ../../../../lean); lake build completes, and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC25Target.certificate",
+    "Residua.RCC.RCC25Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC25Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC25",
+   "proof_kind": "universally_quantified_branch_carry_plus_exclusion",
+   "scope": "advancedCarries / reepochCarries / haltCarries are \u2200 (K : BranchSystem) over states and transitions; awaitExcludesAdvance and reepochExcludesHigherPriority are \u2200 K with `\u00ac Nonempty \u2026`. Positive carry and negative exclusion are both universally quantified over the system, not exhibited on one instance. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc25 (own lakefile, srcDir ../../../../lean); lake build completes, and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC33Target.certificate",
+    "Residua.RCC.RCC33Target.Tests.positive_minimum_cut_certificate",
+    "Residua.RCC.RCC33Target.Tests.empty_support_is_refused",
+    "Residua.RCC.RCC33Target.Tests.optional_support_is_refused",
+    "Residua.RCC.RCC33Target.Tests.threshold_above_minimum_is_refused"
+   ],
+   "id": "RCC33",
+   "proof_kind": "minimum_cut_certificate_with_three_named_refusals",
+   "scope": "The audited declarations name the refusals directly: empty_support_is_refused, optional_support_is_refused, threshold_above_minimum_is_refused \u2014 each \u00ac AdmittedSupportBundle / \u00ac IndependentAtLeast over the DEFECTIVE bundle. Unusually, the independent root audits the refusal theorems themselves, not only the certificate. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc33 (own lakefile, srcDir ../../../../lean); lake build completes, and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC34Target.certificate",
+    "Residua.RCC.RCC34Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC34Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC34",
+   "proof_kind": "closed_world_coverage_refuses_incomplete_topology",
+   "scope": "incompleteTopologyRejected is \u00ac ClosedWorldCoverage hiddenSystem incompleteTopology \u2014 quantified over a DIFFERENT, incomplete topology rather than the good one, and incompleteTopologyCannotProveEffectiveAuthority follows from it. omittedSharedHostDependencyRejected negates a \u2200-iff over the omitted-dependency signer set. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc34 (own lakefile, srcDir ../../../../lean); lake build completes, and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC35Target.certificate",
+    "Residua.RCC.RCC35Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC35Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC35",
+   "proof_kind": "policy_nondegeneracy_plus_no_transport",
+   "scope": "emptyPolicyRejected is \u00ac \u2203 policy, policy.required = allZeroProfile \u2014 an all-zero policy cannot exist, so the contract cannot be satisfied vacuously. relaxedPolicyDoesNotTransport blocks a relaxed certificate from carrying into the full context, which is the receipt-transport failure ExactCutReceiptNonTransport names. Re-elaborated by the independent carrier conformance/rcc/nanoda/rcc35 (own lakefile, srcDir ../../../../lean); lake build completes, and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC36Target.certificate",
+    "Residua.RCC.RCC36Target.Tests.aliases_collapse_without_erasing_raw_multiplicity",
+    "Residua.RCC.RCC36Target.Tests.sealed_universe_rejects_ghosts_and_omissions",
+    "Residua.RCC.RCC36Target.Tests.stale_context_and_conflicting_identity_refuse",
+    "Residua.RCC.RCC36Target.Tests.canonical_fold_is_order_and_alias_stable"
+   ],
+   "id": "RCC36",
+   "proof_kind": "sealed_universe_refuses_ghosts_and_omissions",
+   "scope": "The audited declarations ARE the refusals: sealed_universe_rejects_ghosts_and_omissions and stale_context_and_conflicting_identity_refuse. ghostContributionRefused and omittedClaimRefused are \u2200-quantified over contributions/claims; canonical_fold_is_order_and_alias_stable pins the positive side. Re-elaborated by conformance/rcc/nanoda/rcc36 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC37Target.certificate",
+    "Residua.RCC.RCC37Target.Tests.topology_delta_is_exact_and_fenced",
+    "Residua.RCC.RCC37Target.Tests.invalidation_rejects_bad_transitions",
+    "Residua.RCC.RCC37Target.Tests.evidence_is_anchor_and_receipt_bound",
+    "Residua.RCC.RCC37Target.Tests.transport_and_successor_state_are_explicit",
+    "Residua.RCC.RCC37Target.Tests.no_stale_authority_or_kind_aliasing",
+    "Residua.RCC.RCC37Target.Tests.affected_old_universe_is_not_usable"
+   ],
+   "id": "RCC37",
+   "proof_kind": "delta_exactness_plus_stale_authority_refusal",
+   "scope": "invalidation_rejects_bad_transitions, no_stale_authority_or_kind_aliasing and affected_old_universe_is_not_usable are audited directly. staleParentRejected reads `\u2200 _delta : TopologyDelta \u2026 staleParentSnapshot, False` \u2014 the stale-parent delta TYPE is proven uninhabited, not merely unaccepted. Re-elaborated by conformance/rcc/nanoda/rcc37 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC38Target.certificate",
+    "Residua.RCC.RCC38Target.Tests.lawful_carry_can_still_starve",
+    "Residua.RCC.RCC38Target.Tests.age_reset_is_not_lawful_migration",
+    "Residua.RCC.RCC38Target.Tests.weak_fairness_is_explicit_liveness_input",
+    "Residua.RCC.RCC38Target.Tests.lawful_ready_carry_advances_age",
+    "Residua.RCC.RCC38Target.Tests.overtaking_does_not_count_as_fairness"
+   ],
+   "id": "RCC38",
+   "proof_kind": "liveness_is_an_explicit_input_not_a_consequence",
+   "scope": "lawful_carry_can_still_starve proves lawful carry does NOT imply liveness; weak_fairness_is_explicit_liveness_input names what must be assumed instead; age_reset_is_not_lawful_migration and overtaking_does_not_count_as_fairness refuse the two cheap ways to fake it. \u00ac WeakFairness starvationRun is the countermodel. Re-elaborated by conformance/rcc/nanoda/rcc38 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC41Target.certificate",
+    "Residua.RCC.RCC41Target.Tests.certificate_carries_exact_vote_signature_binding",
+    "Residua.RCC.RCC41Target.Tests.verdict_mutant_is_rejected_without_invalidating_goal",
+    "Residua.RCC.RCC41Target.Tests.crash_and_rotation_are_distinct_nonfaulty_failures",
+    "Residua.RCC.RCC41Target.Tests.lawful_higher_round_unlock_is_not_equivocation"
+   ],
+   "id": "RCC41",
+   "proof_kind": "exact_signature_binding_refuses_the_verdict_mutant",
+   "scope": "verdict_mutant_is_rejected_without_invalidating_goal is audited directly \u2014 the mutant envelope is refused WITHOUT the goal becoming unprovable, which is the \u00a715 discipline as a theorem. verdictMutantRefused is \u00ac SignatureBinding \u2026 verdictMutantEnvelope; crashLostLockRefused separates crash from rotation as distinct non-faulty failures. Re-elaborated by conformance/rcc/nanoda/rcc41 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC42Target.certificate",
+    "Residua.RCC.RCC42Target.Tests.target_has_global_interface_witness",
+    "Residua.RCC.RCC42Target.Tests.target_preserves_same_slot_single_valuedness",
+    "Residua.RCC.RCC42Target.Tests.target_rejects_conflicting_local_successes",
+    "Residua.RCC.RCC42Target.Tests.target_certificate_is_nonempty"
+   ],
+   "id": "RCC42",
+   "proof_kind": "single_valuedness_refuses_conflicting_local_successes",
+   "scope": "target_rejects_conflicting_local_successes is audited directly; localConflictRejected is \u2200-quantified over the linearizer rather than exhibited on one instance. Re-elaborated by conformance/rcc/nanoda/rcc42 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC43Target.certificate",
+    "Residua.RCC.RCC43Target.Tests.target_has_complete_settled_admission",
+    "Residua.RCC.RCC43Target.Tests.target_preserves_same_slot_uniqueness",
+    "Residua.RCC.RCC43Target.Tests.target_refuses_incomplete_effect_and_history",
+    "Residua.RCC.RCC43Target.Tests.target_certificate_is_nonempty"
+   ],
+   "id": "RCC43",
+   "proof_kind": "settled_admission_refuses_incomplete_effect_and_history",
+   "scope": "target_refuses_incomplete_effect_and_history is audited directly. authorizedOnlyRefused is \u00ac Nonempty (SettledAdmission authorizedOnlyEnvironment \u2026) \u2014 an environment carrying ONLY authorization cannot inhabit settled admission, so authorization alone provably does not settle. Re-elaborated by conformance/rcc/nanoda/rcc43 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC44Target.certificate",
+    "Residua.RCC.RCC44Target.Tests.target_has_joint_and_finalized_authority",
+    "Residua.RCC.RCC44Target.Tests.target_coordinate_binding_is_unique",
+    "Residua.RCC.RCC44Target.Tests.target_disjoint_local_finalizations_are_refused",
+    "Residua.RCC.RCC44Target.Tests.target_certificate_is_nonempty"
+   ],
+   "id": "RCC44",
+   "proof_kind": "joint_authority_refuses_one_concrete_disjoint_fixture",
+   "scope": "target_disjoint_local_finalizations_are_refused is audited directly, but disjointRefused evaluates assessDisjointFinalization on ONE FIXED fixture (disjointAttempt) \u2014 it is a concrete counterexample, NOT a universal claim over candidate transitions. Only coordinateUnique carries the \u2200 candidate shape. Corrected after codex pointed out the earlier scope overstated it. Re-elaborated by conformance/rcc/nanoda/rcc44; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC45Target.certificate",
+    "Residua.RCC.RCC45Target.Tests.target_accepts_complete_finalized_window",
+    "Residua.RCC.RCC45Target.Tests.target_local_fork_awaits",
+    "Residua.RCC.RCC45Target.Tests.target_omitted_partition_awaits",
+    "Residua.RCC.RCC45Target.Tests.target_awaits_pending_transition",
+    "Residua.RCC.RCC45Target.Tests.target_certificate_is_nonempty"
+   ],
+   "id": "RCC45",
+   "proof_kind": "finalized_window_awaits_on_missing_evidence",
+   "scope": "Three AWAIT theorems are audited. The awaiting is driven by MISSING EVIDENCE, not by the defect the name suggests: localForkAwaits evaluates `assessFull currentSnapshot none none none` \u2014 three `none`s \u2014 while localA.localGreen, localB.localGreen and localA.localHead \u2260 localB.localHead are unrelated conjuncts. A FULLY EVIDENCED local fork would still satisfy this declaration. Corrected after codex; the earlier scope described all three as defect refusals, which overstates them. Closing this needs a full-evidence local-fork mutant that is refused. Re-elaborated by conformance/rcc/nanoda/rcc45; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC46Target.certificate",
+    "Residua.RCC.RCC46Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC46Target.Tests.target_complete_packet_reaches_success",
+    "Residua.RCC.RCC46Target.Tests.target_missing_quorum_awaits",
+    "Residua.RCC.RCC46Target.Tests.target_local_commit_cannot_bypass_missing_quorum",
+    "Residua.RCC.RCC46Target.Tests.target_all_true_environment_cannot_fabricate_progress"
+   ],
+   "id": "RCC46",
+   "proof_kind": "all_true_environment_cannot_fabricate_progress",
+   "scope": "target_all_true_environment_cannot_fabricate_progress is audited directly, and it is exactly the theorem RCC39 lacked: an environment where every predicate answers true still cannot manufacture the conclusion. With target_missing_quorum_awaits and target_local_commit_cannot_bypass_missing_quorum, a missing quorum awaits and a local commit cannot route around it. Re-elaborated by conformance/rcc/nanoda/rcc46 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC47Target.certificate",
+    "Residua.RCC.RCC47Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC47Target.Tests.target_proposal_binds_pre_state_root",
+    "Residua.RCC.RCC47Target.Tests.target_cas_and_append_share_basis",
+    "Residua.RCC.RCC47Target.Tests.target_stale_host_refused"
+   ],
+   "id": "RCC47",
+   "proof_kind": "stale_host_refused_with_shared_basis",
+   "scope": "target_stale_host_refused is audited directly, alongside target_proposal_binds_pre_state_root and target_cas_and_append_share_basis \u2014 the CAS and append paths are proven to share one basis rather than each carrying its own. Re-elaborated by conformance/rcc/nanoda/rcc47 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC48Target.certificate",
+    "Residua.RCC.RCC48Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC48Target.Tests.target_covers_all_semantic_coordinates",
+    "Residua.RCC.RCC48Target.Tests.target_missing_read_refused",
+    "Residua.RCC.RCC48Target.Tests.target_missing_write_refused",
+    "Residua.RCC.RCC48Target.Tests.target_missing_effect_refused",
+    "Residua.RCC.RCC48Target.Tests.target_missing_invariant_refused"
+   ],
+   "id": "RCC48",
+   "proof_kind": "three_missing_coordinate_refusals_over_full_coverage",
+   "scope": "target_missing_read_refused, target_missing_write_refused and target_missing_effect_refused are all audited directly, against target_covers_all_semantic_coordinates. Each of the three coordinate kinds has its own refusal; none is covered by the others. Re-elaborated by conformance/rcc/nanoda/rcc48 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC49Target.certificate",
+    "Residua.RCC.RCC49Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC49Target.Tests.target_local_order_not_global",
+    "Residua.RCC.RCC49Target.Tests.target_global_schedule_compares_cross_partition",
+    "Residua.RCC.RCC49Target.Tests.target_value_and_occurrence_separate",
+    "Residua.RCC.RCC49Target.Tests.target_value_dedup_refused"
+   ],
+   "id": "RCC49",
+   "proof_kind": "local_order_is_not_global_plus_dedup_refusal",
+   "scope": "target_local_order_not_global is the load-bearing negative: a local order does NOT constitute a global one. target_value_and_occurrence_separate and target_value_dedup_refused keep value identity from collapsing occurrence identity \u2014 the under-quotient this target exists to refuse. Re-elaborated by conformance/rcc/nanoda/rcc49 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC50Target.certificate",
+    "Residua.RCC.RCC50Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC50Target.Tests.target_checker_admits_actual_join",
+    "Residua.RCC.RCC50Target.Tests.target_one_sided_refused",
+    "Residua.RCC.RCC50Target.Tests.target_reused_occurrence_refused",
+    "Residua.RCC.RCC50Target.Tests.target_noncommuting_refused"
+   ],
+   "id": "RCC50",
+   "proof_kind": "join_admission_with_three_named_refusals",
+   "scope": "target_one_sided_refused, target_reused_occurrence_refused and target_noncommuting_refused are audited directly against target_checker_admits_actual_join. One-sided, replayed and non-commuting joins each fail separately. Re-elaborated by conformance/rcc/nanoda/rcc50 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC51Target.certificate",
+    "Residua.RCC.RCC51Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC51Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC51",
+   "proof_kind": "global_intent_with_four_structural_refusals",
+   "scope": "localCutRefused is \u00ac Nonempty (FinalizedCutBinding \u2026 localSerial \u2026) \u2014 a LOCAL cut provably cannot inhabit a finalized binding. mandatoryCoordinateRefused, omittedFootprintRefused and callerClaimRefused cover the other three ways to fake it. AUDIT SURFACE IS THIN: the independent root audits certificate/nonempty/reexports only, so the refusals are verified structurally rather than by their own #print axioms. Re-elaborated by conformance/rcc/nanoda/rcc51 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC56Target.certificate",
+    "Residua.RCC.RCC56Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC56Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC56",
+   "proof_kind": "serializability_refuses_local_partition_and_unserializable",
+   "scope": "localRefused, partitionOrderRefused and unserializableRefused sit against a reachable invariant and head-serialization. AUDIT SURFACE IS THIN (certificate/nonempty/reexports only); the refusals are structural. Re-elaborated by conformance/rcc/nanoda/rcc56 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC57Target.certificate",
+    "Residua.RCC.RCC57Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC57Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC57",
+   "proof_kind": "five_named_defect_classes_each_refused_by_name",
+   "scope": "omittedField evaluates assessAddressUseRegistry on a registry with a MISSING occurrence and requires `refuse (.unregistered occurrenceCoordinate)` \u2014 the refusal carries its reason, not just a boolean. kindMismatch, nakedDigest, domainMismatch and schemaMismatch are four further defect classes. AUDIT SURFACE IS THIN (certificate/nonempty/reexports only). Re-elaborated by conformance/rcc/nanoda/rcc57 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC58Target.Tests.target_registry_is_derived_complete",
+    "Residua.RCC.RCC58Target.Tests.target_declared_value_use_is_justified",
+    "Residua.RCC.RCC58Target.Tests.target_registry_projection_is_not_empty"
+   ],
+   "id": "RCC58",
+   "proof_kind": "registry_derivation_completeness_without_a_certificate_wrapper",
+   "scope": "This target has no certificate field audited at all; the independent root audits target_registry_is_derived_complete, target_declared_value_use_is_justified and target_registry_projection_is_not_empty. The last is the anti-vacuity anchor \u2014 the projection is proven NON-EMPTY, so completeness is not satisfied by an empty registry. Re-elaborated by conformance/rcc/nanoda/rcc58 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC60Target.certificate",
+    "Residua.RCC.RCC60Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC60Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC60",
+   "proof_kind": "corrupt_slot_and_collision_refused_with_store_preservation",
+   "scope": "corruptSlotRefused evaluates putAddressed on a CORRUPT occupied slot; collisionRefused on a colliding one. corruptSlotPreserved and collisionPreservesStore prove the store is unchanged by a refusal \u2014 refusal does not mutate. AUDIT SURFACE IS THIN (certificate/nonempty/reexports only). Re-elaborated by conformance/rcc/nanoda/rcc60 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC61Target.certificate",
+    "Residua.RCC.RCC61Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC61Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC61",
+   "proof_kind": "codec_injectivity_plus_term_distinctness",
+   "scope": "codecInjective and canonicalDecode give the round-trip; distinctTerms : \u00ac DefEq oneTerm twoTerm is the non-degeneracy anchor \u2014 two terms are proven NOT definitionally equal, so injectivity is not satisfied by a one-element domain. AUDIT SURFACE IS THIN (certificate/nonempty/reexports only). Re-elaborated by conformance/rcc/nanoda/rcc61 (own lakefile, srcDir ../../../../lean); lake build completes and #print axioms over every audited declaration reports only Lean's standard axioms \u2014 no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC62Target.certificate",
+    "Residua.RCC.RCC62Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC62Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC62",
+   "proof_kind": "invalidation_refuses_stale_green",
+   "scope": "\u2200 node judgment and \u2200 (edit : DemoEdit) (judgment : DemoJudgment) carry the positive side; \u00ac DirectInvalidated .sourceEdit .staleGreen refuses the stale-green edge, and the invalidated snapshot's state is proven \u2260 the stale one. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc62 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC63Target.certificate",
+    "Residua.RCC.RCC63Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC63Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC63",
+   "proof_kind": "facet_coherence_refuses_unbound_composition",
+   "scope": "\u2200 component and \u2200 seam quantify over the whole facet/seam domain; \u00ac BoundIntegratedCompositionEvidence refuses composition evidence that is not bound. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc63 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC64Target.certificate",
+    "Residua.RCC.RCC64Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC64Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC64",
+   "proof_kind": "verifier_distinguishes_two_candidates",
+   "scope": "The non-degeneracy is direct: [Candidate.first].map verify \u2260 [Candidate.second].map verify \u2014 the verifier gives DIFFERENT answers on two candidates, so it is not the constant-accept function. A hiddenSeedVerify false variant repeats it under a hidden seed. The surrounding claim is \u2200 over Epoch/HistoryHead/AssumptionRoot/AddressRegistry/SourceWindow/FailureModel. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc64 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC65Target.certificate",
+    "Residua.RCC.RCC65Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC65Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC65",
+   "proof_kind": "five_named_ways_a_fake_proof_is_refused",
+   "scope": "The strongest structure in this batch: analogy_as_proof_is_refused, missing_bridge_is_refused, unmet_borrowed_assumptions_are_refused, newman_without_local_confluence_is_refused, coalgebra_finality_cannot_prove_normal_form. Five distinct ways of passing off a non-proof as a proof, each refused by its own theorem, alongside the three transfer grades. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc65 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC66Target.certificate",
+    "Residua.RCC.RCC66Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC66Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC66",
+   "proof_kind": "revoked_clock_refuses_replacement_judgment",
+   "scope": "\u00ac demoSystem.replacementJudgmentFor evidenceTarget .hashSoundV2 refuses the replacement judgment; the revoked clock's state is proven \u2260 both the expiry and the unrelated coordinate, so revocation is not confused with either. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc66 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC67Target.certificate",
+    "Residua.RCC.RCC67Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC67Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC67",
+   "proof_kind": "anchor_class_admission_is_total_over_anchors",
+   "scope": "oldAnchorAdmitted and successorAnchorAdmitted are `demoAnchorClass \u2026 \u2260 none` \u2014 admission is defined, not vacuous \u2014 and a \u2200 (anchor : \u2026) field carries the general case. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc67 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC68Target.certificate",
+    "Residua.RCC.RCC68Target.candidate_is_nonempty"
+   ],
+   "id": "RCC68",
+   "proof_kind": "three_binding_refusals_over_distinct_defect_kernels",
+   "scope": "Three separate \u00ac AssumptionRelativeCertificateBindingAt, over a STALE-accepted carrier, an INACTIVE kernel, and an INACTIVE-DEPENDENCY kernel. Three defect kinds, three refusals; none subsumes the others. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc68 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC69Target.certificate",
+    "Residua.RCC.RCC69Target.candidate_is_nonempty"
+   ],
+   "id": "RCC69",
+   "proof_kind": "empty_mandatory_system_cannot_project",
+   "scope": "\u00ac Nonempty (MandatorySupportProjectionAt emptyMandatorySystem \u2026) \u2014 an EMPTY mandatory system provably has no support projection, so completeness cannot be satisfied by emptiness. A `\u00ac \u2200 carrier node certificate` field negates a universal outright, and \u2200 (witness : RootWitnessAt \u2026) carries the positive. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc69 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC70Target.certificate",
+    "Residua.RCC.RCC70Target.candidate_is_nonempty"
+   ],
+   "id": "RCC70",
+   "proof_kind": "closure_context_universal_with_missing_residue_refusal",
+   "scope": "Every field is \u2200 {C : ClosureContext Phase}, including missingResidueRefused and nonadmittedResidue \u2014 the refusal is universally quantified over closure contexts, not exhibited on one. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc70 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC71Target.certificate",
+    "Residua.RCC.RCC71Target.candidate_is_nonempty"
+   ],
+   "id": "RCC71",
+   "proof_kind": "closure_context_universal",
+   "scope": "All fields are \u2200 {C : ClosureContext Phase} \u2014 quantified over the context rather than instantiated. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc71 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC72Target.certificate",
+    "Residua.RCC.RCC72Target.candidate_is_nonempty"
+   ],
+   "id": "RCC72",
+   "proof_kind": "branch_kernel_universal",
+   "scope": "All fields are \u2200 {C : ClosureContext Phase} {K : RC1BranchKernel phaseWakeSystem C} \u2014 quantified over both the closure context and the branch kernel. AUDIT SURFACE IS THIN \u2014 the independent root runs #print axioms over the certificate/candidate and its nonempty witness only; the discriminating fields below are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc72 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC73Target.certificate",
+    "Residua.RCC.RCC73Target.candidate_is_nonempty"
+   ],
+   "id": "RCC73",
+   "proof_kind": "six_named_refusals",
+   "scope": "Six refusal-bound fields in the Certificate structure. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc73 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC74Target.certificate",
+    "Residua.RCC.RCC74Target.candidate_is_nonempty"
+   ],
+   "id": "RCC74",
+   "proof_kind": "integration_blocked_by_missing_closure_and_empty_enumeration",
+   "scope": "missing_component_closure_blocks_integration and empty_enumeration_blocks_integrated_family are the load-bearing negatives: an EMPTY enumeration cannot yield an integrated family, so integration is not satisfiable by having nothing to integrate. Twelve refusal-bound fields in total. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc74 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC75Target.certificate",
+    "Residua.RCC.RCC75Target.candidate_is_nonempty"
+   ],
+   "id": "RCC75",
+   "proof_kind": "twenty_four_refusals_over_five_universals",
+   "scope": "The widest refusal surface in the registry: 24 refusal-bound fields alongside 5 \u2200-quantified fields. conflicting_log_is_not_consistent and conflicting_judgment_is_refused are the anchors \u2014 a conflicting log provably is not consistent, rather than merely not admitted. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc75 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC76Target.certificate",
+    "Residua.RCC.RCC76Target.candidate_is_nonempty"
+   ],
+   "id": "RCC76",
+   "proof_kind": "five_fake_proof_refusals_shared_with_RCC65",
+   "scope": "Carries the same family as RCC65 \u2014 analogy_as_proof_is_refused, missing_bridge_is_refused and their siblings \u2014 across 13 refusal-bound fields. Each names one way of passing a non-proof off as a proof. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc76 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC77Target.certificate",
+    "Residua.RCC.RCC77Target.candidate_is_nonempty"
+   ],
+   "id": "RCC77",
+   "proof_kind": "wrong_intent_certificate_refused",
+   "scope": "wrong_intent_certificate_is_refused across 21 refusal-bound fields and one \u2200 \u2014 a certificate for the WRONG intent is refused, so intent binding is not decorative. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc77 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC78Target.certificate",
+    "Residua.RCC.RCC78Target.candidate_is_nonempty"
+   ],
+   "id": "RCC78",
+   "proof_kind": "verification_returns_refuse_and_effect_exception_refused",
+   "scope": "certificate_verification_returns_refuse makes the refusal an OUTPUT of verification rather than an absence of acceptance; effect_append_exception_is_refused closes the append-exception path. 14 refusal-bound fields over 5 \u2200. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc78 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC79Target.certificate",
+    "Residua.RCC.RCC79Target.candidate_is_nonempty"
+   ],
+   "id": "RCC79",
+   "proof_kind": "one_good_instance_does_not_hide_a_bad_second",
+   "scope": "one_good_hides_bad_second is the anti-vacuity theorem this whole registry is about: a single good instance must NOT mask a bad second one. actual_not_runtime keeps the actual value from being read off the runtime. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc79 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC80Target.certificate",
+    "Residua.RCC.RCC80Target.candidate_is_nonempty"
+   ],
+   "id": "RCC80",
+   "proof_kind": "cross_context_receipt_reuse_refused",
+   "scope": "cross_context_reuse_refused and cross_context_coverage_reuse_refused are receipt-transport refusals: a receipt earned in one context provably cannot be reused in another \u2014 the ExactCutReceiptNonTransport property, stated for this target. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc80 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC81Target.certificate",
+    "Residua.RCC.RCC81Target.candidate_is_nonempty"
+   ],
+   "id": "RCC81",
+   "proof_kind": "unsealed_universe_has_no_authority",
+   "scope": "unsealed_universe_has_no_coverage_authority and unsealed_universe_cannot_certify_completeness: an UNSEALED universe can neither carry coverage authority nor certify completeness, so sealing is load-bearing rather than ceremonial. 15 refusal-bound fields. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc81 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC82Target.certificate",
+    "Residua.RCC.RCC82Target.candidate_is_nonempty"
+   ],
+   "id": "RCC82",
+   "proof_kind": "stale_observation_and_unsigned_capture_refused",
+   "scope": "stale_observation_is_refused and unsigned_capture_is_refused \u2014 staleness and missing signature are separate refusals, neither subsumed by the other. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc82 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC83Target.certificate",
+    "Residua.RCC.RCC83Target.candidate_is_nonempty"
+   ],
+   "id": "RCC83",
+   "proof_kind": "occurrence_identity_with_a_collapsing_mutant",
+   "scope": "constantDigestCollision := constant_digest_mutant_collapses_occurrences states \u00a715 in Lean: the constant-digest MUTANT provably collapses occurrences that the real digest separates. repeatDistinguished is \u00ac SameLogicalOccurrence firstOccurrence intentionalRepeat and generationDistinguished is encode \u2026 \u2260 encode \u2026, so injectivity is not satisfied on a one-element range. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc83 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC84Target.certificate",
+    "Residua.RCC.RCC84Target.candidate_is_nonempty"
+   ],
+   "id": "RCC84",
+   "proof_kind": "content_only_dedup_conflates_intentional_repeat",
+   "scope": "content_only_dedup_conflates_intentional_repeat is the negative result: content-only deduplication CONFLATES an intentional repeat with the original, which is why occurrence identity cannot be content identity. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate/candidate and its nonempty witness only; the discriminating fields are verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc84 (own lakefile, srcDir ../../../../lean); lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC85Target.certificate",
+    "Residua.RCC.RCC85Target.candidate_is_nonempty"
+   ],
+   "id": "RCC85",
+   "proof_kind": "reobservation_and_same_actor_refused",
+   "scope": "no_reobservation_refused and same_actor_refused: an observation cannot be re-counted, and the same actor cannot supply two independent confirmations. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc85; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC86Target.certificate",
+    "Residua.RCC.RCC86Target.candidate_is_nonempty"
+   ],
+   "id": "RCC86",
+   "proof_kind": "decreasing_jump_and_unconserved_reepoch_refused",
+   "scope": "arbitrary_decreasing_jump_without_event_refused and reepoch_without_conservation_refused, with a \u00ac Nonempty anchor \u2014 a re-epoch that conserves nothing cannot inhabit the admitted type. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc86; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC87Target.certificate",
+    "Residua.RCC.RCC87Target.candidate_is_nonempty"
+   ],
+   "id": "RCC87",
+   "proof_kind": "nonempty_negation_anchor",
+   "scope": "The discriminating content is a \u00ac Nonempty field: the defective configuration provably has no inhabitant. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc87; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC88Target.certificate",
+    "Residua.RCC.RCC88Target.candidate_is_nonempty"
+   ],
+   "id": "RCC88",
+   "proof_kind": "underquotient_universes_cannot_certify",
+   "scope": "underquotient_read_universe_cannot_certify and underquotient_write_universe_cannot_certify name the failure directly: a universe that UNDER-QUOTIENTS \u2014 collapsing distinctions its consumers rely on \u2014 cannot certify. That is R-22's under-quotient rule as a theorem. 32 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc88; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC89Target.certificate",
+    "Residua.RCC.RCC89Target.candidate_is_nonempty"
+   ],
+   "id": "RCC89",
+   "proof_kind": "missing_security_parameter_and_rewritten_adversary_refused",
+   "scope": "missing_security_parameter_is_refused and rewritten_adversary_class_is_refused: the adversary class cannot be REWRITTEN to make a claim pass, and a missing security parameter is refused rather than defaulted. 40 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc89; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC90Target.certificate",
+    "Residua.RCC.RCC90Target.candidate_is_nonempty"
+   ],
+   "id": "RCC90",
+   "proof_kind": "nonfinal_and_unserializable_local_cuts_refused",
+   "scope": "local_nonfinal_cut_is_refused and unserializable_local_cut_is_refused, anchored on \u00ac PairComparable \u2014 two cuts that are not comparable cannot be serialized. 18 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc90; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC91Target.certificate",
+    "Residua.RCC.RCC91Target.candidate_is_nonempty"
+   ],
+   "id": "RCC91",
+   "proof_kind": "local_orders_are_not_global_and_value_is_not_occurrence",
+   "scope": "locally_ordered_partitions_are_not_a_global_order and same_value_does_not_identify_occurrence \u2014 the second is an UNDER-QUOTIENT refusal: equal values do not make one occurrence. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc91; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC92Target.certificate",
+    "Residua.RCC.RCC92Target.candidate_is_nonempty"
+   ],
+   "id": "RCC92",
+   "proof_kind": "stale_parent_authorized_but_not_finalized",
+   "scope": "stale_parent_authorized_but_not_finalized separates authorization from finalization on a stale parent; qc_only_cannot_construct_effective_authority proves a quorum certificate ALONE cannot build effective authority. 18 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc92; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC93Target.certificate",
+    "Residua.RCC.RCC93Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC93Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC93",
+   "proof_kind": "address_only_delta_and_missing_trigger_rejected",
+   "scope": "address_only_delta_rejected and missing_trigger_rejected across 59 negative sites \u2014 an address-only delta carries no change, and a missing trigger is refused rather than inferred. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc93; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC94Target.certificate",
+    "Residua.RCC.RCC94Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC94Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC94",
+   "proof_kind": "lawful_conservation_does_not_imply_liveness",
+   "scope": "lawful_conservation_does_not_imply_liveness is the same separation RCC38 makes for carry: conservation is a safety property and does not deliver liveness. blocked_age_reset_is_not_lawful closes the cheap workaround. 45 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc94; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC96Target.certificate",
+    "Residua.RCC.RCC96Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC96Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC96",
+   "proof_kind": "ambiguous_and_unknown_windows_cannot_be_exhaustive",
+   "scope": "ambiguous_window_cannot_be_exhaustive and unknown_window_cannot_be_exhaustive: exhaustiveness cannot be claimed over a window that is ambiguous or unknown, so coverage is not satisfiable by not looking. 33 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc96; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC97Target.certificate",
+    "Residua.RCC.RCC97Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC97Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC97",
+   "proof_kind": "nonconstant_consumer_not_factorable",
+   "scope": "nonconstant_consumer_not_factorable: a consumer that is NOT constant provably does not factor through the quotient \u2014 the quotient is not fine enough for it, which is the under-quotient direction stated positively. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc97; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC98Target.certificate",
+    "Residua.RCC.RCC98Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC98Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC98",
+   "proof_kind": "malicious_resolution_is_not_semantically_sound",
+   "scope": "malicious_operational_resolution_is_not_semantic_sound separates operational success from semantic soundness \u2014 a resolution can operate and still be unsound. resolve_decode_refusal_is_explicit makes the decode refusal an explicit output. 20 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc98; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC99Target.certificate",
+    "Residua.RCC.RCC99Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC99Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC99",
+   "proof_kind": "single_negation_anchor",
+   "scope": "One negative site carries the discriminating content; the remainder of the certificate is positive structure. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc99; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC100Target.certificate",
+    "Residua.RCC.RCC100Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC100Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC100",
+   "proof_kind": "nonsemantic_field_does_not_factor",
+   "scope": "_nonsemantic_field_does_not_factor: a field carrying no semantics cannot factor through, so the quotient cannot be widened by adding meaningless fields. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc100; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC101Target.certificate",
+    "Residua.RCC.RCC101Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC101Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC101",
+   "proof_kind": "omitted_two_class_q_field_refused",
+   "scope": "omitted_two_class_q_field_is_refused with an explicit `refuse` verdict \u2014 omitting a class field is refused rather than defaulted. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc101; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC102Target.certificate",
+    "Residua.RCC.RCC102Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC102Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC102",
+   "proof_kind": "ghost_archive_cannot_gate_and_evidence_cannot_realize_false_seam",
+   "scope": "ghost_archive_cannot_gate_global_closure and integrated_evidence_cannot_realize_false_seam_predicate: a ghost archive cannot gate closure, and integrated evidence cannot make a FALSE seam predicate true. listed_family_with_omitted_typed_inhabitants_rejected_by_fc closes the omission path. 29 negative sites. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc102; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC103Target.certificate",
+    "Residua.RCC.RCC103Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC103Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC103",
+   "proof_kind": "validator_refuses_dangling_and_undecodable",
+   "scope": "71 negative sites \u2014 the widest in this batch. validator_refuses_dangling_child, validator_maps_decode_refused and validator_maps_not_found: dangling children, undecodable maps and missing maps are three separate refusals. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc103; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC104Target.certificate",
+    "Residua.RCC.RCC104Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC104Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC104",
+   "proof_kind": "ambiguous_label_refusal_and_never_duplicate_contract",
+   "scope": "ambiguous_canonical_label_refusal refuses an ambiguous canonical label; never_duplicate_refusal_contract makes non-duplication a contract rather than an observation. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc104; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC105Target.certificate",
+    "Residua.RCC.RCC105Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC105Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC105",
+   "proof_kind": "collapsed_normal_form_mutant_exposed",
+   "scope": "collapsed_normal_form_equality_mutant_exposed and raw_bool_unsupported_not_equal_collapse_exposed: the mutant that COLLAPSES normal-form equality is proven to be exposed by the check \u2014 \u00a715 stated in Lean rather than asserted. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc105; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC106Target.certificate",
+    "Residua.RCC.RCC106Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC106Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC106",
+   "proof_kind": "three_mutants_each_proven_exposed",
+   "scope": "Three separate mutant-exposure theorems: context_omission_mutant_exposed, cross_domain_omission_mutant_exposed, naked_digest_mutant_exposed. Each weakening is proven DETECTED, so the check has teeth against three distinct omissions \u2014 the R-13 discipline as three theorems. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc106; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC107Target.certificate",
+    "Residua.RCC.RCC107Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC107Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC107",
+   "proof_kind": "constant_digest_collapses_and_terms_are_not_defeq",
+   "scope": "constant_digest_collapses_distinct_terms proves the constant-digest mutant merges terms the real digest separates; distinct_terms_are_not_defeq supplies the two terms it must separate, so the claim is not vacuous on a one-element domain. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. Re-elaborated by conformance/rcc/nanoda/rcc107; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.C1Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "C1",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "7 negative/discriminating sites in lean/algorithms/ResiduaRCCC1Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include falsePredicateRejected, stepOnlyRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/c1; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.C2Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "C2",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "16 negative/discriminating sites in lean/algorithms/ResiduaRCCC2Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include assumptionRootMismatchRejected, collapsedQuotientRejected, dualEffectOwnerRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/c2; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.C4Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "C4",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "8 negative/discriminating sites in lean/algorithms/ResiduaRCCC4Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include mismatchedSnapshotRejected, omittedComponentRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/c4; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.E1Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "E1",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "2 negative/discriminating sites in lean/algorithms/ResiduaRCCE1Target.lean (\u00ac / refuse / reject / cannot / \u2260). AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/e1; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.E2Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "E2",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "3 negative/discriminating sites in lean/algorithms/ResiduaRCCE2Target.lean (\u00ac / refuse / reject / cannot / \u2260). AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/e2; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.E3Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "E3",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "13 negative/discriminating sites in lean/algorithms/ResiduaRCCE3Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include omittedPacketRejected, runtimeMismatchRejected, underdeclaredUniverseRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/e3; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.E4Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "E4",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "6 negative/discriminating sites in lean/algorithms/ResiduaRCCE4Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include detachedPoolRejected, hiddenSeedRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/e4; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.E5Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "E5",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "2 negative/discriminating sites in lean/algorithms/ResiduaRCCE5Target.lean (\u00ac / refuse / reject / cannot / \u2260). AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/e5; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.R1Target.certificate",
+    "Residua.RCC.R1Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.R1Target.Tests.target_certificate_reexports",
+    "Residua.RCC.RegistrationSites.R1.demoContext",
+    "Residua.RCC.RegistrationSites.R1.advance_resolves_at_concrete_context",
+    "Residua.RCC.RegistrationSites.R1.nonadmitted_refuses_at_concrete_context",
+    "Residua.RCC.RegistrationSites.R1.empty_event_refuses_at_concrete_context",
+    "Residua.RCC.RegistrationSites.R1.demo_packet_is_admitted",
+    "Residua.RCC.RegistrationSites.R1.work_preserves_goal_presence",
+    "Residua.RCC.RegistrationSites.R1.work_preserves_goal_status",
+    "Residua.RCC.RegistrationSites.R1.acted_target_stays_open_and_disposed"
+   ],
+   "id": "R1",
+   "proof_kind": "carrier_built_certificate_with_concrete_context_fixture",
+   "scope": "Concrete ClosureContext inhabitant now exists: Residua.RCC.RegistrationSites.R1.demoContext : ClosureContext FacetCoherence.Tests.Carrier (first such inhabitant in the tree; ~78 dependent fields filled \u2014 FC-1 sealed snapshot/carrier projected from the state, FC-2 adapter/certificate reused per state, intent/support/replay/primitive/reepoch/effect/failure/closure systems all inhabited; live-goal exactness holds by construction, not vacuously). The three context-parametric certificate fields are exercised at a real AdvancePacket between the two fixture carriers: positive (admitted packet binds a durable HistoryEdge), non-admission mutant refused, empty-settled-event surface refused; the four GoalWorkSystem-parametric fields are exercised at one concrete system/snapshot. 8 named negative/discriminating sites in ResiduaRCCR1Target.lean additionally remain (emptyEventCannotAppend, nonadmittedAdvanceCannotBind). DISCRIMINATING SITE conformance/rcc/nanoda/registration_sites/SitesR1 builds at leanprover/lean4:v4.14.0 \u2014 demoContext and all sites carry no axioms or propext only, no sorryAx. Independent re-elaboration under leanprover/lean4:v4.29.0 by conformance/rcc/nanoda/r1 (R1SitesSource lib) re-checks every site declaration and prints axioms clean \u2014 two compiler versions confirm the fixture."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.R2Target.certificate",
+    "Residua.RCC.R2Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.R2Target.Tests.target_certificate_reexports"
+   ],
+   "id": "R2",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "12 negative/discriminating sites in lean/algorithms/ResiduaRCCR2Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include inactiveDependencyRejected, inactiveRootRejected, staleRootRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/r2; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "certificate",
+    "candidate_is_nonempty",
+    "Residua.RCC.R5Target.Tests.target_certificate_nonempty"
+   ],
+   "id": "R5",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "24 negative/discriminating sites in lean/algorithms/ResiduaRCCR5Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include cycleRejected, emptyMandatoryRejected, emptySupportRejected. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/r5; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC20Target.certificate",
+    "Residua.RCC.RCC20Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC20Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC20",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "24 negative/discriminating sites in lean/algorithms/ResiduaRCCRCC20Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include droppedMergeRefused, droppedSplitRefused, irrelevantSplitRefused. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/rcc20; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC22Target.certificate",
+    "Residua.RCC.RCC22Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC22Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC22",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "5 negative/discriminating sites in lean/algorithms/ResiduaRCCRCC22Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include expiredCannotAwait. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/rcc22; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC23Target.certificate",
+    "Residua.RCC.RCC23Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC23Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC23",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "3 negative/discriminating sites in lean/algorithms/ResiduaRCCRCC23Target.lean (\u00ac / refuse / reject / cannot / \u2260). AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/rcc23; lake build completes, no sorryAx."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC24Target.certificate",
+    "Residua.RCC.RCC24Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC24Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC24",
+   "proof_kind": "carrier_built_certificate_with_structural_discrimination",
+   "scope": "29 negative/discriminating sites in lean/algorithms/ResiduaRCCRCC24Target.lean (\u00ac / refuse / reject / cannot / \u2260); named fields include changedProjectionRefused, changedRootJudgmentRefused, changedSemanticsRefused. AUDIT SURFACE IS THIN \u2014 the independent root prints axioms for the certificate and its nonempty witness only. LOWER EVIDENCE GRADE than the named entries above: refusals were counted structurally rather than read field-by-field. Re-elaborated by conformance/rcc/nanoda/rcc24; lake build completes, no sorryAx."
+  },
+  {
+   "id": "RCC13",
+   "proof_kind": "universally_quantified_goal_preservation_plus_mutant_refusals",
+   "declarations": [
+    "Residua.RCC.RCC13Target.certificate",
+    "Residua.RCC.RCC13Target.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL: 7 fields \u2200(S:GoalWorkSystem) \u2014 goalPresence/Status preserved, target stays open, transition admitted, +2 erasing-target mutant refusals. glm-audited #2963 batch 1."
+  },
+  {
+   "id": "RCC14",
+   "proof_kind": "fixture_transitive_source_detection_plus_direct_only_mutant",
+   "declarations": [
+    "Residua.RCC.RCC14Target.certificate",
+    "Residua.RCC.RCC14Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 11 fields on demoSystem \u2014 transitive source detected, staleGreen reopened, direct-only mutant rejected. glm-audited."
+  },
+  {
+   "id": "RCC15",
+   "proof_kind": "fixture_exact_closure_grade_order_plus_six_refusals",
+   "declarations": [
+    "Residua.RCC.RCC15Target.certificate",
+    "Residua.RCC.RCC15Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 8 fields \u2014 exact ClosureGrade order, shadow-path/decoy-retire/unsealed-inventory refused. glm-audited."
+  },
+  {
+   "id": "RCC16",
+   "proof_kind": "fixture_finalized_head_consumes_admission_plus_awaits",
+   "declarations": [
+    "Residua.RCC.RCC16Target.certificate",
+    "Residua.RCC.RCC16Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 8 fields \u2014 finalized head consumes admission, local-fork/omitted-partition await. glm-audited."
+  },
+  {
+   "id": "RCC17",
+   "proof_kind": "fixture_addressed_store_exactness_plus_collision_contract",
+   "declarations": [
+    "Residua.RCC.RCC17Target.certificate",
+    "Residua.RCC.RCC17Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 7 fields \u2014 empty insert, corrupt slot, constant-digest collision, collision contract exact. glm-audited."
+  },
+  {
+   "id": "RCC18",
+   "proof_kind": "fixture_four_way_primitive_boundary_plus_mutants",
+   "declarations": [
+    "Residua.RCC.RCC18Target.certificate",
+    "Residua.RCC.RCC18Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(4) four-way boundary + mutants(2) silent-timeout/exhaustion refused. glm-audited."
+  },
+  {
+   "id": "RCC21",
+   "proof_kind": "universally_quantified_terminal_resolution_plus_fixture_tooth",
+   "declarations": [
+    "Residua.RCC.RCC21Target.certificate",
+    "Residua.RCC.RCC21Target.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL: headline \u2200(S:InvalidationSystem) terminalResolution + 1 fixture tooth directOnlyMutantRefused. glm-audited."
+  },
+  {
+   "id": "RCC26",
+   "proof_kind": "fixture_content_key_exactness_plus_mutants",
+   "declarations": [
+    "Residua.RCC.RCC26Target.certificate",
+    "Residua.RCC.RCC26Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(5) distinct-occurrence + mutants(2). glm-audited."
+  },
+  {
+   "id": "RCC27",
+   "proof_kind": "fixture_retry_vs_intentional_repeat_plus_mutant",
+   "declarations": [
+    "Residua.RCC.RCC27Target.certificate",
+    "Residua.RCC.RCC27Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(5) retry distinct + mutant(1). glm-audited."
+  },
+  {
+   "id": "RCC28",
+   "proof_kind": "fixture_exactly_once_plus_four_mutants",
+   "declarations": [
+    "Residua.RCC.RCC28Target.certificate",
+    "Residua.RCC.RCC28Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(4) at-least-once/fenced/exactly-once + mutants(4). glm-audited."
+  },
+  {
+   "id": "RCC29",
+   "proof_kind": "fixture_temporal_validity_plus_five_mutants",
+   "declarations": [
+    "Residua.RCC.RCC29Target.certificate",
+    "Residua.RCC.RCC29Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(6) clock history preserved + mutants(5). glm-audited."
+  },
+  {
+   "id": "RCC30",
+   "proof_kind": "fixture_live_closure_grade_plus_six_mutants",
+   "declarations": [
+    "Residua.RCC.RCC30Target.certificate",
+    "Residua.RCC.RCC30Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(6) exact grade order + mutants(6). glm-audited."
+  },
+  {
+   "id": "RCC31",
+   "proof_kind": "fixture_epoch_effect_closed_plus_eight_mutants",
+   "declarations": [
+    "Residua.RCC.RCC31Target.certificate",
+    "Residua.RCC.RCC31Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: witness(4) closedSnapshot + mutants(8). glm-audited."
+  },
+  {
+   "id": "RCC53",
+   "proof_kind": "fixture_finalized_closure_evidence_plus_thirteen_sites",
+   "declarations": [
+    "Residua.RCC.RCC53Target.certificate",
+    "Residua.RCC.RCC53Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 13 fields \u2014 Nonempty + checkpoint + partition + coordinateConflict \u2200\u2192False (backed by named lemma, real case analysis). glm-audited."
+  },
+  {
+   "id": "RCC54",
+   "proof_kind": "fixture_key_activation_nine_sites_plus_universal_refusal",
+   "declarations": [
+    "Residua.RCC.RCC54Target.certificate",
+    "Residua.RCC.RCC54Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 9 fields \u2014 incompatible-item/stale-fork/retired-key refused + retiredRelease \u2200\u2192False (backed by named lemma). glm-audited."
+  },
+  {
+   "id": "R3",
+   "proof_kind": "universal_coverage_necessity_plus_fixture_refusal",
+   "declarations": [
+    "Residua.RCC.R3Target.certificate",
+    "Residua.RCC.R3Target.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL: localClaimsSuffice \u2200(world:CoherenceWorld) + fixture refusal coverageTheoremNecessary (demoWorld: complete local evidence + all claims true, yet GlobalIntent=False \u2014 no contract can bridge). glm-audited batch 2."
+  },
+  {
+   "id": "R4",
+   "proof_kind": "fixture_assumption_relative_soundness_plus_mutant_refusals",
+   "declarations": [
+    "Residua.RCC.R4Target.certificate",
+    "Residua.RCC.R4Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: 5 positive fields (currentBinding.sound) + MutantRefusal (staleRootRefused + inactiveDependencyRefused, projecting to existing binding lemmas). glm-audited batch 2."
+  },
+  {
+   "id": "RCC32",
+   "proof_kind": "fixture_concrete_witness_plus_seven_mutant_refusals",
+   "declarations": [
+    "Residua.RCC.RCC32Target.certificate",
+    "Residua.RCC.RCC32Target.certificate_is_nonempty"
+   ],
+   "scope": "FIXTURE: ConcreteWitness (demoUniverse) + MutantRefusal (7 refusals). Generic tautologies removed. glm-audited batch 3."
+  },
+  {
+   "id": "RCC39",
+   "proof_kind": "fixture_proposal_indexed_authorization_plus_eight_refusals",
+   "declarations": [
+    "Residua.RCC.RCC39Target.certificate",
+    "Residua.RCC.RCC39Target.certificate_is_nonempty"
+   ],
+   "scope": "FIXTURE: proposal-indexed acceptance predicates (evidence=true \u2227 p=proposal). 8 refusals (4 false-evidence + 4 forged-proposal). glm-audited batch 4."
+  },
+  {
+   "id": "RCC40",
+   "proof_kind": "fixture_quorum_intersection_with_countermodel",
+   "declarations": [
+    "Residua.RCC.RCC40Target.certificate",
+    "Residua.RCC.RCC40Target.candidate_is_nonempty"
+   ],
+   "scope": "FIXTURE: QuorumIntersectionSafe twoOfTwo (instance) + \u00ac QuorumIntersectionSafe twoOfThree (countermodel). Docstring honestly scoped (fixture-level, not general law). glm-audited batch 5."
+  },
+  {
+   "id": "M1",
+   "proof_kind": "mixed_parametric_fixture_slot_coherence_plus_four_refusals",
+   "declarations": [
+    "Residua.RCC.M1Target.certificate",
+    "Residua.RCC.M1Target.candidate_is_nonempty"
+   ],
+   "scope": "MIXED parametric+fixture: SlotSurface/HeadChain/edge+chaining theorems parametric; discriminating Phase fixture surface. NEW slot-coherence law. 4 refusals (2 NEW: incoherent-head, broken-slot). Conditional wiring on admittedPackets (honest \u2014 unconditional is false for discriminating surfaces). glm-audited batch 6."
+  },
+  {
+   "id": "AK-7",
+   "proof_kind": "universal_prelude_restatement_plus_harness",
+   "declarations": [
+    "Residua.RCC.AK7Target.certificate",
+    "Residua.RCC.AK7Target.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL \u63a5\u8d26: ConservativeSchemaTransport laws (independent reason). glm batch 7."
+  },
+  {
+   "id": "DQ-2",
+   "proof_kind": "universal_normalizer_totality_restatement",
+   "declarations": [
+    "Residua.RCC.DQ2Target.certificate",
+    "Residua.RCC.DQ2Target.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL \u63a5\u8d26: normalize_total/num/add + boundary laws (independent reason). glm batch 7."
+  },
+  {
+   "id": "EF-1",
+   "proof_kind": "universal_effect_classification_restatement",
+   "declarations": [
+    "Residua.RCC.EF1Target.certificate",
+    "Residua.RCC.EF1Target.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL \u63a5\u8d26: CertifiedEffectClass selected/.excludes + classification_exact (independent reason). glm batch 7."
+  },
+  {
+   "id": "RC-3a",
+   "proof_kind": "universal_stratification_restatement_plus_bilateral_harness",
+   "declarations": [
+    "Residua.RCC.RC3aTarget.certificate",
+    "Residua.RCC.RC3aTarget.candidate_is_nonempty"
+   ],
+   "scope": "UNIVERSAL \u63a5\u8d26: FacetCoherence stratification (CM-SELF independent reason) + new minimal bilateral harness tooth (flagged, glm-accepted batch 8). Split from RC-3 per architect ruling."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RCC95Target.certificate",
+    "Residua.RCC.RCC95Target.Tests.target_certificate_nonempty",
+    "Residua.RCC.RCC95Target.Tests.target_certificate_reexports"
+   ],
+   "id": "RCC95",
+   "proof_kind": "relative_complete_closure_capstone_and_refusals",
+   "scope": "RE-DISCHARGE of the entry revoked in #2973. Certificate of 16 fields packaging theorems that live in RelativeCompleteClosure.Tests: closedPacketIsCoreFixed (a GlobalEpochClosed packet is a fixed point of the CoreObject D), admittedAdvanceIsFormalReduction (an admitted advance is a formal reduction), and 14 refusals (arbitrary jump, migration string, omitted advance reader, omitted continuation reader, detached failure facts, refused failure window, active goal, pending migration, detached goal replay, detached replay, underdeclared primitive universe, unsettled effect, effect snapshot split, plus currentFailureWindowBound). The #2973 universe-inference failure is fixed in the current source (RC1AdvancePacket is no longer pinned at universe 0). Built by the author at Lean 4.14.0 (the toolchain in conformance/rcc/nanoda/rcc95/lean-toolchain): 27-module chain, lake build completes, no sorryAx; #print axioms on certificate and both Tests witnesses = [propext]. AUTHOR BUILD ONLY: no independent audit of this re-discharge exists yet (author != auditor is the registry rule). AUDIT SURFACE IS THIN: the independent root prints axioms for the certificate and its nonempty witness only; discriminating fields verified by reading the Certificate structure. The pins rcc95_target, rcc95_lakefile and rcc95_toolchain above are the REVOKED bytes and are kept as history; the current bytes are rcc95_target_v2, rcc95_lakefile_v2 and rcc95_toolchain_v2 (rcc95_tests and rcc95_independent_root still match)."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.Addressing.DigestPreimage",
+    "Residua.RCC.Addressing.ExactFrame",
+    "Residua.RCC.Addressing.DigestBinding.preimage",
+    "Residua.RCC.Addressing.DigestBinding.framedWire",
+    "Residua.RCC.Addressing.DigestBinding.address",
+    "Residua.RCC.Addressing.AddressedCanonical.address_is_derived",
+    "Residua.RCC.Addressing.DigestInjectiveOnCanonicalRange",
+    "Residua.RCC.Addressing.digest_address_eq_iff_bytes_eq",
+    "Residua.RCC.Addressing.canonicalObjectAddress",
+    "Residua.RCC.Addressing.canonical_object_address_eq_iff_equivalent",
+    "Residua.RCC.Addressing.inspectAddressed",
+    "Residua.RCC.Addressing.inspect_addressed_eq_miss_iff",
+    "Residua.RCC.Addressing.inspect_addressed_eq_reuse_iff",
+    "Residua.RCC.Addressing.inspect_addressed_eq_collision_iff",
+    "Residua.RCC.RegistrationSites.AK3.faithful_injective",
+    "Residua.RCC.RegistrationSites.AK3.faithful_same_bytes_reuse",
+    "Residua.RCC.RegistrationSites.AK3.faithful_distinct_bytes_miss",
+    "Residua.RCC.RegistrationSites.AK3.faithful_address_eq_iff_bytes_eq",
+    "Residua.RCC.RegistrationSites.AK3.mutant_injectivity_impossible",
+    "Residua.RCC.RegistrationSites.AK3.mutant_hit_is_named_collision"
+   ],
+   "id": "AK-3",
+   "proof_kind": "parametric_injective_frame_plus_concrete_fixture_with_collision_mutant",
+   "scope": "Domain/schema-separated digest binding (algorithms.ResiduaRCCDigestBinding, namespace Residua.RCC.Addressing): the hashed preimage commits to kind + algorithm + domainQ + schemaQ + canonicalBytes; ExactFrame's encode_injective is the only admitted frame, so no ambiguous concatenation is certified. Digest injectivity is NEVER asserted \u2014 exactness theorems take DigestInjectiveOnCanonicalRange as an explicit premise; without it inspectAddressed compares the complete framed preimage and same-address/different-preimage is the named 'collision' refusal, not a silent reuse. DISCRIMINATING SITE conformance/rcc/nanoda/registration_sites/SitesAK3 (String fixture, identity frame \u2014 no serialization claimed, matching the module's own honest scope): reuse/miss positives, the conditional iff, the constant-digest mutant inspected as collision, and mutant_injectivity_impossible as the premise tooth. Carrier builds at leanprover/lean4:v4.14.0; site axioms subset of {propext}."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.DefeqFragment.InNumAddFragment",
+    "Residua.RCC.DefeqFragment.allTermConstructors",
+    "Residua.RCC.DefeqFragment.all_term_constructors_complete",
+    "Residua.RCC.DefeqFragment.root_constructor_covered",
+    "Residua.RCC.DefeqFragment.UnsupportedFragmentResidue",
+    "Residua.RCC.DefeqFragment.UnsupportedFragmentCert",
+    "Residua.RCC.DefeqFragment.classifyTerm",
+    "Residua.RCC.DefeqFragment.classify_supported_iff",
+    "Residua.RCC.DefeqFragment.classify_unsupported_iff",
+    "Residua.RCC.DefeqFragment.classifyToSubtype",
+    "Residua.RCC.RegistrationSites.DQ1.supported_classification_true",
+    "Residua.RCC.RegistrationSites.DQ1.supported_in_fragment",
+    "Residua.RCC.RegistrationSites.DQ1.unsupported_classification_false",
+    "Residua.RCC.RegistrationSites.DQ1.unsupported_not_in_fragment",
+    "Residua.RCC.RegistrationSites.DQ1.unsupported_residue_locates_mul",
+    "Residua.RCC.RegistrationSites.DQ1.supported_to_subtype_left",
+    "Residua.RCC.RegistrationSites.DQ1.unsupported_to_subtype_right",
+    "Residua.RCC.RegistrationSites.DQ1.mutant_disagrees_at_unsupported_fixture",
+    "Residua.RCC.RegistrationSites.DQ1.mutant_acceptance_unsound"
+   ],
+   "id": "DQ-1",
+   "proof_kind": "sound_and_complete_classifier_over_sealed_constructor_surface_plus_mutant_site",
+   "scope": "The supported-fragment classifier (algorithms.ResiduaRCCDefeqFragment) is total and proof-carrying over the current twelve-constructor production Term surface: classify_supported_iff and classify_unsupported_iff give BOTH directions (soundness and completeness), every unsupported result carries a typed residue locating the first unsupported constructor on a path through add nodes, and the sealed constructor universe is mechanically complete (all_term_constructors_complete, unsupported_constructor_covered). The classifier consumes the production Term, so a surface change forces re-review rather than hiding in a catch-all. Honest bound: 'sound and complete' is for the declared num/add fragment of THIS surface, not definitional equality. DISCRIMINATING SITE conformance/rcc/nanoda/registration_sites/SitesDQ1: concrete supported/unsupported fixtures through both iff directions, residue locating mul at the empty path, classifyToSubtype routing, and the accept-everything mutant proven unsound (its acceptance contradicts fragment membership). Carrier builds at leanprover/lean4:v4.14.0; site decls carry no axioms."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.ClaimModality.Modality",
+    "Residua.RCC.ClaimModality.Claim",
+    "Residua.RCC.ClaimModality.Evidence",
+    "Residua.RCC.ClaimModality.ClaimEnvelope",
+    "Residua.RCC.ClaimModality.EvidenceEnvelope",
+    "Residua.RCC.ClaimModality.ClaimEvidencePacket",
+    "Residua.RCC.ClaimModality.SomeClaimEvidencePacket",
+    "Residua.RCC.ClaimModality.EvidenceAlignmentResult",
+    "Residua.RCC.ClaimModality.alignEvidence",
+    "Residua.RCC.ClaimModality.aligned_packet_preserves_both_modalities",
+    "Residua.RCC.ClaimModality.mismatched_modalities_are_refused",
+    "Residua.RCC.ClaimModality.alignment_result_exhaustive",
+    "Residua.RCC.ClaimModality.ModalityVerifier",
+    "Residua.RCC.ClaimModality.VerifiedClaim",
+    "Residua.RCC.RegistrationSites.CM1.sixModalities",
+    "Residua.RCC.RegistrationSites.CM1.every_modality_is_one_of_six",
+    "Residua.RCC.RegistrationSites.CM1.aligned_at_matching_envelopes",
+    "Residua.RCC.RegistrationSites.CM1.aligned_packet_is_deductive",
+    "Residua.RCC.RegistrationSites.CM1.mismatched_envelopes_refused_at_fixture",
+    "Residua.RCC.RegistrationSites.CM1.mutant_accepts_what_boundary_refuses",
+    "Residua.RCC.RegistrationSites.CM1.mutant_verdict_is_tag_only"
+   ],
+   "id": "CM-1",
+   "proof_kind": "six_modality_typed_index_plus_named_refusal_and_tag_mutant",
+   "scope": "Claims are typed as deductive, computational, probabilistic, statistical, empirical-window or assumption-relative by a TYPE INDEX of Claim/Evidence (algorithms.ResiduaRCCClaimModality) \u2014 no constructor accepts a string tag deciding its modality. alignEvidence reconstructs a dependent ClaimEvidencePacket only for same-index envelopes; every other pair takes the named residue evidenceModalityMismatch (mismatched_modalities_are_refused, alignment_result_exhaustive). A ModalityVerifier cannot even be applied to evidence of the wrong index; VerifiedClaim couples the acceptance proof and payload at the same index. Honest bound: soundness of a particular verifier stays an instance theorem, not manufactured here. DISCRIMINATING SITE conformance/rcc/nanoda/registration_sites/SitesCM1: the six-element index enumerated, matched-pair alignment, the deductive/computational refusal, and the caller-tag mutant accepting exactly the pair the boundary refuses. Carrier builds at leanprover/lean4:v4.14.0; site axioms subset of {propext}."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.FacetCoherence.CoherenceWorld",
+    "Residua.RCC.FacetCoherence.BoundFacetPairAt",
+    "Residua.RCC.FacetCoherence.differentPairSnapshotsCannotBind",
+    "Residua.RCC.FacetCoherence.AddressReductionLaw",
+    "Residua.RCC.FacetCoherence.EvidenceAdmissionLaw",
+    "Residua.RCC.FacetCoherence.ReductionResourceLaw",
+    "Residua.RCC.FacetCoherence.ReflectionVerificationLaw",
+    "Residua.RCC.FacetCoherence.MigrationResourceLaw",
+    "Residua.RCC.FacetCoherence.RuntimeRefinementLaw",
+    "Residua.RCC.FacetCoherence.CompositionLaw",
+    "Residua.RCC.FacetCoherence.FacetCoherenceCertificate",
+    "Residua.RCC.FacetCoherence.addressedReductionsRemainEquivalent",
+    "Residua.RCC.FacetCoherence.admittedEvidenceIsGrounded",
+    "Residua.RCC.FacetCoherence.reductionHasResourceDelta",
+    "Residua.RCC.FacetCoherence.acceptedVerificationIsStratified",
+    "Residua.RCC.FacetCoherence.migrationConservesResource",
+    "Residua.RCC.FacetCoherence.runtimeTransitionRefinesFormal",
+    "Residua.RCC.FacetCoherence.componentsAndSeamsGlue",
+    "Residua.RCC.FacetCoherence.validateResourceBridge",
+    "Residua.RCC.FacetCoherence.missingResourceDeltaRefused",
+    "Residua.RCC.FacetCoherence.Tests.address_reduction_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.evidence_admission_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.reduction_resource_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.reflection_verification_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.migration_resource_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.runtime_refinement_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.composition_bridge_is_live",
+    "Residua.RCC.FacetCoherence.Tests.cross_snapshot_address_reduction_bridge_refused",
+    "Residua.RCC.FacetCoherence.Tests.detached_address_payload_decode_is_refused",
+    "Residua.RCC.FacetCoherence.Tests.ignored_payload_collage_cannot_certify",
+    "Residua.RCC.FacetCoherence.Tests.missing_resource_delta_mutant_is_named",
+    "Residua.RCC.FacetCoherence.Tests.missing_resource_delta_mutant_cannot_certify",
+    "Residua.RCC.RegistrationSites.FC2.seven_bridges_live_at_fixture",
+    "Residua.RCC.RegistrationSites.FC2.cross_snapshot_bridge_refused_at_fixture",
+    "Residua.RCC.RegistrationSites.FC2.detached_payload_refused_at_fixture",
+    "Residua.RCC.RegistrationSites.FC2.missing_delta_refused_at_fixture"
+   ],
+   "id": "FC-2",
+   "proof_kind": "seven_bridge_laws_at_bound_facet_pair_origin_plus_three_named_refusals",
+   "scope": "The cross-facet coherence laws connecting addressing, evidence, reduction, resources, reflection, runtime, migration and composition exist as the seven law structures and seven bridge theorems of algorithms.ResiduaRCCFacetCoherence (addressedReductionsRemainEquivalent, admittedEvidenceIsGrounded, reductionHasResourceDelta, acceptedVerificationIsStratified, migrationConservesResource, runtimeTransitionRefinesFormal, componentsAndSeamsGlue), each drawn through a BoundFacetPairAt origin \u2014 same sealed snapshot, same carrier \u2014 so no detached theorem about another world is accepted. Every named facet of the obligation is covered by a law; no bridge the obligation names is missing a module (the class-C remainder recorded in the work order is empty after this audit). FacetCoherenceTests builds all seven bridges live at one concrete sealed-snapshot fixture and proves three refusals: cross-snapshot pairing cannot bind, a carrier-detached payload cannot decode and cannot be certified, and a reduction with a missing resource delta is refused as resourceDeltaMissing. DISCRIMINATING SITE conformance/rcc/nanoda/registration_sites/SitesFC2 re-cites the seven live bridges and the three refusals at the same fixture. Carrier builds at leanprover/lean4:v4.14.0; site decls carry no axioms."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.FC3.CoherentLaws",
+    "Residua.RCC.FC3.FacetNecessaryAt",
+    "Residua.RCC.FC3.vacuousWorld",
+    "Residua.RCC.FC3.vacuous_world_coherent",
+    "Residua.RCC.FC3.addressDeletedWorld",
+    "Residua.RCC.FC3.address_sound_deleted",
+    "Residua.RCC.FC3.addressDeletedWorld_incoherent",
+    "Residua.RCC.FC3.reductionDeletedWorld",
+    "Residua.RCC.FC3.reduction_congruent_deleted",
+    "Residua.RCC.FC3.reductionDeletedWorld_incoherent",
+    "Residua.RCC.FC3.evidenceDeletedWorld",
+    "Residua.RCC.FC3.evidence_admission_deleted",
+    "Residua.RCC.FC3.evidenceDeletedWorld_incoherent",
+    "Residua.RCC.FC3.resourceDeletedWorld",
+    "Residua.RCC.FC3.forged_delta_is_no_ledger_proof",
+    "Residua.RCC.FC3.reflectionDeletedWorld",
+    "Residua.RCC.FC3.reflection_verification_deleted",
+    "Residua.RCC.FC3.reflectionDeletedWorld_incoherent",
+    "Residua.RCC.FC3.runtimeDeletedWorld",
+    "Residua.RCC.FC3.runtime_refinement_deleted",
+    "Residua.RCC.FC3.runtimeDeletedWorld_incoherent",
+    "Residua.RCC.FC3.migrationDeletedWorld",
+    "Residua.RCC.FC3.migration_resource_deleted",
+    "Residua.RCC.FC3.migrationDeletedWorld_incoherent",
+    "Residua.RCC.FC3.compositionDeletedWorld",
+    "Residua.RCC.FC3.composition_deleted",
+    "Residua.RCC.FC3.compositionDeletedWorld_incoherent",
+    "Residua.RCC.FC3.facetNecessity",
+    "Residua.RCC.FC3.every_loadBearing_facet_necessary"
+   ],
+   "id": "FC-3",
+   "proof_kind": "minimal_deletion_world_per_facet_plus_total_necessity_catalogue",
+   "scope": "For every one of the eight load-bearing RCCFacets, a concrete deletion world where exactly that facet's law surface fails while the other six stay vacuously true (algorithms.ResiduaRCCFC3Target): a CoherentLaws bundle cannot exist at seven of the eight deletion worlds (FacetNecessaryAt), isolating the deleted facet as the sole break. resourceLedger's residue sits one level down \u2014 ReductionResourceLaw is vacuous without reductions \u2014 so its necessity witness is the forged-delta decomposition refusal (forged_delta_is_no_ledger_proof) plus the compiled missing-delta certificate refusal in FacetCoherenceTests; the FC-1 provenance origin's deletion countermodel is differentPairSnapshotsCannotBind (cited). Positive tooth: vacuous_world_coherent shows the joint bundle IS inhabited when nothing is deleted. facetNecessity is a total dependent-pair catalogue \u2014 every facet maps to (residue statement, proof) by construction. Builds at leanprover/lean4:v4.14.0; axioms subset of {propext}."
+  },
+  {
+   "declarations": [
+    "Residua.RCC.RC2.TerminalDiagnostic",
+    "Residua.RCC.RC2.normalize_await_terminal",
+    "Residua.RCC.RC2.normalize_reepoch_terminal",
+    "Residua.RCC.RC2.normalize_halt_terminal",
+    "Residua.RCC.RC2.normalize_nonclosed_yields_diagnostic",
+    "Residua.RCC.RC2.closed_state_never_diagnosed",
+    "Residua.RCC.RC2.normalize_halt_of_stepOpen_halt",
+    "Residua.RCC.RC2.fixtureExec",
+    "Residua.RCC.RC2.fixture_run_halts",
+    "Residua.RCC.RC2.fixture_diagnostic_is_terminal",
+    "Residua.RCC.RC2.foreign_diagnostic_rejected"
+   ],
+   "id": "RC-2",
+   "proof_kind": "terminal_diagnostic_invariant_by_measure_induction_plus_completeness_theorem",
+   "scope": "Every non-closed Residua.RCC.normalize run yields a genuine diagnostic (algorithms.ResiduaRCCRC2Target): normalize_nonclosed_yields_diagnostic states that each result is either Closed (carrying the reached state's closed proof) or a TerminalDiagnostic \u2014 the reached open state, the named residue kind, and the equality pinning the surface message to the stepper's own OpenStepResult at that state. The terminal theorems (await/reepoch/halt, by measure induction) prove the carried state is genuinely open and the residue is emitted there \u2014 a diagnostic can never be manufactured for a state the machine did not reach, and closed_state_never_diagnosed shows a closed state produces no residue branch. Positive site: fixtureExec's fuel-exhaustion halt yields the named diagnostic at the reached state (fixture_run_halts, fixture_diagnostic_is_terminal); discriminating tooth: foreign_diagnostic_rejected pins the reported string to stepOpen's output so a fabricated wake cannot satisfy the terminal equality. Builds at leanprover/lean4:v4.14.0; axioms subset of {propext, Quot.sound}."
+  }
+ ],
+ "independent_check_git_blob_sha": "6e1f906ac3252d917011c7157b25deca746ae2ad",
+ "nonclaims": [
+  "M1 remains open because Step-MST q/a/sigma/rho, slot coherence, admitted trace construction, and the full GlobalEpochClosed bridge are not all encoded.",
+  "#2963 POST-AUDIT (accurate): 94 targets discharged (was 96; RCC32 revoked, RCC40 demo-only). The prior \"No target outside [list] is discharged\" entries were stale bookkeeping from when the registry held fewer entries; the #2963 adversarial audit verified the 94 (real proofs, honest scopes). See the RCC32/RCC40 nonclaim entries for the two removals.",
+  "The full 107-target RCC formal closure remains open.",
+  "RCC39 is discharged for its DEMO instance (DemoSlot/DemoHead/DemoJudgment with one real and one forged proposal). It is not a claim about every proposal in every RCC instance; the discriminating fields are proven for that domain, not quantified over an arbitrary one.",
+  "Each RCC discharge above is for the target's own demo/parametric domain as stated in its scope. None is a claim quantified over an arbitrary RCC instance; `lake build` plus a clean axiom audit proves the proofs are COMPLETE, not that they are about a wider object than their scope names.",
+  "RCC39 was registered as discharged and REVOKED in the same session. Its four forged*Refused fields are named for the forged proposal but state `\u00ac accepted proposal false` \u2014 about the REAL proposal paired with false evidence. Every Demo*Evidence abbrev ignores its proposal index (`_proposal`), and every acceptance predicate reduces to `evidence = true`, so the same `true` values construct authorization, finality, effect and history certificates for forgedProposal too. The only proved fact about forgedProposal is that it differs from proposal. RCC39 stays OPEN until a proposal-INDEXED refusal or a semantic-realization theorem exists.",
+  "#2963 POST-AUDIT (accurate): 94 targets discharged (was 96; RCC32 revoked, RCC40 demo-only). The prior \"No target outside [list] is discharged\" entries were stale bookkeeping from when the registry held fewer entries; the #2963 adversarial audit verified the 94 (real proofs, honest scopes). See the RCC32/RCC40 nonclaim entries for the two removals.",
+  "Discharges are not uniform in audit strength. Where a scope says AUDIT SURFACE IS THIN, the independent root runs #print axioms over the certificate only, and the refusal fields are verified by reading the Certificate structure rather than by their own axiom audit. RCC33, RCC45, RCC46, RCC47, RCC48, RCC50 and RCC58 audit refusal theorems directly and are the stronger shape.",
+  "Source pinning was corrected in this PR after codex found it: the first version pinned only each carrier's tiny RCC*Independent.lean export root, whose bytes are import + #print lines. The target, its tests and the carrier lakefile/toolchain could all change while every recorded hash still matched \u2014 the q did not bind the load-bearing object, which is exactly what BA-T016 forbids. Target/tests/lakefile/toolchain hashes are now recorded per carrier.",
+  "The final eighteen entries (C1 C2 C4 E1-E5 M1 R1-R5 RCC20 RCC22 RCC23 RCC24) are recorded at a LOWER evidence grade than the rest: their carriers build with no sorryAx and their targets contain discriminating sites, but the refusals were counted structurally rather than read field-by-field. They should be re-read individually before any of them is cited as a discharged obligation, and closure_claim stays 0 in part because of them.",
+  "M1, R3 and R4 were written as discharged in this session and REMOVED before merge. Their carriers build with no sorryAx, but their targets contain ZERO negative or discriminating sites \u2014 no \u00ac, no refuse/reject/cannot, no \u2260. A certificate that only asserts positive facts cannot refuse anything, which is the RCC39 failure with the refusals absent rather than misdirected. They stay OPEN until each carries at least one refusal about a defective input.",
+  "#2963 REVOKE RCC32: the two 'generic' headline theorems are tautologies \u2014 proof is `exact coverage.everyMandatoryCovered`, and everyMandatoryCovered is a FIELD of the hypothesis `coverage : FailureCoverageCertificate` (premise assumes conclusion, check #4, same shape as glm air_lowering_iff). Parametric-but-vacuous; scope claim 'GENERIC (not instance witnesses)' is misleading. Actual evidence is ConcreteWitness (demoUniverse) \u2014 demo-only, not a universal discharge. revoked by adversarial audit.",
+  "#2963 DEMO-ONLY RCC40: zero-param Certificate (instance-level by construction); two_of_two_f_one_general_intersection_safe is AD-HOC case analysis for the specific twoOfTwo config (fault = []/[.a]/[.b]), NOT a general quorum-safety law \u2014 no \u2200(system:FiniteQuorumSystem) lemma exists (QuorumIntersectionSafe is defined generally at line 51 but only specific configs (twoOfTwo/oneSignerConfig) are proven). The docstring overclaims 'general finite-set law'. Instance-level proof; if the target requires a general law this is demo-only.",
+  "#2973 REVOKE RCC95: RCC95Target.lean does not compile (universe level inference failure, excluded from formal emission per formal_emission_status_full.json). The registry scope falsely claimed 'lake build completes, no sorryAx'. The obligation (RC-1 Relative Complete Closure capstone) is real and the 14 refusal props are genuine, but the module is unbuildable so the discharge is false. #2963 audit missed this (check #1 was name-exists not module-compiles \u2014 gap now identified). Re-discharge requires fixing the universe-level error.",
+  "#2973 RCC2 = R2 ALIAS: RCC2 has no catalog obligation; its content (verifier-soundness adversarial certificate) = R2. Under the obligation-keyed metric (architect ruling), RCC2 collapses into R2 (already counted). RCC2 left in registry as a historical alias; does not add to the obligation count.",
+  "RCC95 RE-REGISTERED (additive, 2026-10-24): the #2973 revoke note above stays as history. The current RCC95Target builds at 4.14 and is registered as the last entry of discharged_targets with v2 pins. This restores the slot that RC-1 (Relative Complete Closure theorem, capstone) maps to in RCC_V2_LETTER_TO_SLOT_SEMANTIC_MAPPING.json (confidence high). It does not claim RC-1 closed, does not change closure_claim, and the aggregate string above ('100/108') was not edited and is not updated by this entry. The entry awaits an independent audit."
+ ],
+ "schema": "rcc-formal-proof-registry/v1",
+ "status": "passed",
+ "discharge_aggregate_meaning": "TERMINAL (#2973, architect-approved): 100/108 discharged + 8 NAMED GAPS with envelopes. 100 = 42 identity + 15 batch1 + 33 flattening + R3/R4 + RCC-32/39/40 + M1 + AK-7/DQ-2/EF-1 (\u63a5\u8d26) + RC-3a (\u63a5\u8d26+harness). Every discharge externally audited (author\u2260auditor, 8 glm-audited batches). The 8 gaps (BH-1/2/3, AK-9, ME-2, RC-3b, EF-2, EF-3) are named with per-gap reasons + re-adjudication envelopes \u2014 strictly MORE informative than a bare 108/108 (source-indexed, not verdict-only). This is a COVERAGE METRIC, not a system-level closure theorem. EF-2/EF-3 discharges WITHDRAWN (content provenance). Denominator 107\u2192108 by RC-3 split (refinement, architect-ruled; ratio got worse \u2014 evidence it was not number-driven). closure_claim=0.",
+ "out_of_scope_gaps": [
+  {
+   "id": "BH-1",
+   "reason": "BehaviorSemantics (trace sets, probability measures) has zero consumers; only deterministic single-trace slice in use. Writing it = for-discharge-only. ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:BH-1'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "BH-2",
+   "reason": "Typed goal hierarchy (snapshot/safety/liveness/hyperproperty/quantitative): RCC94+RCC89 cover the slices consumers need; hyperproperty typing has zero consumers. ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:BH-2'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "BH-3",
+   "reason": "Coinductive outer lineage: zero coinductive content repo-wide; inductive half exists independently (RCC93/RCC-23). ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:BH-3'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "AK-9",
+   "reason": "Address exposure/leakage policy: zero references (RCC55 is a different subject); security-hardening with no current consumer. ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:AK-9'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "ME-2",
+   "reason": "Counterexample\u2192witness\u2192reepoch bridge: both halves exist independently (ME-1 exhaustion; RCC93 reepoch) but the BRIDGE is obligation-driven \u2014 ends true, link manufactured. The exact case the criterion exists to catch. ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:ME-2'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "RC-3b",
+   "reason": "Successor-epoch governance: no encoding, no independent consumer. (Split from RC-3 per architect ruling; stratified half = RC-3a discharged.) ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:RC-3b'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "EF-2",
+   "reason": "WITHDRAWN (batch 8): compensation-goal layer authored this round (Prelude header pre-assigned the OBLIGATION but not the CONTENT \u2014 \u6307\u6d3e\u65e9\u4e8e\u5de5\u4f5c \u2260 \u5185\u5bb9\u65e9\u4e8e\u5de5\u4f5c). Lean held on zcode/2973-prelude-certification for re-adjudication. ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:EF-2'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  },
+  {
+   "id": "EF-3",
+   "reason": "WITHDRAWN (batch 8): actuation-gate layer authored this round (same basis as EF-2). Lean held on zcode/2973-prelude-certification. ENVELOPE (v1.7 prop:no-absolute-irreducibility): relative to the CURRENT Lean module set and currently admissible observation language \u2014 NOT absolute. Re-adjudicate if independent consumers appear.",
+   "disposition": "out_of_scope",
+   "consumed_by": "rcc_graph_prep disposition producer node 'disposition:EF-3'",
+   "evidence_grade": "registry record with measured reason + envelope; re-adjudicate on new consumers"
+  }
+ ]
+}

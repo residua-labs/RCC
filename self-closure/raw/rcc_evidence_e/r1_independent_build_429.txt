@@ -1,0 +1,41 @@
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:827:0: 'Residua.RCC.FacetCoherence.CoherentFacetBundle.pairAt' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:828:0: 'Residua.RCC.FacetCoherence.differentPairSnapshotsCannotBind' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:829:0: 'Residua.RCC.FacetCoherence.addressedReductionsRemainEquivalent' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:830:0: 'Residua.RCC.FacetCoherence.admittedEvidenceIsGrounded' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:831:0: 'Residua.RCC.FacetCoherence.reductionResourceCertificate' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:832:0: 'Residua.RCC.FacetCoherence.reductionHasResourceDelta' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:833:0: 'Residua.RCC.FacetCoherence.acceptedVerificationIsStratified' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:834:0: 'Residua.RCC.FacetCoherence.migrationConservesResource' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:835:0: 'Residua.RCC.FacetCoherence.runtimeTransitionRefinesFormal' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:836:0: 'Residua.RCC.FacetCoherence.componentsAndSeamsGlue' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:837:0: 'Residua.RCC.FacetCoherence.missingResourceDeltaRefused' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:838:0: 'Residua.RCC.FacetCoherence.Tests.address_reduction_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:839:0: 'Residua.RCC.FacetCoherence.Tests.evidence_admission_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:840:0: 'Residua.RCC.FacetCoherence.Tests.reduction_resource_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:841:0: 'Residua.RCC.FacetCoherence.Tests.reflection_verification_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:842:0: 'Residua.RCC.FacetCoherence.Tests.migration_resource_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:843:0: 'Residua.RCC.FacetCoherence.Tests.runtime_refinement_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:844:0: 'Residua.RCC.FacetCoherence.Tests.composition_bridge_is_live' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:845:0: 'Residua.RCC.FacetCoherence.Tests.cross_snapshot_address_reduction_bridge_refused' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:846:0: 'Residua.RCC.FacetCoherence.Tests.detached_address_payload_decode_is_refused' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:847:0: 'Residua.RCC.FacetCoherence.Tests.ignored_payload_collage_cannot_certify' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:848:0: 'Residua.RCC.FacetCoherence.Tests.missing_resource_delta_mutant_is_named' does not depend on any axioms
+info: ../../../../lean/algorithms/ResiduaRCCFacetCoherenceTests.lean:849:0: 'Residua.RCC.FacetCoherence.Tests.missing_resource_delta_mutant_cannot_certify' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:596:0: 'Residua.RCC.RegistrationSites.R1.demoContext' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:597:0: 'Residua.RCC.RegistrationSites.R1.advance_resolves_at_concrete_context' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:598:0: 'Residua.RCC.RegistrationSites.R1.nonadmitted_refuses_at_concrete_context' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:599:0: 'Residua.RCC.RegistrationSites.R1.empty_event_refuses_at_concrete_context' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:600:0: 'Residua.RCC.RegistrationSites.R1.demo_packet_is_admitted' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:601:0: 'Residua.RCC.RegistrationSites.R1.work_preserves_goal_presence' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:602:0: 'Residua.RCC.RegistrationSites.R1.work_preserves_goal_status' does not depend on any axioms
+info: ../registration_sites/SitesR1.lean:603:0: 'Residua.RCC.RegistrationSites.R1.acted_target_stays_open_and_disposed' depends on axioms: [propext]
+info: ../../../../lean/algorithms/ResiduaRCCR1TargetTests.lean:13:0: 'Residua.RCC.R1Target.Tests.target_certificate_nonempty' depends on axioms: [propext]
+info: ../../../../lean/algorithms/ResiduaRCCR1TargetTests.lean:14:0: 'Residua.RCC.R1Target.Tests.target_certificate_reexports' depends on axioms: [propext]
+info: R1Independent.lean:15:0: 'Residua.RCC.R1Target.certificate' depends on axioms: [propext]
+info: R1Independent.lean:16:0: 'Residua.RCC.R1Target.Tests.target_certificate_nonempty' depends on axioms: [propext]
+info: R1Independent.lean:17:0: 'Residua.RCC.R1Target.Tests.target_certificate_reexports' depends on axioms: [propext]
+info: R1Independent.lean:28:0: 'Residua.RCC.RegistrationSites.R1.demoContext' does not depend on any axioms
+info: R1Independent.lean:29:0: 'Residua.RCC.RegistrationSites.R1.advance_resolves_at_concrete_context' does not depend on any axioms
+info: R1Independent.lean:30:0: 'Residua.RCC.RegistrationSites.R1.nonadmitted_refuses_at_concrete_context' does not depend on any axioms
+info: R1Independent.lean:31:0: 'Residua.RCC.RegistrationSites.R1.empty_event_refuses_at_concrete_context' does not depend on any axioms
+Build completed successfully (33 jobs).

@@ -554,20 +554,30 @@ theorem ClosureExhaustionAt.frontierEmpty
     {state : K.State}
     (closed : ClosureExhaustionAt K M F state) :
     deriveFrontierGoals K state = [] := by
-  apply List.eq_nil_iff_forall_not_mem.mpr
-  intro goal readyMember
-  have activeMember : goal ∈ deriveActiveGoals K state := by
-    simp only [deriveFrontierGoals, List.mem_filter] at readyMember
-    rcases readyMember with ⟨declared, ready⟩
-    simp only [deriveActiveGoals, List.mem_filter]
-    refine ⟨declared, ?_⟩
-    unfold goalIsReady at ready
-    unfold goalIsActive
-    split at ready <;> rename_i derived
-    · split at ready <;> simp_all
-    · simp at ready
-  rw [closed.activeGoalsEmpty] at activeMember
-  exact nomatch activeMember
+  cases hfrontier : deriveFrontierGoals K state with
+  | nil => rfl
+  | cons goal _ =>
+      have readyMember : goal ∈ deriveFrontierGoals K state := by
+        rw [hfrontier]
+        exact List.Mem.head _
+      have activeMember : goal ∈ deriveActiveGoals K state := by
+        simp only [deriveFrontierGoals, List.mem_filter] at readyMember
+        rcases readyMember with ⟨declared, ready⟩
+        simp only [deriveActiveGoals, List.mem_filter]
+        refine ⟨declared, ?_⟩
+        unfold goalIsReady at ready
+        unfold goalIsActive
+        cases hd : deriveGoalDisposition (K.workflowFactsAt state goal) with
+        | refuse _ => rfl
+        | classified disp =>
+            rw [hd] at ready
+            cases disp with
+            | terminal _ _ _ _ _ _ =>
+                exact Bool.noConfusion ready
+            | «open» _ _ _ =>
+                rfl
+      rw [closed.activeGoalsEmpty] at activeMember
+      exact nomatch activeMember
 
 /--
 Every mandatory ME-1 failure in a closure-exhaustion packet has an accepted

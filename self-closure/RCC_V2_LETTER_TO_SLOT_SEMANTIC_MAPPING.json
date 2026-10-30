@@ -1,0 +1,310 @@
+[
+ {
+  "letter_id": "AK-1",
+  "title": "Typed identity domain and context-indexed quotient adequacy",
+  "rcc_slot": "RCC97",
+  "confidence": "medium",
+  "reason": "RCC97 'AddressKernel quotient and consumer-factorization laws': twoClassKernel.address_eq_iff_equivalent (quotient adequacy: equal addresses iff equivalent values) over a typed two-class identity domain. The dedicated AK-1 floor lives in Prelude-only ResiduaRCCAddressQuotient ('discharges the formal AK-1 quotient-selection floor') which no Target imports; RCC97 is the only Target-level package enacting the quotient laws. 'Context-indexed' nuance is not visible in RCC97 (that vocabulary appears in DQ-7/RCC106), hence medium."
+ },
+ {
+  "letter_id": "AK-2",
+  "title": "Canonical codec soundness, completeness, and canonical-byte uniqueness",
+  "rcc_slot": "RCC100",
+  "confidence": "high",
+  "reason": "RCC100 'exact canonical codec and semantic-field discipline': paymentCodecRoundtrip (soundness/roundtrip), paymentAcceptedBytesUnique (canonical-byte uniqueness: two accepted byte strings for one class are equal), paymentCanonicalBytesExact (bytes equal iff quotient-equivalent). CanonicalCodec module itself pins AK-2. Secondary: RCC98/RCC104 re-enact codec binding at store/graph level."
+ },
+ {
+  "letter_id": "AK-3",
+  "title": "Domain/schema-separated digest binding with explicit collision policy",
+  "rcc_slot": "RCC57",
+  "confidence": "low",
+  "reason": "Only partial Target-level coverage: RCC57's registry package carries 'collision-policy evidence' plus nakedDigest and domainMismatch refusals (CM-ADDR-03), and RCC60/RCC98 show same-digest-different-domain inserts. The dedicated structural floor (preimage = kind+algorithm+domain+schema+bytes, injective frame only) is Prelude-only ResiduaRCCDigestBinding ('discharges AK-3's structural digest-binding floor'), imported by no Target — no slot owns the subject."
+ },
+ {
+  "letter_id": "AK-4",
+  "title": "Consumer factorization through the declared quotient",
+  "rcc_slot": "RCC97",
+  "confidence": "high",
+  "reason": "RCC97: nonconstantConsumerRefused (a consumer not respecting the quotient cannot be certified) + twoClassKernel.consumer_substitutability (equal addresses imply equal consumers). Same laws the Prelude AddressQuotient module files under AK-4; RCC97 is their Target-level enactment."
+ },
+ {
+  "letter_id": "AK-5",
+  "title": "Faithful store resolution by rehash, decode, re-encode, and byte comparison",
+  "rcc_slot": "RCC60",
+  "confidence": "high",
+  "reason": "RCC60 'addressed-store and addressed-resolution receipts' and its twin RCC98 'addressed-store resolution and runtime codec binding' both build the exact AK-5 chain: RCC98.resolvedContract = fetched bytes whose rehash equals the requested address AND decode=some value AND re-encode=those bytes; wrong-key rehash mismatch, decode refusal, malleable-byte refusal. Both slots are the same subject (AK-5 is the only letter with two equally-weighted slots)."
+ },
+ {
+  "letter_id": "AK-6",
+  "title": "Addressed graph referential closure and DAG/SCC-block canonicalization",
+  "rcc_slot": "RCC99",
+  "confidence": "high",
+  "reason": "RCC99 'concrete addressed-graph codec and root exactness': graph bytes equal iff isomorphic, root address equal iff isomorphic, root sound/complete, nonisomorphic roots differ (DAG canonicalization). The referential-closure half is RCC103 'addressed-graph closure validator' (dangling child/grandchild refused, local SCC cycles vs external DAG, cycles canonicalized with minimum labels) with RCC104 holding the codec-injectivity/canonical-label laws. Three slots (99/103/104) partition AK-6's title; RCC99 named primary because it carries root exactness for the whole graph."
+ },
+ {
+  "letter_id": "AK-7",
+  "title": "Rooted address-scheme bootstrap and conservative schema transport",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "The dedicated artifact is Prelude-only ResiduaRCCAddressSchemeTransport ('AK-7 Rooted Address-Scheme Transport': external root anchors the first scheme, successors authorized by the old scheme, conservative transport of the complete affected universe). No Target file imports it. Nearest slot RCC59 is a sealed-snapshot registry-coordinate adapter (unknown coordinate refused), which is snapshot binding, not rooted scheme bootstrap/migration — subject does not match."
+ },
+ {
+  "letter_id": "AK-8",
+  "title": "AddressUseRegistry completeness, kind/domain/schema matching, and use-site justification",
+  "rcc_slot": "RCC57",
+  "confidence": "high",
+  "reason": "Known-verified mapping, confirmed by content: RCC57 is the first concrete AddressUseRegistry instance — assessAddressUseRegistry = complete, every declared use justified at its use site, refusal mutants for omitted fields, kindMismatch, nakedDigest, domainMismatch. Secondary same-subject slots: RCC58 and RCC101 (AddressUseKernel derived-registry completeness over unit/two-class domains)."
+ },
+ {
+  "letter_id": "AK-9",
+  "title": "Address exposure policy for equality, length, topology, access, timing, and dictionary leakage",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "No Target in RCC57-107 (and no Lean module at all) addresses address-exposure/leakage policy. grep for leak/exposure/timing/dictionary across all Targets hits only RCC55, whose subject is mobile-adversary key compromise/erasure (post_v1 RCC-55), a different subject. CM-PRIV-01/CM-HYPER-01 witnesses likewise have no Target."
+ },
+ {
+  "letter_id": "AK-10",
+  "title": "Canonical-surface coverage for constructors and semantic/nonsemantic fields",
+  "rcc_slot": "RCC100",
+  "confidence": "high",
+  "reason": "RCC100 carries exactly the CM-ADDR-01/02 countermodel discipline: omittedSemanticFieldCollapses + omittedSemanticFieldRefused (a semantic field left out yields equal bytes and contradicts exactness), nonsemanticFieldChanges + nonsemanticFieldNotFactorable (a nonsemantic field must not factor through the quotient). That is AK-10's canonical-surface coverage; it shares the slot with AK-2."
+ },
+ {
+  "letter_id": "DQ-1",
+  "title": "Supported-fragment classifier is sound and complete",
+  "rcc_slot": "RCC105",
+  "confidence": "low",
+  "reason": "RCC105 contains only the classifier-boundary fragment: unsupportedRight/LeftBoundary pin that out-of-fragment terms classify as .unsupported with path+constructor witnesses (not silently notEqual), plus rawBoolCollapseExposed refusing the collapse mutant. The total sound-and-complete classifier itself lives in Prelude-only ResiduaRCCDefeqFragment ('establishes DQ-1'), imported by no Target — no slot owns the full obligation."
+ },
+ {
+  "letter_id": "DQ-2",
+  "title": "Normalizer is total on the supported subtype",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "Totality of the normalization kernel on the proof-carrying NumAddTerm subtype is established only in Prelude-only ResiduaRCCDefeqNormalizer ('establishes DQ-2'), which no Target file imports. RCC105/RCC61 use normalize on fixtures but never assert totality; no RCC57-107 slot has this subject."
+ },
+ {
+  "letter_id": "DQ-3",
+  "title": "Universal semantic preservation",
+  "rcc_slot": "RCC105",
+  "confidence": "medium",
+  "reason": "RCC105.productionBridgeWitness: above the structurally derived fuel bound, DefEq left right iff evalLF(left) = evalLF(right) — the defeq-to-production-evaluator semantic-preservation bridge, at fixture level. The universal theorem lives in Prelude-only ResiduaRCCDefeqSemanticPreservation ('establishes DQ-3', universally quantified) with no Target; RCC105 is the only Target-level enactment, hence medium rather than high."
+ },
+ {
+  "letter_id": "DQ-4",
+  "title": "Fuel irrelevance above a structurally derived bound",
+  "rcc_slot": "RCC61",
+  "confidence": "high",
+  "reason": "RCC61's docstring names 'sufficient-fuel irrelevance' and the package imports ResiduaRCCDefeqFuelIrrelevanceTests (the module that pins DQ-4): same term gets the same semantic identity under any sufficient fuel. Secondary: fuel-bound reasoning also appears in RCC105's productionBridgeWitness premises."
+ },
+ {
+  "letter_id": "DQ-5",
+  "title": "Normal-form uniqueness and defeq exactness",
+  "rcc_slot": "RCC105",
+  "confidence": "high",
+  "reason": "RCC105 'defeq exactness, typed boundaries': uniqueNormalFormWitness (normalize(1+2)=3 canonical form), relationLawsWitness (symmetry/reflexivity of DefEq), distinctSyntaxSameNormalForm, plus mutants (collapsedNormalForm, rawBool equality, syntax equality) refused. DefeqExactnessTests module pins DQ-5."
+ },
+ {
+  "letter_id": "DQ-6",
+  "title": "Normal-form codec roundtrip and canonical-byte injectivity",
+  "rcc_slot": "RCC61",
+  "confidence": "high",
+  "reason": "RCC61 docstring: 'canonical normal-form codec roundtrips/injectivity' — positive/negativeCodecRoundtrip, concrete_canonical_decoding (unique), concrete_encoder_injective over NumAddNormalForm. DefeqNormalFormCodecTests module pins DQ-6; RCC61 is its Target package."
+ },
+ {
+  "letter_id": "DQ-7",
+  "title": "Typed context-bound defeq address",
+  "rcc_slot": "RCC106",
+  "confidence": "high",
+  "reason": "RCC106 'typed defeq address framing and context binding': typedAddressFieldsBound (algorithm/domainQ/schemaQ pinned), addressKindSemantic, changedContextChangesPreimage (the context binding), naked-digest/cross-domain/schema/context omission mutants exposed. DefeqTypedAddressTests pins DQ-7/DQ-8."
+ },
+ {
+  "letter_id": "DQ-8",
+  "title": "Defeq address exactness relative to digest binding or collision-aware resolution",
+  "rcc_slot": "RCC107",
+  "confidence": "high",
+  "reason": "Known-verified, and RCC107's docstring literally names 'DQ-8 collision-aware defeq address exactness': conditionalBareAddressExactness under DigestInjectiveOnDefeqRange, operationalReuseSound, constant-digest collapse reported with conflicting-preimage witnesses. Secondary: RCC61 carries the same conditional bare-address exactness package; RCC106 touched DQ-8 via DefeqTypedAddressTests."
+ },
+ {
+  "letter_id": "TA-1",
+  "title": "Theory-collision adapters classify theorem transfer, proof template, or interpretive analogy",
+  "rcc_slot": "RCC65",
+  "confidence": "high",
+  "reason": "RCC65 'theory-transfer firewall': gradeATransfer (theorem transfer imported), gradeBReproof (proof template → RCC-native reproof), gradeCNonAuthoritative (interpretive analogy stays non-authoritative). TheoryAdapter/Tests modules pin TA-1. RCC76 'theory-import firewall' is a second slot with the identical subject and the same imports — TA-1..TA-3 all map to both RCC65 and RCC76."
+ },
+ {
+  "letter_id": "TA-2",
+  "title": "Borrowed-theorem assumptions and object translations are explicit and discharged",
+  "rcc_slot": "RCC65",
+  "confidence": "high",
+  "reason": "RCC65/RCC76: unmetAssumptionRefused / assumptionsRefused (deriveTheoryDependency refuses when borrowed assumptions are unmet), newmanScopeRefused (Newman's lemma without local confluence refused = assumption explicitly checked). The unmet-borrowed-assumption refusal is TA-2's Target-level content; duplicated in RCC76."
+ },
+ {
+  "letter_id": "TA-3",
+  "title": "Analogy without a bridge cannot satisfy a proof obligation",
+  "rcc_slot": "RCC65",
+  "confidence": "high",
+  "reason": "RCC65/RCC76: analogyRefused (autopoiesis analogy presented as proof dependency → refuse .theoryAnalogyPresentedAsProof), missingBridgeRefused (→ refuse .theoremTransferAdapterMissing), coalgebraNormalFormRefused (finality argument cannot prove normal form). Exactly TA-3; duplicated in RCC76."
+ },
+ {
+  "letter_id": "FC-1",
+  "title": "All RCC facets share one sealed snapshot and carrier",
+  "rcc_slot": "RCC63",
+  "confidence": "medium",
+  "reason": "No Target's primary subject is the facet-snapshot mechanism itself; the strongest enforcement is RCC63 'component/seam gluing' where composition evidence must glue at the one sealed FC-1 snapshot (integrated_evidence_glues_at_fc1_snapshot, mismatched_snapshot_composition_payload_refused). RCC102 is a duplicate slot with the same content; RCC59 additionally binds the FC-1 snapshot's addressRegistry coordinate to a concrete kernel (unknown coordinate refused). Shared-snapshot coherence is enforced, but as a premise of these packages rather than their headline theorem — hence medium."
+ },
+ {
+  "letter_id": "FC-2",
+  "title": "Cross-facet coherence laws connect addressing, evidence, reduction, resources, reflection, runtime, migration, and composition",
+  "rcc_slot": "RCC63",
+  "confidence": "low",
+  "reason": "The cross-facet law family lives in ResiduaRCCFacetCoherence (imports pinned FC-1/FC-2), which RCC63/RCC102 import and derive their gluing certificates from (adapter.index.world) — the composition↔facet-coherence slice of FC-2. No Target states the full eight-facet law family; RCC72's closure bridge (closure↔trace↔intent) is another partial slice. No slot owns the obligation as titled."
+ },
+ {
+  "letter_id": "FC-3",
+  "title": "Deletion countermodels establish necessity of every load-bearing facet",
+  "rcc_slot": "RCC70",
+  "confidence": "low",
+  "reason": "Nearest Target-level shape is RCC70's missingResidueRefused (an Adapter whose rho omits the typed residue for the nonadmitted class cannot satisfy the surface) — a deletion countermodel for the residue facet. The named FC-3 anchor (RelativeCompleteClosure.lean:967 'Every RC-1 advance has the resource delta required by FC-3') sits in RCC70/71/72's import basis (and revoked RCC95's), but no Target's subject is the FC-3 countermodel family — hence low."
+ },
+ {
+  "letter_id": "BH-1",
+  "title": "Behavior semantics supports deterministic traces, trace sets, and probability measures",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "No BehaviorSemantics module exists anywhere in lean/; no Target mentions trace sets or probability measures. RCC71/RCC72 provide only the deterministic single-trace slice (AdmittedTrace/DurableTrace), and no slot models the trace-set or probability-measure execution models — the obligation as titled has no slot."
+ },
+ {
+  "letter_id": "BH-2",
+  "title": "Snapshot, safety, liveness, hyperproperty, and quantitative goals are typed separately",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "No Target types a goal/claim hierarchy separating snapshot/safety/liveness/hyperproperty/quantitative goals. RCC94 covers only the liveness/fairness slice and RCC89 only the quantitative-claim slice; neither names BH-2's typed-goal-family subject, and nothing anywhere mentions hyperproperty typing."
+ },
+ {
+  "letter_id": "BH-3",
+  "title": "Inner epoch normalization is inductive and outer institutional lineage is coinductive",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "grep for 'coinductive' across lean/algorithms returns nothing; no Target or module models the inductive-epoch/coinductive-lineage split. RCC93's reepoch lineage is finite/inductive only and its subject is post_v1 RCC-23 — not BH-3."
+ },
+ {
+  "letter_id": "CM-1",
+  "title": "Claims are typed as deductive, computational, probabilistic, statistical, empirical-window, or assumption-relative",
+  "rcc_slot": "RCC89",
+  "confidence": "low",
+  "reason": "RCC89 covers only the probabilistic+statistical pair of the six modalities (bindQuantitativeEvidence on .probabilistic/.statistical). The six-constructor typed-modality index lives in Prelude-only ResiduaRCCClaimModality ('RCC CM-1 typed claim modalities'), imported by no Target. 2-of-6 coverage — low."
+ },
+ {
+  "letter_id": "CM-2",
+  "title": "Evidence modality cannot be silently upgraded",
+  "rcc_slot": "RCC89",
+  "confidence": "medium",
+  "reason": "RCC89's transport discipline enacts the no-silent-rewrite direction: exact quantitative identity can be transported, but rewritten security parameter / adversary class / probability bound / sample frame / confidence metadata are refused 'despite bridge' (QuantitativeClaimBindingTests pins CM-2). The general modality-transport gap (EvidenceModalityTransport, pins CM-2) is Prelude-only with no Target — medium."
+ },
+ {
+  "letter_id": "CM-3",
+  "title": "Quantitative claims retain security parameters, adversary classes, probability bounds, and confidence metadata",
+  "rcc_slot": "RCC89",
+  "confidence": "high",
+  "reason": "RCC89 'quantitative claim identity and transport binding': probabilistic/statistical identity retains security coordinates and confidence coordinates; missing security parameter / sample frame / confidence refused. QuantitativeClaimBinding module pins CM-1/CM-2/CM-3 and its Tests pin CM-2/CM-3; RCC89 is their Target package."
+ },
+ {
+  "letter_id": "WI-1",
+  "title": "Observation soundness",
+  "rcc_slot": "RCC82",
+  "confidence": "high",
+  "reason": "RCC82 'sealed observation soundness and authority boundaries': valid observation admitted and true of the sealed world; stale snapshot, unsigned capture, substituted source, forged value refused; always-accept verifier unsound. ObservationSoundnessTests pins WI-1."
+ },
+ {
+  "letter_id": "WI-2",
+  "title": "Observation completeness within the sealed world-event scope",
+  "rcc_slot": "RCC81",
+  "confidence": "high",
+  "reason": "RCC81 'sealed observation-window completeness': ScopedObservationComplete over the sealed universe; unsealed authority, empty scan, partial scan, unfaithful observation all refused; complete empty scan forces empty scope. ObservationCompletenessTests pins WI-2 (RCC82 touches WI-2 secondarily)."
+ },
+ {
+  "letter_id": "WI-3",
+  "title": "Abstraction soundness from observations to model",
+  "rcc_slot": "RCC77",
+  "confidence": "medium",
+  "reason": "RCC77 opens and uses Residua.RCC.ObservationAbstraction (module pins WI-1/WI-3/WI-4) and refuses wrong observation set / wrong model / wrong model claim — abstraction-input discipline is exercised inside the adequacy bridge. But the package's headline theorems are adequacy (WI-4); abstraction soundness is not its Certificate subject, and no dedicated WI-3 slot exists — medium, shared slot with WI-4."
+ },
+ {
+  "letter_id": "WI-4",
+  "title": "World-model adequacy from model property to external intent",
+  "rcc_slot": "RCC77",
+  "confidence": "high",
+  "reason": "RCC77 'sealed-world observation and intent adequacy bridge': exact model property establishes external intent, admitted external intent is true, wrong intent refused, stale snapshot/wrong context/wrong observations/wrong model refused, caller boolean cannot establish intent. WorldModelAdequacyTests pins WI-3/WI-4."
+ },
+ {
+  "letter_id": "WI-5",
+  "title": "Actuation soundness",
+  "rcc_slot": "RCC85",
+  "confidence": "medium",
+  "reason": "RCC85 opens ActuationBinding/ActuationSoundness and its FeedbackBridgeClaim is universe-polymorphic over the full actuation schema (effect, occurrence/effect/post-world binding); PostEffectFeedbackTests pins WI-1/WI-5/WI-6 and ActuationSoundnessTests pins WI-5. But the package's headline is the feedback closure (WI-6); actuation soundness appears as a binding premise, and no dedicated WI-5 slot exists — medium, shared slot with WI-6."
+ },
+ {
+  "letter_id": "WI-6",
+  "title": "Post-effect feedback closure by independent re-observation",
+  "rcc_slot": "RCC85",
+  "confidence": "high",
+  "reason": "RCC85 'independent post-effect feedback closure': independent_reobservation_closes_feedback; no-reobservation, same-actor, same-actuator-source, stale pre-effect observation, wrong occurrence/effect/post-world, unverifiable observation all refused. PostEffectFeedback module pins WI-1/WI-5/WI-6."
+ },
+ {
+  "letter_id": "EF-1",
+  "title": "Effects are classified as Pure, PrepareCommit, ExactlyReversible, Compensatable, or Irreversible",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "ResiduaRCCEffectClassification ('RCC EF-1 ...') defines exactly this five-way classification but is imported by no Target file — it only enters RCC70/71/72/95/96 transitively as prerequisite vocabulary via ClosureExhaustion/MetaFailureExhaustion, where it is used, not certified. No RCC57-107 slot has effect classification as its subject."
+ },
+ {
+  "letter_id": "EF-2",
+  "title": "Compensation proves its declared compensation goal and never masquerades as exact reversal",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "EF-2's content lives in the same untargeted EffectClassification module (pinned EF-1/EF-2/EF-3). No Target package states or tests the compensation-goal/versus-exact-reversal distinction; RCC72/RCC85 use EffectSettlement (post_v1 RCC-31's fenced settlement), which is a different obligation."
+ },
+ {
+  "letter_id": "EF-3",
+  "title": "Irreversible effects require finality-before-actuation, occurrence fencing, receiver receipt, and post-effect observation",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "Same untargeted EffectClassification module. The ingredients appear scattered (finality in RCC73/RCC75, occurrence fencing in RCC83/84, post-effect observation in RCC85) but each of those slots belongs to a post_v1 subject (RCC-39/RCC-42/RCC-27/RCC-28/WI-6); no slot composes them as EF-3's irreversible-effect package."
+ },
+ {
+  "letter_id": "ME-1",
+  "title": "End-to-end failure classification is exhausted by node residue, bridge residue, assumption violation, or scope escape",
+  "rcc_slot": "RCC96",
+  "confidence": "high",
+  "reason": "RCC96 'sealed meta-failure exhaustion': node/bridge/assumption/scope-escape failures derived, overlapping classifiers refused, unknown readout is gap not green, fifth in-scope failure cannot be omitted from the seal, empty/unsealed universe refused. MetaFailureExhaustion module pins ME-1."
+ },
+ {
+  "letter_id": "ME-2",
+  "title": "A counterexample outside the current model yields a diagnostic witness and specification reepoch",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "No Target (and no module) composes the counterexample→witness→reepoch response: MetaFailureExhaustion has no 'reepoch'/'counterexample' content (its gaps stay gaps), and RCC93's reepoch is post_v1 RCC-23's anti-churn/debt subject triggered by semantic deltas, not by outside-model counterexamples. The two halves of ME-2 live in slots owned by other obligations."
+ },
+ {
+  "letter_id": "RC-1",
+  "title": "Relative Complete Closure theorem",
+  "rcc_slot": "RCC95",
+  "confidence": "high",
+  "reason": "Known-verified: RCC95 'relative-complete-closure capstone and CoreObject bridge' (closedPacketIsCoreFixed, admittedAdvanceIsFormalReduction over the ClosureContext). Slot is REVOKED — the module does not build (universe-level inference failure, revoked in PR #3005), so RC-1 has no live slot; RCC70/71/72/86/87 carry RC-1-pinned fragments (adapters/bridges) but none is the capstone theorem."
+ },
+ {
+  "letter_id": "RC-2",
+  "title": "Diagnostic completeness theorem",
+  "rcc_slot": "RCC96",
+  "confidence": "low",
+  "reason": "Nearest content is RCC96's named-gap discipline: unknown evidence/readout yield a named gap rather than silent green, every declared failure has an admitted packet — the diagnostic-naming fragment of RC-2. The diagnostic-completeness theorem over the whole calculus (every non-closed run yields a diagnostic) is stated by no Target; keep low."
+ },
+ {
+  "letter_id": "RC-3",
+  "title": "RCC self-check is stratified and may govern only a successor epoch",
+  "rcc_slot": null,
+  "confidence": "unmapped",
+  "reason": "The stratification law exists (FacetCoherence.lean: verificationStratified / acceptedVerificationIsStratified, the CM-SELF-01 same-level refusal) but is exposed by no Target package, and no Target treats self-check governance of a successor epoch (RCC67's successor is trust-topology invalidation, post_v1 RCC-37 — different subject)."
+ }
+]

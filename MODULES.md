@@ -1,6 +1,6 @@
 # RCC modules
 
-## Library (`RCC/`, 236)
+## Library (`RCC/`, 239)
 
 - `RCC.AK7Target`
 - `RCC.ActuationBinding`
@@ -65,6 +65,7 @@
 - `RCC.EvidenceProfile`
 - `RCC.EvidenceReplayability`
 - `RCC.ExactlyOnce`
+- `RCC.FC3Target`
 - `RCC.FacetCoherence`
 - `RCC.FacetSnapshot`
 - `RCC.FailureCoverage`
@@ -86,6 +87,7 @@
 - `RCC.KeyEpochVote`
 - `RCC.KeyRoleSeparation`
 - `RCC.LongRangeSafety`
+- `RCC.M1Target`
 - `RCC.MetaFailureExhaustion`
 - `RCC.MobileAdversarySafety`
 - `RCC.NoDoubleCounting`
@@ -113,6 +115,7 @@
 - `RCC.RC1StepMSTBinding`
 - `RCC.RC1StepVerdictAdapter`
 - `RCC.RC1TraceClosure`
+- `RCC.RC2Target`
 - `RCC.RC3aTarget`
 - `RCC.RCC0Target`
 - `RCC.RCC100Target`
@@ -246,7 +249,7 @@
 - `RCC.Support.SHA256`
 - `RCC.Support.SlotSemanticsCore`
 
-## Tests (`RCCTests/`, 184)
+## Tests (`RCCTests/`, 190)
 
 - `RCCTests.ActuationBinding`
 - `RCCTests.ActuationSoundness`
@@ -315,6 +318,7 @@
 - `RCCTests.KeyEpochVote`
 - `RCCTests.KeyRoleSeparation`
 - `RCCTests.LongRangeSafety`
+- `RCCTests.M1Target`
 - `RCCTests.MetaFailureExhaustion`
 - `RCCTests.MobileAdversarySafety`
 - `RCCTests.NoDoubleCounting`
@@ -424,6 +428,11 @@
 - `RCCTests.SeamIntegratedFamily`
 - `RCCTests.SeamWriterAdapter`
 - `RCCTests.SerializableEpochClosure`
+- `RCCTests.SitesAK3`
+- `RCCTests.SitesCM1`
+- `RCCTests.SitesDQ1`
+- `RCCTests.SitesFC2`
+- `RCCTests.SitesR1`
 - `RCCTests.StateBasisBinding`
 - `RCCTests.SupportClosure`
 - `RCCTests.TemporalAuthenticity`

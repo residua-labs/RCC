@@ -1,0 +1,6 @@
+literal:
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+RCC-V2-closure: Closed|closed=117
+strict:
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+RCC-V2-closure: Closed|closed=117

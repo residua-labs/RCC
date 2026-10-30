@@ -1,0 +1,810 @@
+{
+  "added_v2_targets": [
+    {
+      "id": "RCC-13",
+      "layer": "post_v1_core",
+      "title": "Goal/work-item separation prevents invalid work from deleting a goal"
+    },
+    {
+      "id": "RCC-14",
+      "layer": "post_v1_core",
+      "title": "Assumption dependency and retraction reopen or migrate dependent judgments"
+    },
+    {
+      "id": "RCC-15",
+      "layer": "post_v1_core",
+      "title": "Runtime implementation soundness bridges formal verifier to measured executable"
+    },
+    {
+      "id": "RCC-16",
+      "layer": "post_v1_core",
+      "title": "Canonical-head coherence rejects stale snapshots, forks, and local-only closure"
+    },
+    {
+      "id": "RCC-17",
+      "layer": "post_v1_core",
+      "title": "Collision-aware addressing rechecks canonical bytes and refuses digest aliases"
+    },
+    {
+      "id": "RCC-18",
+      "layer": "post_v1_core",
+      "title": "Primitive operational totality returns Ok/Await/Refuse/ResourceExhausted"
+    },
+    {
+      "id": "RCC-19",
+      "layer": "post_v1_core",
+      "title": "Intent and goal non-vacuity require load-bearing evidence"
+    },
+    {
+      "id": "RCC-20",
+      "layer": "post_v1_core",
+      "title": "Goal refinement soundness preserves parent meaning across split/merge"
+    },
+    {
+      "id": "RCC-21",
+      "layer": "post_v1_core",
+      "title": "Judgment invalidation closure prevents stale GREEN reuse"
+    },
+    {
+      "id": "RCC-22",
+      "layer": "post_v1_core",
+      "title": "Await wake adequacy requires a causal non-empty wake contract"
+    },
+    {
+      "id": "RCC-23",
+      "layer": "post_v1_core",
+      "title": "Reepoch anti-churn and migration refinement require semantic delta and debt conservation"
+    },
+    {
+      "id": "RCC-24",
+      "layer": "post_v1_core",
+      "title": "Theory growth is conservative over old semantics"
+    },
+    {
+      "id": "RCC-25",
+      "layer": "post_v1_core",
+      "title": "Final branch exactness derives Closed/Await/Reepoch/Halt rather than choosing tags"
+    },
+    {
+      "id": "RCC-26",
+      "layer": "post_v1_core",
+      "title": "Key-role separation prevents one quotient from serving incompatible identities"
+    },
+    {
+      "id": "RCC-27",
+      "layer": "post_v1_core",
+      "title": "Occurrence exactness identifies retries of one logical occurrence, not equal content"
+    },
+    {
+      "id": "RCC-28",
+      "layer": "post_v1_core",
+      "title": "Exactly-once premise requires at-least-once delivery plus atomic receiver dedup on occurrence identity"
+    },
+    {
+      "id": "RCC-29",
+      "layer": "post_v1_core",
+      "title": "Temporal judgment validity separates ValidAt, UsableAt, and Transportable"
+    },
+    {
+      "id": "RCC-30",
+      "layer": "post_v1_core",
+      "title": "Actuation binding distinguishes merged/proved artifacts from live behavior"
+    },
+    {
+      "id": "RCC-31",
+      "layer": "post_v1_core",
+      "title": "Fenced effect settlement reconciles effect and history under a head-bound occurrence"
+    },
+    {
+      "id": "RCC-32",
+      "layer": "post_v1_core",
+      "title": "Failure-mode evidence coverage covers every mandatory threat class"
+    },
+    {
+      "id": "RCC-33",
+      "layer": "post_v1_core",
+      "title": "Common-cause independence measures fault-domain min-cuts rather than evidence count"
+    },
+    {
+      "id": "RCC-34",
+      "layer": "post_v1_core",
+      "title": "Effective authority quorum exceeds the declared control-domain threat budget"
+    },
+    {
+      "id": "RCC-35",
+      "layer": "post_v1_core",
+      "title": "Evidence-profile dimensions are non-compensable"
+    },
+    {
+      "id": "RCC-36",
+      "layer": "post_v1_core",
+      "title": "No evidence double counting across aliases, shared receipts, or shared lineages"
+    },
+    {
+      "id": "RCC-37",
+      "layer": "post_v1_core",
+      "title": "Trust-topology changes invalidate dependent quorum and evidence judgments"
+    },
+    {
+      "id": "RCC-38",
+      "layer": "post_v1_core",
+      "title": "Cross-epoch goal fairness prevents indefinite lawful carry and starvation"
+    },
+    {
+      "id": "RCC-39",
+      "layer": "post_v1_core",
+      "title": "Authorization-finality separation forbids treating threshold authorization as admission"
+    },
+    {
+      "id": "RCC-40",
+      "layer": "post_v1_core",
+      "title": "Quorum-intersection safety guarantees an honest intersection under the declared fault model"
+    },
+    {
+      "id": "RCC-41",
+      "layer": "post_v1_core",
+      "title": "Durable signer non-equivocation binds slot/head/round/config and survives crash"
+    },
+    {
+      "id": "RCC-42",
+      "layer": "post_v1_core",
+      "title": "Admission linearizer yields one finalized judgment per decision slot"
+    },
+    {
+      "id": "RCC-43",
+      "layer": "post_v1_core",
+      "title": "Admission linearizer plus effect settlement and history recording implies AtMostOneAdmit"
+    },
+    {
+      "id": "RCC-44",
+      "layer": "post_v1_core",
+      "title": "Safe authority reconfiguration prevents old/new configuration overlap and forks"
+    },
+    {
+      "id": "RCC-45",
+      "layer": "post_v1_core",
+      "title": "Finalized head and source window are globally certified rather than local opinions"
+    },
+    {
+      "id": "RCC-46",
+      "layer": "post_v1_core",
+      "title": "Finality liveness is conditional on quorum availability, delivery, and stable configuration"
+    },
+    {
+      "id": "RCC-47",
+      "layer": "post_v1_core",
+      "title": "State-basis binding validates every proposal against the state root it mutates"
+    },
+    {
+      "id": "RCC-48",
+      "layer": "post_v1_core",
+      "title": "Transaction-footprint completeness covers reads, writes, effects, and invariant domains"
+    },
+    {
+      "id": "RCC-49",
+      "layer": "post_v1_core",
+      "title": "Conflict serializability orders all noncommuting finalized events"
+    },
+    {
+      "id": "RCC-50",
+      "layer": "post_v1_core",
+      "title": "Commutative join exactness equates parallel joins with legal serial executions"
+    },
+    {
+      "id": "RCC-51",
+      "layer": "post_v1_core",
+      "title": "Global invariant preservation follows from the serializable finalized history"
+    },
+    {
+      "id": "RCC-52",
+      "layer": "post_v1_core",
+      "title": "Key-epoch vote admissibility binds votes to active signer and configuration epochs"
+    },
+    {
+      "id": "RCC-53",
+      "layer": "post_v1_core",
+      "title": "Historical inclusion authenticity requires finalized checkpoint inclusion"
+    },
+    {
+      "id": "RCC-54",
+      "layer": "post_v1_core",
+      "title": "Long-range safety prevents later compromise of old keys from forging accepted history"
+    },
+    {
+      "id": "RCC-55",
+      "layer": "post_v1_core",
+      "title": "Mobile-adversary safety relates refresh, erasure, checkpoint cadence, and corruption horizon"
+    },
+    {
+      "id": "RCC-56",
+      "layer": "post_v1_core",
+      "title": "Serializable finalized cut is the only history cut eligible for EpochClosed"
+    },
+    {
+      "id": "AK-1",
+      "layer": "address_kernel",
+      "title": "Typed identity domain and context-indexed quotient adequacy"
+    },
+    {
+      "id": "AK-2",
+      "layer": "address_kernel",
+      "title": "Canonical codec soundness, completeness, and canonical-byte uniqueness"
+    },
+    {
+      "id": "AK-3",
+      "layer": "address_kernel",
+      "title": "Domain/schema-separated digest binding with explicit collision policy"
+    },
+    {
+      "id": "AK-4",
+      "layer": "address_kernel",
+      "title": "Consumer factorization through the declared quotient"
+    },
+    {
+      "id": "AK-5",
+      "layer": "address_kernel",
+      "title": "Faithful store resolution by rehash, decode, re-encode, and byte comparison"
+    },
+    {
+      "id": "AK-6",
+      "layer": "address_kernel",
+      "title": "Addressed graph referential closure and DAG/SCC-block canonicalization"
+    },
+    {
+      "id": "AK-7",
+      "layer": "address_kernel",
+      "title": "Rooted address-scheme bootstrap and conservative schema transport"
+    },
+    {
+      "id": "AK-8",
+      "layer": "address_kernel",
+      "title": "AddressUseRegistry completeness, kind/domain/schema matching, and use-site justification"
+    },
+    {
+      "id": "AK-9",
+      "layer": "address_kernel",
+      "title": "Address exposure policy for equality, length, topology, access, timing, and dictionary leakage"
+    },
+    {
+      "id": "AK-10",
+      "layer": "address_kernel",
+      "title": "Canonical-surface coverage for constructors and semantic/nonsemantic fields"
+    },
+    {
+      "id": "DQ-1",
+      "layer": "defeq_addressing",
+      "title": "Supported-fragment classifier is sound and complete"
+    },
+    {
+      "id": "DQ-2",
+      "layer": "defeq_addressing",
+      "title": "Normalizer is total on the supported subtype"
+    },
+    {
+      "id": "DQ-3",
+      "layer": "defeq_addressing",
+      "title": "Universal semantic preservation"
+    },
+    {
+      "id": "DQ-4",
+      "layer": "defeq_addressing",
+      "title": "Fuel irrelevance above a structurally derived bound"
+    },
+    {
+      "id": "DQ-5",
+      "layer": "defeq_addressing",
+      "title": "Normal-form uniqueness and defeq exactness"
+    },
+    {
+      "id": "DQ-6",
+      "layer": "defeq_addressing",
+      "title": "Normal-form codec roundtrip and canonical-byte injectivity"
+    },
+    {
+      "id": "DQ-7",
+      "layer": "defeq_addressing",
+      "title": "Typed context-bound defeq address"
+    },
+    {
+      "id": "DQ-8",
+      "layer": "defeq_addressing",
+      "title": "Defeq address exactness relative to digest binding or collision-aware resolution"
+    },
+    {
+      "id": "TA-1",
+      "layer": "theory_adapter",
+      "title": "Theory-collision adapters classify theorem transfer, proof template, or interpretive analogy"
+    },
+    {
+      "id": "TA-2",
+      "layer": "theory_adapter",
+      "title": "Borrowed-theorem assumptions and object translations are explicit and discharged"
+    },
+    {
+      "id": "TA-3",
+      "layer": "theory_adapter",
+      "title": "Analogy without a bridge cannot satisfy a proof obligation"
+    },
+    {
+      "id": "FC-1",
+      "layer": "facet_coherence",
+      "title": "All RCC facets share one sealed snapshot and carrier"
+    },
+    {
+      "id": "FC-2",
+      "layer": "facet_coherence",
+      "title": "Cross-facet coherence laws connect addressing, evidence, reduction, resources, reflection, runtime, migration, and composition"
+    },
+    {
+      "id": "FC-3",
+      "layer": "facet_coherence",
+      "title": "Deletion countermodels establish necessity of every load-bearing facet"
+    },
+    {
+      "id": "BH-1",
+      "layer": "behavior_semantics",
+      "title": "Behavior semantics supports deterministic traces, trace sets, and probability measures"
+    },
+    {
+      "id": "BH-2",
+      "layer": "behavior_semantics",
+      "title": "Snapshot, safety, liveness, hyperproperty, and quantitative goals are typed separately"
+    },
+    {
+      "id": "BH-3",
+      "layer": "behavior_semantics",
+      "title": "Inner epoch normalization is inductive and outer institutional lineage is coinductive"
+    },
+    {
+      "id": "CM-1",
+      "layer": "claim_modality",
+      "title": "Claims are typed as deductive, computational, probabilistic, statistical, empirical-window, or assumption-relative"
+    },
+    {
+      "id": "CM-2",
+      "layer": "claim_modality",
+      "title": "Evidence modality cannot be silently upgraded"
+    },
+    {
+      "id": "CM-3",
+      "layer": "claim_modality",
+      "title": "Quantitative claims retain security parameters, adversary classes, probability bounds, and confidence metadata"
+    },
+    {
+      "id": "WI-1",
+      "layer": "world_interface",
+      "title": "Observation soundness"
+    },
+    {
+      "id": "WI-2",
+      "layer": "world_interface",
+      "title": "Observation completeness within the sealed world-event scope"
+    },
+    {
+      "id": "WI-3",
+      "layer": "world_interface",
+      "title": "Abstraction soundness from observations to model"
+    },
+    {
+      "id": "WI-4",
+      "layer": "world_interface",
+      "title": "World-model adequacy from model property to external intent"
+    },
+    {
+      "id": "WI-5",
+      "layer": "world_interface",
+      "title": "Actuation soundness"
+    },
+    {
+      "id": "WI-6",
+      "layer": "world_interface",
+      "title": "Post-effect feedback closure by independent re-observation"
+    },
+    {
+      "id": "EF-1",
+      "layer": "effect_class",
+      "title": "Effects are classified as Pure, PrepareCommit, ExactlyReversible, Compensatable, or Irreversible"
+    },
+    {
+      "id": "EF-2",
+      "layer": "effect_class",
+      "title": "Compensation proves its declared compensation goal and never masquerades as exact reversal"
+    },
+    {
+      "id": "EF-3",
+      "layer": "effect_class",
+      "title": "Irreversible effects require finality-before-actuation, occurrence fencing, receiver receipt, and post-effect observation"
+    },
+    {
+      "id": "ME-1",
+      "layer": "meta_exhaustion",
+      "title": "End-to-end failure classification is exhausted by node residue, bridge residue, assumption violation, or scope escape"
+    },
+    {
+      "id": "ME-2",
+      "layer": "meta_exhaustion",
+      "title": "A counterexample outside the current model yields a diagnostic witness and specification reepoch"
+    },
+    {
+      "id": "RC-1",
+      "layer": "capstone",
+      "title": "Relative Complete Closure theorem"
+    },
+    {
+      "id": "RC-2",
+      "layer": "capstone",
+      "title": "Diagnostic completeness theorem"
+    },
+    {
+      "id": "RC-3a",
+      "title": "RCC self-check is stratified (verification stratum strictly above artifact)",
+      "layer": "capstone",
+      "split_of": "RC-3",
+      "split_reason": "architect ruling #2973: two halves have different status \u2014 stratification law exists (CM-SELF), successor-epoch governance does not; splitting is refinement (monotone-safe), partial is coarsening"
+    },
+    {
+      "id": "RC-3b",
+      "title": "RCC self-check may govern only a successor epoch",
+      "layer": "capstone",
+      "split_of": "RC-3",
+      "split_reason": "same ruling \u2014 named gap with envelope"
+    }
+  ],
+  "carried_v1_targets": [
+    {
+      "id": "RCC-0",
+      "layer": "addressing",
+      "title": "Typed AddressKernel and complete AddressUseRegistry justify every concrete q use"
+    },
+    {
+      "id": "R1",
+      "layer": "relation",
+      "title": "Goal/work/candidate/judgment/event separation"
+    },
+    {
+      "id": "R2",
+      "layer": "relation",
+      "title": "Verifier soundness"
+    },
+    {
+      "id": "R3",
+      "layer": "relation",
+      "title": "Intent coverage"
+    },
+    {
+      "id": "R4",
+      "layer": "relation",
+      "title": "Assumption-relative judgment soundness"
+    },
+    {
+      "id": "R5",
+      "layer": "relation",
+      "title": "No silent pressure/goal/event drop"
+    },
+    {
+      "id": "E1",
+      "layer": "execution",
+      "title": "Every primitive total-or-residue"
+    },
+    {
+      "id": "E2",
+      "layer": "execution",
+      "title": "Source and negative-claim universe coverage"
+    },
+    {
+      "id": "E3",
+      "layer": "execution",
+      "title": "Evidence/state derivation uniqueness"
+    },
+    {
+      "id": "E4",
+      "layer": "execution",
+      "title": "Sealed candidate-window determinism"
+    },
+    {
+      "id": "E5",
+      "layer": "execution",
+      "title": "Advanced-step legality and strict progress"
+    },
+    {
+      "id": "E6",
+      "layer": "execution",
+      "title": "Normalization termination"
+    },
+    {
+      "id": "E7",
+      "layer": "execution",
+      "title": "Closed soundness and idempotence"
+    },
+    {
+      "id": "E8",
+      "layer": "refinement",
+      "title": "RCCExec refines RCCRel"
+    },
+    {
+      "id": "C1",
+      "layer": "composition",
+      "title": "Component closure preservation"
+    },
+    {
+      "id": "C2",
+      "layer": "composition",
+      "title": "Seam exactness"
+    },
+    {
+      "id": "C3",
+      "layer": "composition",
+      "title": "Global intent coverage"
+    },
+    {
+      "id": "C4",
+      "layer": "composition",
+      "title": "Component closure plus exact seams implies global closure"
+    },
+    {
+      "id": "M1",
+      "layer": "mst_bridge",
+      "title": "Step ExecModel and slot coherence yield admitted traces and CoreObject.Exact"
+    }
+  ],
+  "closure_claim": 0,
+  "countermodel_registry": [
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-ADDR-01",
+      "name": "semantic_field_omitted",
+      "witness": "Different semantics share canonical bytes."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-ADDR-02",
+      "name": "nonsemantic_field_included",
+      "witness": "Equivalent semantics receive different canonical bytes."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-ADDR-03",
+      "name": "naked_digest_cross_domain",
+      "witness": "A value address is consumed as an occurrence or judgment address."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-ADDR-04",
+      "name": "unsupported_terms_collapsed",
+      "witness": "Unsupported terms collapse to one false/none address."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-ADDR-05",
+      "name": "fuel_dependent_address",
+      "witness": "The same term receives different semantic identity under different sufficient resources."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-ADDR-06",
+      "name": "same_digest_different_bytes",
+      "witness": "A store reuses a digest without comparing canonical bytes."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-GRAPH-01",
+      "name": "dangling_child_address",
+      "witness": "A graph root resolves while a referenced child is unavailable."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-GRAPH-02",
+      "name": "naive_recursive_self_hash",
+      "witness": "A cyclic graph attempts direct recursive content hashing."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-GOAL-01",
+      "name": "vacuous_goal",
+      "witness": "Claim=True or an empty mandatory-goal set produces false closure."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-GOAL-02",
+      "name": "irrelevant_goal_split",
+      "witness": "A hard parent goal is replaced by easy unrelated children."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-JUDG-01",
+      "name": "stale_green_reused",
+      "witness": "A changed dependency leaves an old GREEN judgment active."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-AWAIT-01",
+      "name": "await_hides_stuck",
+      "witness": "An unresolvable goal is labeled Await without a causal wake."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-REEPOCH-01",
+      "name": "reepoch_churn",
+      "witness": "Real but irrelevant epoch deltas carry a mandatory goal forever."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-GROW-01",
+      "name": "revision_mislabeled_growth",
+      "witness": "Breaking old semantics is presented as conservative theory growth."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-EVID-01",
+      "name": "circular_support",
+      "witness": "Two closed judgments support each other without an external root."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-EVID-02",
+      "name": "archive_corruption_silent",
+      "witness": "Malformed or missing evidence is skipped and closure remains active."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-EVID-03",
+      "name": "common_fixture_root",
+      "witness": "Multiple engines share one incomplete fixture generator and are miscounted as independent."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-EVID-04",
+      "name": "key_distinct_control_same",
+      "witness": "Distinct public keys share one custodian/control domain."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-FINAL-01",
+      "name": "two_of_three_conflicting_qc",
+      "witness": "One Byzantine signer forms two threshold-authorized conflicting certificates."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-FINAL-02",
+      "name": "signer_lock_lost",
+      "witness": "A signer crashes, forgets its vote lock, and signs a conflict."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-FINAL-03",
+      "name": "authority_config_overlap",
+      "witness": "Old and new signer configurations finalize conflicting successors."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-SER-01",
+      "name": "cross_slot_double_spend",
+      "witness": "Two unique slots each validate against the same stale balance and violate the global invariant."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-SER-02",
+      "name": "incomplete_footprint",
+      "witness": "Disjoint writes share an undeclared invariant domain."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-TIME-01",
+      "name": "old_key_long_range_forgery",
+      "witness": "Later compromise of retired keys forges an unanchored past certificate."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-TIME-02",
+      "name": "mobile_adversary_accumulation",
+      "witness": "A moving adversary accumulates old secrets without ever violating the instantaneous fault bound."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-EFFECT-01",
+      "name": "content_q_as_occurrence_q",
+      "witness": "Two intentional equal payments are conflated by content-key dedup."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-EFFECT-02",
+      "name": "effect_applied_history_missing",
+      "witness": "An external effect occurs and the history CAS loses."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-LIVE-01",
+      "name": "artifact_closed_product_open",
+      "witness": "Proof and code are green while the old live authority remains active."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-COMP-01",
+      "name": "local_closed_global_open",
+      "witness": "Components close locally while a seam or global support cycle remains inconsistent."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-RAND-01",
+      "name": "stochastic_candidate_truth",
+      "witness": "One random LLM sample is treated as canonical truth or no-solution proof."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-AMBIENT-01",
+      "name": "hidden_ambient_input",
+      "witness": "Wall clock, PATH, network, or randomness changes the result outside the sealed snapshot."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-WORLD-01",
+      "name": "model_world_mismatch",
+      "witness": "A closed internal model does not correspond to the physical world."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-PRIV-01",
+      "name": "faithful_address_leaks_secret",
+      "witness": "A faithful low-entropy content address enables dictionary recovery."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-HYPER-01",
+      "name": "trace_safe_information_leak",
+      "witness": "Every single trace is legal but cross-trace timing reveals a secret."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-MODAL-01",
+      "name": "empirical_upgraded_to_universal",
+      "witness": "Finite corpus agreement is presented as a deductive universal theorem."
+    },
+    {
+      "disposition": "open_spec_obligation",
+      "id": "CM-SELF-01",
+      "name": "same_level_self_ready",
+      "witness": "RCC authorizes its own soundness at the same reflection level."
+    }
+  ],
+  "created_at_utc": "2026-07-25T00:14:55Z",
+  "formal_closure": 0,
+  "id": "RCC-V2-OBLIGATION-MIGRATION",
+  "migration_contract": {
+    "forbidden": [
+      "delete",
+      "silently_rename",
+      "mark_proved",
+      "mark_closed"
+    ],
+    "no_drop": true,
+    "note": "Every v1 theorem target remains an open formal obligation until a machine-checked artifact discharges it.",
+    "old_target_dispositions_allowed": [
+      "carried",
+      "refined_by"
+    ]
+  },
+  "parent_spec": {
+    "blob_sha": "c01b9c41581b701aed0f5b2f851150b5a3c3b230",
+    "checkpoint_base": "minustwo/residua@8dda95012a77aacb9a400e032ba58e6b14bc0874",
+    "path": "docs/ADR_RELATIVE_CLOSURE_CALCULUS.md"
+  },
+  "reflexive_closure": 0,
+  "schema": "rcc-obligation-migration/v2",
+  "self_check_disposition": {
+    "current": "Reepoch",
+    "not": "Closed",
+    "reasons": [
+      "The v1 checkpoint source window is stale relative to the pinned v2 repository cuts.",
+      "The v1 theorem registry omits post-v1 load-bearing countermodels and bridge obligations.",
+      "No unified Lean RCC artifact, executable refinement proof, or reflexive live instance exists."
+    ]
+  },
+  "status": "draft_checkpoint",
+  "validation": {
+    "all_ids_unique": true,
+    "duplicate_id_policy": "invalid_manifest",
+    "expected_added_v2_target_count": 88,
+    "expected_carried_v1_target_count": 19,
+    "expected_countermodel_count": 36
+  }
+}

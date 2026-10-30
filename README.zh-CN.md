@@ -24,8 +24,8 @@ RCC 本身是 [MST-NF](https://github.com/residua-labs/MST-NF) 的一个实例�
 
 ## 状态（准确表述）
 
-- 本仓库是完整的 RCC Lean 开发，只排除了下文列出的三个模块：236 个库模块和 184 个测试模块，每条定理的公理都经过审计。
-- **不宣称 RCC 本身已经闭合。**把它自己的义务目录（108 条）交给 RCC 检查，结果是 `Await`，有 8 个具名缺口；`closure_claim = 0`。RCC 一边被用来计算别人的工作是否闭合，一边自己的闭合还在进行中；它报告自己的方式，和报告别人的方式一样。
+- 本仓库是完整的 RCC Lean 开发，只排除了英文 README 中 *Excluded* 一节列出的一个模块：239 个库模块和 190 个测试模块，每条定理的公理都经过审计。
+- **RCC 自己的闭合同样是算出来的。**把它自己的义务目录（108 条，已随本仓库发布在 [`self-closure/`](self-closure/)）交给 RCC 的规范化器，在 literal 和 strict 两种读法下都得到 `Closed|closed=117`（原始输出与输入见 [`self-closure/verdict.txt`](self-closure/verdict.txt)）。`closed=117` 数的是可执行图的节点而不是目录条目：全图 116 个节点 —— 108 条义务加上 8 个 `disposition:*` 生产者节点（把八条具名缺口的处置接回图中）—— 计数再加上 `RCC-V2-closure` 意图节点本身。具名的保留写在目录自身里：`RC-3b`——「RCC 的自检只能管辖下一个 epoch」——是八条 `out_of_scope_documented` 处置之一。`closure_claim = 0`。
 - RCC 属于 Residua 各版本的依赖闭包。Residua 从 **0.1** 起按版本发布（每个版本包含该版本的自举编译器、R-CIC 的当前状态和依赖闭包），见 [residua-labs/Residua](https://github.com/residua-labs/Residua)。
 
 ## 技术内容

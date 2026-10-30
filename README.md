@@ -24,8 +24,8 @@ RCC is an instance of [MST-NF](https://github.com/residua-labs/MST-NF): every cl
 
 ## Status, stated exactly
 
-- This repository is the complete RCC Lean development, apart from three excluded modules listed below. It contains 236 library modules and 184 test modules, and every theorem's axioms are audited.
-- **RCC itself is not claimed closed.** Its own obligation catalogue (108 entries), run through RCC, gives `Await`, with 8 named gaps; `closure_claim = 0`. RCC is used to compute the closure of other work while its own closure is still being completed, and that is reported the same way it reports everyone else's.
+- This repository is the complete RCC Lean development, apart from one excluded module listed below. It contains 239 library modules and 190 test modules, and every theorem's axioms are audited.
+- **RCC's own closure is computed, like everyone else's.** Its own obligation catalogue (108 entries, published in [`self-closure/`](self-closure/)), run through RCC's normalizer, gives `Closed|closed=117` on both the literal and the strict reading (raw output and inputs: [`self-closure/verdict.txt`](self-closure/verdict.txt)). `closed=117` counts the executable's graph nodes, not catalogue entries: the graph has 116 nodes — the 108 obligations plus 8 `disposition:*` producer nodes that feed the eight named gaps' dispositions back into the graph — and the count adds the `RCC-V2-closure` intent node itself. The named caveat is inside the catalogue itself: `RC-3b`, "RCC self-check may govern only a successor epoch", is one of the eight `out_of_scope_documented` dispositions. `closure_claim = 0`.
 - RCC is part of the dependency closure of Residua's releases, which start at **0.1** (bootstrap version + R-CIC current state + dependency closure). See [residua-labs/Residua](https://github.com/residua-labs/Residua).
 
 ## Contents
@@ -40,13 +40,17 @@ returning which typed non-closure it is. The core normalizer returns exactly one
 
 ## What is included
 
-This is the **complete** RCC development from Residua, apart from the three
-modules listed under *Excluded* below:
+This is the **complete** RCC development from Residua, apart from the one
+module listed under *Excluded* below:
 
-* 236 library modules under `RCC/` (declarations in `Residua.RCC.*`);
-* 184 test modules under `RCCTests/` — concrete witnesses and refusal cases for
-  the corresponding `RCC.*` modules, most finishing with `#print axioms` checks;
-* 4 vendored support modules under `RCC/Support/` (see below).
+* 239 library modules under `RCC/` (declarations in `Residua.RCC.*`);
+* 190 test modules under `RCCTests/` — concrete witnesses and refusal cases for
+  the corresponding `RCC.*` modules, most finishing with `#print axioms` checks,
+  including the five discriminating self-closure sites `RCCTests.Sites*`;
+* 4 vendored support modules under `RCC/Support/` (see below);
+* the self-closure evidence pack under [`self-closure/`](self-closure/) — the
+  obligation catalogue, registry, evidence pass, executable checker and the
+  computed verdict with its inputs.
 
 The full module list is in [`MODULES.md`](MODULES.md). Declarations keep their
 original `Residua.*` namespaces. Apart from import lines, the code is unchanged from
@@ -77,17 +81,18 @@ writes nothing during `lake build`.
 
 ### Excluded
 
-* `RCC.M1Target` and its test `RCCTests.M1Target`: the module does not build in the
-  Residua source (a `rw` step fails at line 246 under Lean 4.14.0).
 * `RCC.ProofTermGenerateLetter`: a generator that writes emitted proof terms into
   Residua's `conformance/` tree as a side effect of being built; it proves nothing.
+  (`RCC.M1Target`/`RCCTests.M1Target`, excluded from the first release because the
+  source then did not build at 4.14, now build and are included.)
 
 ## What is *not* claimed
 
-* The numbered `*Target` modules discharge individual targets of an internal
-  obligation catalogue that is not published here. Several say in their own docstrings
-  that they are fixture-level discharges (concrete witnesses and mutant refusals)
-  rather than general theorems. Read each module's docstring for its exact scope.
+* The numbered `*Target` modules discharge individual targets of the obligation
+  catalogue published in [`self-closure/`](self-closure/). Several say in their own
+  docstrings that they are fixture-level discharges (concrete witnesses and mutant
+  refusals) rather than general theorems. Read each module's docstring for its exact
+  scope.
 * Many modules name interfaces whose later obligations are deliberately left open.
 * Residua's generated proof terms, SCM artifacts and admission workflows are not
   included.
@@ -99,12 +104,13 @@ writes nothing during `lake build`.
   `native_decide` is not used in any theorem; it appears only in 137 `example`
   sanity checks inside the vendored `RCC.Support.SlotSemanticsCore` (examples are not
   exported and no theorem depends on them).
-* `scripts/PrintAxioms.lean` checks every theorem in `RCC.*` (7,242 theorems, including
-  `RCC.Support.*`): 4,808 use no axioms; 1,488 use `propext`; 923 use `propext` and
-  `Quot.sound`; 16 use only `Quot.sound`; 7 use `propext`, `Quot.sound` and
-  `Classical.choice` (in `RCC.ClosureExhaustion`, `RCC.CrossEpochFairness94`,
-  `RCC.E2Target`, `RCC.RCC94Target`). No theorem uses any other axiom
-  (in particular none uses `Lean.ofReduceBool`).
+* `scripts/PrintAxioms.lean` checks every theorem in `RCC.*` (7,354 theorems, including
+  `RCC.Support.*`; full raw census shipped as
+  [`self-closure/axiom_census.txt`](self-closure/axiom_census.txt)). The exact axiom
+  sets are: 4,879 theorems use no axioms; 1,508 use `{propext}`; 951 use
+  `{propext, Quot.sound}`; and 16 use `{Quot.sound}`. No theorem uses
+  `Classical.choice` or any other axiom (in particular none uses
+  `Lean.ofReduceBool`).
 
 ## Build
 

@@ -65,6 +65,7 @@ import RCCTests.HistoricalInclusion
 import RCCTests.KeyEpochVote
 import RCCTests.KeyRoleSeparation
 import RCCTests.LongRangeSafety
+import RCCTests.M1Target
 import RCCTests.MetaFailureExhaustion
 import RCCTests.MobileAdversarySafety
 import RCCTests.NoDoubleCounting
@@ -174,6 +175,11 @@ import RCCTests.SeamIntegratedAdapter
 import RCCTests.SeamIntegratedFamily
 import RCCTests.SeamWriterAdapter
 import RCCTests.SerializableEpochClosure
+import RCCTests.SitesAK3
+import RCCTests.SitesCM1
+import RCCTests.SitesDQ1
+import RCCTests.SitesFC2
+import RCCTests.SitesR1
 import RCCTests.StateBasisBinding
 import RCCTests.SupportClosure
 import RCCTests.TemporalAuthenticity

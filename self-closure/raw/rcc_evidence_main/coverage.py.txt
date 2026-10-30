@@ -1,0 +1,29 @@
+import json,os,re,sys
+R='.'
+cat=json.load(open('docs/rcc/RCC_V2_OBLIGATION_MIGRATION.json'))
+ids=[t['id'] for t in cat['carried_v1_targets']]+[t['id'] for t in cat['added_v2_targets']]
+titles={t['id']:t['title'] for t in cat['carried_v1_targets']+cat['added_v2_targets']}
+reg=json.load(open('conformance/rcc/RCC_FORMAL_PROOF_REGISTRY_V1.json'))
+disch={t['id']:t for t in reg['discharged_targets']}
+gaps={g['id']:g for g in reg['out_of_scope_gaps']}
+mp={m['letter_id']:m for m in json.load(open('docs/rcc/RCC_V2_LETTER_TO_SLOT_SEMANTIC_MAPPING.json'))}
+mods={f[len('ResiduaRCC'):-len('Target.lean')] for f in os.listdir('lean/algorithms') if f.startswith('ResiduaRCC') and f.endswith('Target.lean')}
+def norm(i): return i.replace('RCC-','RCC')
+rows=[]
+for i in ids:
+    n=norm(i)
+    via=None; status='NOT_DISCHARGED'
+    if n in disch: status='DISCHARGED'; via=n
+    elif i in disch: status='DISCHARGED'; via=i
+    elif i in gaps: status='NAMED_GAP'
+    elif i in mp:
+        slot=mp[i]['rcc_slot']
+        if slot in disch: status='MAPPED_TO_'+slot+'('+mp[i]['confidence']+')'; via=slot
+        else: status='MAPPED_SLOT_NOT_DISCHARGED'
+    rows.append((i,titles[i],status,via,n in mods or i in mods, disch[via]['proof_kind'] if via in disch else ''))
+json.dump(rows,open(sys.argv[1],'w'),indent=0)
+from collections import Counter
+print(len(ids),Counter(r[2].split('(')[0] for r in rows))
+print(Counter(r[2] for r in rows if r[2].startswith('MAPPED')))
+for r in rows:
+    if r[2] in ('NOT_DISCHARGED','MAPPED_SLOT_NOT_DISCHARGED') or r[2]=='NAMED_GAP': print(r[:3])

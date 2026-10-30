@@ -343,25 +343,33 @@ theorem selected_within_or_age_at_least
               chosen⟩
       | inr aged =>
           obtain ⟨state, present, ageLower⟩ := aged
-          by_cases selectedNow :
-              GoalSelected (run (start + steps)) lineage
-          · left
-            exact
-              ⟨start + steps, Nat.le_add_right start steps,
-                Nat.add_le_add_left (Nat.le_succ steps) start,
-                selectedNow⟩
-          · right
-            obtain ⟨readyState, readyPresent, mandatory, isReady⟩ :=
-              ready (start + steps) (Nat.le_add_right start steps)
-            have sameState : state = readyState :=
-              Option.some.inj (present.symm.trans readyPresent)
-            subst readyState
-            obtain ⟨nextState, nextPresent, ageStrict⟩ :=
-              lawful_ready_carry_strictly_increases_age
-                (lawful (start + steps)) present mandatory isReady selectedNow
-            refine ⟨nextState, ?_, ?_⟩
-            · simpa [Nat.add_assoc] using nextPresent
-            · exact Nat.succ_le_of_lt (Nat.lt_of_le_of_lt ageLower ageStrict)
+          cases hsel :
+            decide ((run (start + steps)).selectedLineage = some lineage) with
+          | true =>
+              left
+              have selectedNow :
+                  (run (start + steps)).selectedLineage = some lineage :=
+                of_decide_eq_true hsel
+              exact
+                ⟨start + steps, Nat.le_add_right start steps,
+                  Nat.add_le_add_left (Nat.le_succ steps) start,
+                  selectedNow⟩
+          | false =>
+              right
+              have selectedNow :
+                  ¬ (run (start + steps)).selectedLineage = some lineage :=
+                of_decide_eq_false hsel
+              obtain ⟨readyState, readyPresent, mandatory, isReady⟩ :=
+                ready (start + steps) (Nat.le_add_right start steps)
+              have sameState : state = readyState :=
+                Option.some.inj (present.symm.trans readyPresent)
+              subst readyState
+              obtain ⟨nextState, nextPresent, ageStrict⟩ :=
+                lawful_ready_carry_strictly_increases_age
+                  (lawful (start + steps)) present mandatory isReady selectedNow
+              refine ⟨nextState, ?_, ?_⟩
+              · simpa [Nat.add_assoc] using nextPresent
+              · exact Nat.succ_le_of_lt (Nat.lt_of_le_of_lt ageLower ageStrict)
 
 /-- A lawful monotone-aging run with a threshold policy is weak-fair. -/
 theorem aging_implies_weak_fairness

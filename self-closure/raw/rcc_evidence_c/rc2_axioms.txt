@@ -1,0 +1,9 @@
+'Residua.RCC.RC2.normalize_await_terminal' does not depend on any axioms
+'Residua.RCC.RC2.normalize_reepoch_terminal' does not depend on any axioms
+'Residua.RCC.RC2.normalize_halt_terminal' does not depend on any axioms
+'Residua.RCC.RC2.normalize_nonclosed_yields_diagnostic' does not depend on any axioms
+'Residua.RCC.RC2.closed_state_never_diagnosed' depends on axioms: [propext]
+'Residua.RCC.RC2.normalize_halt_of_stepOpen_halt' does not depend on any axioms
+'Residua.RCC.RC2.fixture_run_halts' depends on axioms: [propext, Quot.sound]
+'Residua.RCC.RC2.fixture_diagnostic_is_terminal' depends on axioms: [propext, Quot.sound]
+'Residua.RCC.RC2.foreign_diagnostic_rejected' depends on axioms: [propext, Quot.sound]

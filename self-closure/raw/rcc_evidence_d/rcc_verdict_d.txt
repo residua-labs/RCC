@@ -1,0 +1,4 @@
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+RCC-V2-closure: Closed|closed=117
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+RCC-V2-closure: Await|open hypotheses without a covering producer|open=[R1]|halted=[]|closed_count=115

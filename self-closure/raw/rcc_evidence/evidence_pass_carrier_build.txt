@@ -1,0 +1,46 @@
+info: rccevidencepass: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date
+✔ [2/15] Built algorithms.ResiduaRCCFailureCoverage
+✔ [3/15] Built algorithms.ResiduaRCCReepoch
+✔ [4/15] Built algorithms.ResiduaRCCEffectClassification
+✔ [5/15] Built algorithms.ResiduaRCCWakeContract
+✔ [6/15] Built algorithms.ResiduaRCCRCC23Target
+✔ [7/15] Built algorithms.ResiduaRCCRCC22Target
+ℹ [8/15] Built Sites22
+info: ././././Sites22.lean:87:0: 'Residua.RCC.EvidencePass.RCC22.fields_apply_to_concrete_await' does not depend on any axioms
+info: ././././Sites22.lean:88:0: 'Residua.RCC.EvidencePass.RCC22.same_epoch_advance_mutant_rejected' does not depend on any axioms
+ℹ [9/15] Built algorithms.ResiduaRCCReepochTests
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:517:0: 'Residua.RCC.ReepochTests.legitimate_reepoch_preserves_old_debt' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:518:0: 'Residua.RCC.ReepochTests.address_only_delta_rejected' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:519:0: 'Residua.RCC.ReepochTests.missing_trigger_rejected' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:520:0: 'Residua.RCC.ReepochTests.dropped_debt_rejected' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:521:0: 'Residua.RCC.ReepochTests.origin_only_migration_lacks_semantic_refinement' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:522:0: 'Residua.RCC.ReepochTests.parent_cycle_rejected' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:523:0: 'Residua.RCC.ReepochTests.reused_obstruction_cannot_certify_reepoch' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:524:0: 'Residua.RCC.ReepochTests.cycle_edge_a_to_b_rejected' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:525:0: 'Residua.RCC.ReepochTests.cycle_edge_b_to_a_rejected' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:526:0: 'Residua.RCC.ReepochTests.reviewer_exploit_a_to_b_cannot_certify' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:527:0: 'Residua.RCC.ReepochTests.reviewer_exploit_b_to_a_cannot_certify' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:528:0: 'Residua.RCC.ReepochTests.same_unit_occurrence_reuse_rejected_at_a' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:529:0: 'Residua.RCC.ReepochTests.same_unit_occurrence_reuse_rejected_at_b' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:530:0: 'Residua.RCC.same_occurrence_reservation_unique' does not depend on any axioms
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:531:0: 'Residua.RCC.ReepochTests.sibling_right_reuse_rejected' depends on axioms: [propext]
+info: ./././../../../../lean/algorithms/ResiduaRCCReepochTests.lean:532:0: 'Residua.RCC.ReepochTests.same_occurrence_cannot_certify_both_siblings' depends on axioms: [propext]
+ℹ [10/15] Built Sites23
+info: ././././Sites23.lean:39:0: 'Residua.RCC.EvidencePass.RCC23.fields_apply_to_legitimate_reepoch' depends on axioms: [propext]
+info: ././././Sites23.lean:40:0: 'Residua.RCC.EvidencePass.RCC23.trigger_fresh_at_legitimate_reepoch' depends on axioms: [propext]
+info: ././././Sites23.lean:41:0: 'Residua.RCC.EvidencePass.RCC23.mutants_excluded' depends on axioms: [propext]
+✔ [11/15] Built algorithms.ResiduaRCCMetaFailureExhaustion
+✔ [12/15] Built algorithms.ResiduaRCCClosureExhaustion
+⚠ [13/15] Built algorithms.ResiduaRCCE2Target
+warning: ./././../../../../lean/algorithms/ResiduaRCCE2Target.lean:23:7: unused variable `mandatory`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: ./././../../../../lean/algorithms/ResiduaRCCE2Target.lean:24:7: unused variable `invalid`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+warning: ./././../../../../lean/algorithms/ResiduaRCCE2Target.lean:25:7: unused variable `unsatisfied`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+ℹ [14/15] Built SitesE2
+info: ././././SitesE2.lean:63:0: 'Residua.RCC.EvidencePass.E2.invalid_work_field_applies' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././SitesE2.lean:64:0: 'Residua.RCC.EvidencePass.E2.dropping_unsatisfied_breaks_conclusion' does not depend on any axioms
+Build completed successfully.
+rc=0

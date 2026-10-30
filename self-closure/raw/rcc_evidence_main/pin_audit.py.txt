@@ -1,0 +1,65 @@
+import json, os, re, subprocess, sys, glob
+
+R = sys.argv[1] if len(sys.argv) > 1 else '.'
+reg = json.load(open(os.path.join(R, 'conformance/rcc/RCC_FORMAL_PROOF_REGISTRY_V1.json')))
+pins = reg['checked_source_git_blob_sha']
+HEX = re.compile(r'^[0-9a-f]{40}$')
+
+def cap(i):
+    return i[:1].upper() + i[1:]
+
+def path_for(key):
+    if key == 'formal_core':
+        return 'lean/algorithms/ResiduaRCCFormalCore.lean'
+    if key == 'formal_tests':
+        return 'lean/algorithms/ResiduaRCCFormalCoreTests.lean'
+    m = re.fullmatch(r'(.*?)_(independent_root|lakefile|toolchain|target_tests|target|tests)(_v2)?', key)
+    if not m:
+        return None
+    i, part = m.group(1), m.group(2)
+    I = cap(i)
+    if part == 'target':
+        return f'lean/algorithms/ResiduaRCC{I}Target.lean'
+    if part in ('tests', 'target_tests'):
+        return f'lean/algorithms/ResiduaRCC{I}TargetTests.lean'
+    if part == 'lakefile':
+        return f'conformance/rcc/nanoda/{i}/lakefile.lean'
+    if part == 'toolchain':
+        return f'conformance/rcc/nanoda/{i}/lean-toolchain'
+    if part == 'independent_root':
+        # carrier dir may be <id> or a combined dir (rcc13-18); file names vary
+        g = glob.glob(os.path.join(R, f'conformance/rcc/nanoda/{i}/*Independent.lean'))
+        if g:
+            return os.path.relpath(g[0], R)
+        g = glob.glob(os.path.join(R, f'conformance/rcc/nanoda/*/{I}*Independent.lean'))
+        if g:
+            return os.path.relpath(g[0], R)
+        return f'conformance/rcc/nanoda/{i}/{I}Independent.lean'  # nonexistent; record anyway
+    return None
+
+def blob_sha(path):
+    p = os.path.join(R, path)
+    if not os.path.exists(p):
+        return None
+    return subprocess.check_output(['git', '-C', R, 'hash-object', path], text=True).strip()
+
+malformed, stale, ok, missing = [], [], [], []
+for k, v in sorted(pins.items()):
+    p = path_for(k)
+    if not HEX.match(v):
+        malformed.append(k)
+        continue
+    cur = blob_sha(p) if p else None
+    if cur is None:
+        missing.append(k)
+    elif cur != v:
+        stale.append(k)
+    else:
+        ok.append(k)
+
+out = {'pins': len(pins), 'ok': len(ok), 'malformed': malformed, 'stale': stale, 'missing': missing}
+json.dump(out, open(os.path.expanduser('~/.residua-devin-fcd/rcc-sc/registry_pin_audit_main.json'), 'w'), indent=1)
+print('pins', len(pins), 'ok', len(ok), 'malformed', len(malformed), 'stale', len(stale), 'missing', len(missing))
+print('malformed:', malformed)
+print('stale:', stale)
+print('missing:', missing)
